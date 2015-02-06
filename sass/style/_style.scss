@@ -1,0 +1,374 @@
+ .days-out-logo {
+ 	a {
+ 		background-color: $primary-color;
+ 	}
+ }
+
+ .sign-in {
+ 	.tabs {
+ 		@include clearfix;
+ 		li {
+ 			background-color: rgba($secondary-color, .9);
+ 			a {
+ 				color: $white;
+ 				color: rgba($white, .7);
+ 				text-decoration: none;				
+ 				font-family: 'gotham_lightregular';
+ 				@include adjust-font-size-to(18px, 2);
+ 				@include breakpoint($medium){
+ 					@include adjust-font-size-to(24px, 2);
+ 				}
+ 			}
+ 			&.active {
+ 				background-color: rgba($primary-color, .9);
+ 				a {
+ 					color: rgba($white, 1);
+ 				}
+ 			}
+ 		}
+ 	}
+ 	.sign-in_inner {
+ 		background-color: rgba($primary-color, .9);
+ 		.sign-in_inner__container {
+ 			h1 {
+ 				color: $white;
+ 			}
+ 			form {
+ 				input {
+ 				}
+ 				input[type="text"] {
+ 					border: none;
+ 					background-color: $white;
+ 					@include adjust-font-size-to(18px);
+ 					@include breakpoint($medium){
+ 						@include adjust-font-size-to(24px);
+ 					}
+ 				}
+ 				input[type="image"] {
+ 					@include opacity(1);
+ 					&:hover {
+ 						@include opacity(1);
+ 					}
+ 				}
+ 			}
+ 		}
+ 	}
+ 	&.home {
+ 		p {
+ 			color: $white;
+ 			font-family: 'gotham_lightregular';
+ 			@include adjust-font-size-to(18px, 2);
+ 		}
+ 	}
+ }
+
+
+
+ .steps {
+ 	li {
+ 		&.search {
+ 			h1, p {
+ 				color: #7a232e;
+ 			}
+ 			background-color: #dadfe4;
+ 			.inner {
+
+ 			}
+ 			.arrow-right {
+ 				border-left-color: #dadfe4; 
+ 			}
+ 		}
+ 		&.choose {
+ 			h1, p {
+ 				color: $white;
+ 			}
+ 			background-color: #a4050b;
+ 			.inner {
+
+ 			}
+ 			.arrow-right {
+ 				border-left-color: #a4050b; 
+ 			}
+ 		}
+ 		&.enjoy {
+ 			h1, p {
+ 				color: $white;
+ 			}
+ 			background-color: #7a232e;
+ 			.inner {
+
+ 			}
+ 			.arrow-right {
+ 				border-left-color: #7a232e;
+ 				display: none; 
+ 			}
+ 		}
+ 	}
+ 	.inner {
+ 		i {
+ 			img {
+ 			}
+ 		}
+ 		h1 {
+ 			font-family: 'gotham_lightregular';
+ 			@include fittext($min-media: 320px, $max-media: 1900px, $min-font-size: 12px, $max-font-size: 36px, $media-increment: 100, $font-increment: 2.5, $ratio: 1, $round: false);		
+ 		}
+ 		p {
+ 			font-family: 'gotham_lightregular';
+			//@include adjust-font-size-to(24px, 3);
+			line-height: 125%;
+			@include fittext($min-media: 768px, $max-media: 1280px, $min-font-size: 12px, $max-font-size: 20px, $media-increment: 100, $font-increment: 2.5, $ratio: 1, $round: false);		
+			@include breakpoint($medium) {
+				//@include adjust-font-size-to(18px, 2);
+			}
+		}
+	}
+}
+
+
+.small-titles {
+	h3 {
+		color: $white;
+		@include adjust-font-size-to(18px, 2);
+		font-family: 'din_lightregular';
+		text-transform: uppercase;
+	}
+}
+
+
+.footer-container {
+	font-family: 'gotham_lightregular';
+	color: $white;
+	.content-inner {
+		.days-out-logo_inner {
+			@include breakpoint($medium){
+			}
+			.logo {
+			}
+		}
+		nav {
+			@include breakpoint($medium){
+			}
+			ul {
+				@include adjust-font-size-to(16px, 1.8);
+				li {
+					a {
+						color: $white;
+						&:hover {
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+		.copyright {
+			@include breakpoint($medium){
+				text-align: right;
+			}
+			p {
+				@include rhythm(0, 0, 0, 1);
+				color: $white;
+			}
+			a {
+				@include breakpoint($medium){
+					text-align: right;
+				}
+				img {
+					@include breakpoint($medium){
+					}
+				}
+			}
+		}
+	}
+}
+
+
+.slider-content-container {
+	h4 {
+		color: $white;
+	}
+	p {
+		color: $white;
+	}
+}
+
+
+//Template content
+.template-header {
+	background: url(../img/base/pattern.jpg) no-repeat center center;
+	.inner {
+		//@extend %bdr;
+		.days-out-logo {
+			.days-out-logo_inner {
+				@include breakpoint($large) {
+				}
+			}
+		}
+	}
+}
+
+.inner-template-container {
+	font-family: 'gotham_lightregular';
+	.content-section {
+		.inner {
+		}
+		@include breakpoint($large){
+
+		}
+	}
+}
+
+.featured-header-image {
+	.inner {
+		@include breakpoint($large) {
+		}
+		@include breakpoint($large){
+		}
+	}
+}
+
+.content-section {
+	@include clearfix;
+	.inner {
+		@include clearfix;
+	}
+	.left {
+		.content-module {
+			@include breakpoint($large){
+			}
+			.logo-container {
+				img {
+					max-width: 220px;
+				}
+				@include breakpoint($large){
+					display: table-cell;
+				}
+			}
+			.detail-container {
+				h1 {
+					@include breakpoint($large){
+						@include rhythm(0, 0, 1, 0);
+					}
+				}
+				@include breakpoint($large){
+					padding-left: 1em;
+				}
+			}
+		}
+		h2 {
+			@include breakpoint($large){
+				@include adjust-font-size-to(30px, 3.5);
+			}
+		}
+
+		@include breakpoint($large){
+
+		}
+	}
+	.right {
+		.inner-content {
+
+			#map_canvas {
+				background-color: $white;
+			}
+		}
+		@include breakpoint($large){
+
+		}
+	}
+}
+
+.search-container,
+.footer-container {
+	background-color: $tertiary-color;
+}
+
+.home-footer {
+	&.footer-container {
+		//background-color: $primary-color;;
+		background-color: lighten($grey, 30%);
+		p {
+			@include adjust-font-size-to(16px, 1.5);
+			color: $white;
+		}
+		@include breakpoint($medium){
+			background-color: transparent;
+		}
+	}
+}
+
+
+
+.details {
+	@include rhythm(0, 0, 0, 2);
+	color: lighten($grey, 10%);
+	@include adjust-font-size-to(18px, 2);
+	font-weight: 700;
+	span {
+		display: block;
+		color: lighten($grey, 30%);
+		@include adjust-font-size-to(16px, 2);
+		a {
+			color: lighten($grey, 30%);
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	&.no-margin {
+
+	}
+	&.more {
+		color: $primary-color;
+		border-top: solid 1px lighten($grey, 40%);
+		padding-top: 10px !important;
+		margin-top: 10px !important;
+		&:after {
+			content: "\f107";
+			color: $tertiary-color;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			@include adjust-font-size-to(18px, 1);
+			padding-right: .4em;
+			float: right;
+		}
+	}
+}
+
+.small-map {
+
+}
+
+.large-map {
+
+}
+
+.image-gallery-container {
+	.image-gallery {
+		img {
+
+		}
+	}
+}
+
+.inner-pt-pd {
+	//@include rhythm(0, 3, 3, 0);
+}
+
+.inner-h3 {
+	@include adjust-font-size-to(20px, 2.8);
+	color: $primary-color;
+	font-family: 'din_lightregular';
+	text-transform: uppercase;
+	@include breakpoint($large){
+
+	}
+}
+
+.logos-container {
+	h3 {
+		color: $tertiary-color !important;
+	}
+}

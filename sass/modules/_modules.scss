@@ -1,0 +1,27 @@
+.module-12-of-12 {
+	@include span(12 of 12);
+}
+
+.module-6-12 {
+	@include span(12 of 12 no-gutters);
+	li {
+		
+	}
+	&.col1 {
+		.inner {
+			@include breakpoint($medium) {
+				padding-right: 2em;
+			}
+		}
+	}
+	&.col2 {
+		.inner {
+			@include breakpoint($medium) {
+				padding-left: 2em;
+			}
+		}
+	}
+	@include breakpoint($medium) {
+		@include span(6 of 12 no-gutters);
+	}
+}

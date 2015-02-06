@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <link rel="stylesheet" href="../css/screen.css">
+  <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+<!-- Content here -->
+<header class="main-header sub-page"
+data-top-top="background-position:center 0px;"
+data-top-bottom="background-position:center 100px;"
+>
+<div class="main-header_inner">
+  <div class="days-out-logo">
+    <div class="days-out-logo_inner">
+      <a href="index.shtml">
+        <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo">
+      </a>
+    </div>
+  </div>
+  <!-- Sign in -->
+  <div class="sign-in">
+<!--     <ul class="tabs">
+      <li class="active">
+        <div>
+          <a href="javascript:void(0)">Connexion</a>
+        </div>
+      </li>
+      <li class="inactive">
+        <div>
+          <a href="#">Visite du site</a>
+        </div>
+      </li>
+    </ul> -->
+    <div class="sign-in_inner narrow inner-padding">
+      <div class="sign-in_inner__container">
+        <h1>¡Hola, tus entradas de cine esperan!</h1>
+        <form action="" name="code-detail" id="sigin-in_form">
+          <!-- <input type="text" placeholder="Veuillez entrer votre code ici" name="code" id="code">
+          <input type="image" src="../img/base/submit.png" name="Submit" id="submit"> -->
+          <ul class="home-fields">
+            <li class="inner-page-field">
+              <input type="text" placeholder="Contraseña" name="contraseña" id="contraseña">
+              <input type="image" src="../img/base/submit.png" name="Submit" id="submit">
+            </li>
+          </ul>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- / Sign in -->
+</div>
+</header>
+
+<section class="how-it-works" id="steps">
+  <div class="content-inner inner-padding">
+    <h2>La mejor oferta 2x1 en las mejores cadenas de cines.</h2>
+  </div>
+
+  <div class="small-titles inner-padding">
+    <h3>CÓMO FUNCIONA - ¡CONSEGUIR TUS ENTRADAS ES MUY FÁCIL!</h3>
+  </div>
+
+  <ul class="content-inner steps inner-padding">
+    <li class="search">
+      <div class="inner">
+        <i>
+          <img src="../img/icons/search.png" alt="Search"
+          data-bottom-top="opacity:0; transform:translateY(-90px)"
+          data-top-top="opacity:1; transform:translateY(0px)"
+          data-anchor-target="#steps"
+          >
+        </i>
+        <h1>Selecciona</h1>
+        <p>tu provincia en nuestra lista</p>
+      </div>
+      <div class="arrow-right"></div>
+    </li>
+    <li class="choose">
+      <div class="inner">
+        <i>
+          <img src="../img/icons/choose.png" alt="Choose"
+          data-bottom-top="opacity:0; transform:translateY(-60px)"
+          data-top-top="opacity:1; transform:translateY(0px)"
+          data-anchor-target="#steps"
+          >
+        </i>
+        <h1>Elige</h1>
+        <p>tu cine entre todos los disponibles</p>
+      </div>
+      <div class="arrow-right"></div>
+    </li>
+    <li class="enjoy">
+      <div class="inner">
+        <i>
+          <img src="../img/icons/enjoy.png" alt="Enjoy"
+          data-bottom-top="opacity:0; transform:translateY(-30px)"
+          data-top-top="opacity:1; transform:translateY(0px)"
+          data-anchor-target="#steps"
+          >
+        </i>
+        <h1>Disfruta</h1>
+        <p>tu película mostrando tu tarjeta y tu bono</p>
+      </div>
+      <div class="arrow-right"></div>
+    </li>
+  </ul>
+</section>
+
+<!--#include virtual="../partials/logos.shtml"-->
+
+<!--#include virtual="../partials/footer.shtml"-->
+
+
+<!-- / End content here -->
+</body>
+</html>

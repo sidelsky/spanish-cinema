@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <link rel="stylesheet" href="../css/screen.css">
+  <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+<header id="header" class="template-header">
+  <div class="inner max-width">
+    <div class="days-out-logo">
+      <div class="days-out-logo_inner">
+        <a href="file:///Macintosh HD/Users/sidelsky/Dropbox/www/index.shtml">
+          <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo">
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="inner-template-container">
+
+  <section class="search-container map-search">
+    <div class="content-inner">
+      <form action="" class="search-select">
+        <ul>
+          <li>
+            <button class="search-toggle active">Recherche</button>
+            <ul class="list-items">
+              <li class="region">
+                <select title="Basic example" multiple="multiple" name="example-basic" size="5">
+                  <option value="option1">Option 1</option>
+                  <option value="option2">Option 2</option>
+                  <option value="option3">Option 3</option>
+                  <option value="option4">Option 4</option>
+                  <option value="option5">Option 5</option>
+                  <option value="option6">Option 6</option>
+                  <option value="option7">Option 7</option>
+                  <option value="option8">Option 8</option>
+                  <option value="option9">Option 9</option>
+                  <option value="option10">Option 10</option>
+                  <option value="option11">Option 11</option>
+                  <option value="option12">Option 12</option>
+                </select>
+              </li>
+              <li class="county">
+                <select title="Basic example" multiple="multiple" name="example-basic" size="5">
+                  <option value="option1">Option 1</option>
+                  <option value="option2">Option 2</option>
+                  <option value="option3">Option 3</option>
+                  <option value="option4">Option 4</option>
+                  <option value="option5">Option 5</option>
+                  <option value="option6">Option 6</option>
+                  <option value="option7">Option 7</option>
+                  <option value="option8">Option 8</option>
+                  <option value="option9">Option 9</option>
+                  <option value="option10">Option 10</option>
+                  <option value="option11">Option 11</option>
+                  <option value="option12">Option 12</option>
+                </select>
+              </li>
+              <li class="activity">
+                <select title="Basic example" multiple="multiple" name="example-basic" size="5">
+                  <option value="option1">Option 1</option>
+                  <option value="option2">Option 2</option>
+                  <option value="option3">Option 3</option>
+                  <option value="option4">Option 4</option>
+                  <option value="option5">Option 5</option>
+                  <option value="option6">Option 6</option>
+                  <option value="option7">Option 7</option>
+                  <option value="option8">Option 8</option>
+                  <option value="option9">Option 9</option>
+                  <option value="option10">Option 10</option>
+                  <option value="option11">Option 11</option>
+                  <option value="option12">Option 12</option>
+                </select>
+              </li>
+              <li class="submit">
+                <!-- <input type="submit" value="Submit"> -->
+                <button id="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button">
+                  <span class="ui-button-text">Valider</span>
+                </button>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <ul class="results">
+            <!-- Results -->
+              <li>
+                <div class="inner">
+                  <div class="left">
+                    <h1>Disneyland Paris in the summer</h1>
+                    <p class="details">Lorizzle shizzlin dizzle dolizzle sit dope, consectetizzle adipiscing yo.
+                      <span>77777 Marne-la-Vallee, France.</span>
+                    </p>
+                    <span>
+                      <i class="fa fa-map-marker"></i> <a href="#" class="map-link">View on map</a> 
+                    </span>
+                  </div>
+                  <div class="right">
+                    <img src="../img/results/placeholder.jpg" alt="placeholder image" class="thumb">
+                  </div>
+                </div>
+              </li>
+              <!-- /Results -->
+              <!-- Results -->
+              <li>
+                <div class="inner">
+                  <div class="left">
+                    <h1>Disneyland Paris in the summer</h1>
+                    <p class="details">Lorizzle shizzlin dizzle dolizzle sit dope, consectetizzle adipiscing yo.
+                      <span>77777 Marne-la-Vallee, France.</span>
+                    </p>
+                    <i class="fa fa-map-marker"></i> <a href="#" class="map-link">View on map</a>
+                  </div>
+                  <div class="right">
+                    <span>
+                      <img src="../img/results/placeholder.jpg" alt="placeholder image" class="thumb">
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <!-- /Results -->
+              <!-- Results -->
+              <li>
+                <div class="inner">
+                  <div class="left">
+                    <h1>Disneyland Paris in the summer</h1>
+                    <p class="details">Lorizzle shizzlin dizzle dolizzle sit dope, consectetizzle adipiscing yo.
+                      <span>77777 Marne-la-Vallee, France.</span>
+                    </p>
+                    <i class="fa fa-map-marker"></i> <a href="#" class="map-link">View on map</a>
+                  </div>
+                  <div class="right">
+                    <span>
+                      <img src="../img/results/placeholder.jpg" alt="placeholder image" class="thumb">
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <!-- /Results -->
+              <!-- Results -->
+              <li>
+                <div class="inner">
+                  <div class="left">
+                    <h1>Disneyland Paris in the summer</h1>
+                    <p class="details">Lorizzle shizzlin dizzle dolizzle sit dope, consectetizzle adipiscing yo.
+                      <span>77777 Marne-la-Vallee, France.</span>
+                    </p>
+                    <i class="fa fa-map-marker"></i> <a href="#" class="map-link">View on map</a>
+                  </div>
+                  <div class="right">
+                    <span>
+                      <img src="../img/results/placeholder.jpg" alt="placeholder image" class="thumb">
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <!-- /Results -->
+              <!-- Results -->
+              <li>
+                <div class="inner">
+                  <div class="left">
+                    <h1>Disneyland Paris in the summer</h1>
+                    <p class="details">Lorizzle shizzlin dizzle dolizzle sit dope, consectetizzle adipiscing yo.
+                      <span>77777 Marne-la-Vallee, France.</span>
+                    </p>
+                    <i class="fa fa-map-marker"></i> <a href="#" class="map-link">View on map</a>
+                  </div>
+                  <div class="right">
+                    <span>
+                      <img src="../img/results/placeholder.jpg" alt="placeholder image" class="thumb">
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <!-- /Results -->
+              <!-- Results -->
+              <li>
+                <div class="inner">
+                  <div class="left">
+                    <h1>Disneyland Paris in the summer</h1>
+                    <p class="details">Lorizzle shizzlin dizzle dolizzle sit dope, consectetizzle adipiscing yo.
+                      <span>77777 Marne-la-Vallee, France.</span>
+                    </p>
+                    <i class="fa fa-map-marker"></i> <a href="#" class="map-link">View on map</a>
+                  </div>
+                  <div class="right">
+                    <span>
+                      <img src="../img/results/placeholder.jpg" alt="placeholder image" class="thumb">
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <!-- /Results -->
+              <!-- Results -->
+              <li>
+                <div class="inner">
+                  <div class="left">
+                    <h1>Disneyland Paris in the summer</h1>
+                    <p class="details">Lorizzle shizzlin dizzle dolizzle sit dope, consectetizzle adipiscing yo.
+                      <span>77777 Marne-la-Vallee, France.</span>
+                    </p>
+                    <i class="fa fa-map-marker"></i> <a href="#" class="map-link">View on map</a>
+                  </div>
+                  <div class="right">
+                    <span>
+                      <img src="../img/results/placeholder.jpg" alt="placeholder image" class="thumb">
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <!-- /Results -->
+            </ul>
+          </li>
+        </ul>
+      </form>
+    </div>
+  </section>
+
+  <div id="map_canvas" class="large-map"></div>
+</div>
+
+
+<!--#include virtual="../partials/footer.shtml"-->
+
+<script>
+  $(document).ready(function(){
+    do_google_map('51.514753', '-0.136690');
+  });  
+</script>
+
+<!-- / End content here -->
+
+</body>
+</html>

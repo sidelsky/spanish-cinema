@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <link rel="stylesheet" href="../css/screen.css">
+  <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+      <header id="header" class="template-header">
+        <div class="inner max-width">
+          <div class="days-out-logo">
+            <div class="days-out-logo_inner">
+              <a href="../index/index.shtml">
+                <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo">
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="inner-template-container">
+        <section class="featured-header-image">
+          <div class="inner" style="background-image: url(../img/partners/picwic/header-picwic.jpg);" 
+          data-0="background-position: center -100px;"
+          data--470-top="background-position: center 0px;"
+          >
+        </div>
+      </section>
+
+      <section class="content-section premuim-template">
+        <div class="inner max-width">
+          <div class="left" >
+            <div class="content-module">
+              <div class="logo-container">
+                <img src="../img/partners/picwic/picwic.png" alt="Picwic">
+              </div>
+              <div class="detail-container">
+                <!-- Partner title -->
+                <h1>Picwic</h1>
+                <!-- Partner description -->
+                <p class="details no-margin">Dans votre magasin PICWIC, découvrez ou perfectionnez-vous<br>
+                  <!-- Address details -->
+                  <span>77777 Marne-la-Vallee, France lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span>
+                </p>
+              </div>
+            </div>
+
+            <!-- Introduction -->
+            <!-- <h2>Présentation du partenaire et de l’activité</h2> -->
+
+            <h3>l’activité</h3>
+            <p>Dans votre magasin PICWIC, découvrez ou perfectionnez-vous en loisirs créatifs ! Participez à nos ateliers et, encadré par un animateur-expert, lancez-vous !</p>
+
+            <p>Accessibles à partir de 3 ans, des ateliers sont proposés chaque semaine dans tous les magasins Picwic autour de thèmes variés comme l'aérographe, la pâte fimo, le bois, les perles, la mosaïque...</p>
+
+            <p>Des fiches créatives et des expositions de réalisations au cours des ateliers sont disponibles en rayon dans votre magasin.</p>
+
+            <h3>l’offre</h3>
+            <p>1 atelier créatif offert au choix d’une durée de 30 minute à 1 heure (dans la limite d’une atelier d’une valeur de 10€), dans l’établissement Picwic de votre choix en France</p>
+
+          </div>
+          <div class="right">
+            <div class="inner-content">
+              <div id="map_canvas" class="small-map"></div>
+              <button type="button">Redeem</button>
+              <!-- <h3>OPENING TIMES</h3>
+              <p class="details">Mon - Sun<br>
+                <span>10:00 to 19:00</span>
+              </p> -->
+              <h3>Website</h3>
+              <p class="details">
+                <span>
+                  <a href="http://www.picwic.com" target="_blank">picwic.com</a>
+                </span>
+              </p>
+
+              <h3><!-- <i class="fa fa-map-marker"></i>  -->Locations</h3>
+              <div class="cssmenu">
+                <ul>
+
+                 <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Picwic</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>
+                          Rue de Versailles<br>
+                          59650<br>
+                          Villeneuve d'Ascq<br>
+                          03 20 43 28 60<br>
+                          Nord-Pas-de-Calais<br>
+                          Nord</span>
+                        </p>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="has-sub">
+                    <a href="#">
+                      <p class="details">Picwic</p>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p class="details">
+                          <span>
+                            Les portes de Gayant<br>
+                            59128<br>
+                            Flers en Escrebieux<br>
+                            03 27 99 11 10<br>
+                            Nord-Pas-de-Calais<br>
+                            Nord</span>
+                          </p>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="has-sub">
+                      <a href="#">
+                        <p class="details">Picwic</p>
+                      </a>
+                      <ul class="sub-list">
+                        <li>
+                          <p class="details">
+                            <span>
+                              57 Quai Wilson<br>
+                              59430<br>
+                              Saint-Pol-sur-Mer<br>
+                              03 28 24 57 20<br>
+                              Nord-Pas-de-Calais<br>
+                              Nord</span>
+                            </p>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="has-sub">
+                        <a href="#">
+                          <p class="details">Picwic</p>
+                        </a>
+                        <ul class="sub-list">
+                          <li>
+                            <p class="details">
+                              <span>
+                                Zone commerciale Englos les Géants<br>
+                                59320<br>
+                                Haubourdin03 20 09 84 01<br>
+                                Nord-Pas-de-Calais<br>
+                                Nord</span>
+                              </p>
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li class="has-sub">
+                          <a href="#">
+                            <p class="details">Picwic</p>
+                          </a>
+                          <ul class="sub-list">
+                            <li>
+                              <p class="details">
+                                <span>
+                                  Rue du Château d'Isenghien<br>
+                                  59160<br>
+                                  Lomme03 20 87 06 69<br>
+                                  Nord-Pas-de-Calais<br>
+                                  Nord</span>
+                                </p>
+                              </li>
+                            </ul>
+                          </li>
+
+
+                          <li class="has-sub">
+                            <a href="#">
+                              <p class="details more">See all</p>
+                            </a>
+                            <ul class="sub-list">
+
+
+                              <li class="has-sub">
+                                <a href="#">
+                                  <p class="details">Picwic</p>
+                                </a>
+                                <ul class="sub-list">
+                                  <li>
+                                    <p class="details">
+                                      <span>
+                                        Rue des Vignes<br>
+                                        59174<br>
+                                        La Sentinelle03 27 47 59 40<br>
+                                        Nord-Pas-de-Calais<br>
+                                        Nord</span>
+                                      </p>
+                                    </li>
+                                  </ul>
+                                </li>
+
+                                <li class="has-sub">
+                                  <a href="#">
+                                    <p class="details">Picwic</p>
+                                  </a>
+                                  <ul class="sub-list">
+                                    <li>
+                                      <p class="details">
+                                        <span>
+                                          Parc Millésime <br>
+                                          51370<br>
+                                          Thillois03 26 05 38 80<br>
+                                          Champagne-Ardenne<br>
+                                          Marne</span>
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </li>
+
+                                  <li class="has-sub">
+                                    <a href="#">
+                                      <p class="details">Picwic</p>
+                                    </a>
+                                    <ul class="sub-list">
+                                      <li>
+                                        <p class="details">
+                                          <span>
+                                            26 Avenue Descartes<br>
+                                            60000<br>
+                                            Beauvais03 44 14 00 06<br>
+                                            Picardie<br>
+                                            Oise</span>
+                                          </p>
+                                        </li>
+                                      </ul>
+                                    </li>
+
+                                    <li class="has-sub">
+                                      <a href="#">
+                                        <p class="details">Picwic</p>
+                                      </a>
+                                      <ul class="sub-list">
+                                        <li>
+                                          <p class="details">
+                                            <span>
+                                              311 rue de la Révolution Française<br>
+                                              60740<br>
+                                              Saint-Maximin<br>
+                                              03 44 32 08 30<br>
+                                              Picardie<br>
+                                              Oise</span>
+                                            </p>
+                                          </li>
+                                        </ul>
+                                      </li>
+
+                                      <li class="has-sub">
+                                        <a href="#">
+                                          <p class="details">Picwic</p>
+                                        </a>
+                                        <ul class="sub-list">
+                                          <li>
+                                            <p class="details">
+                                              <span>
+                                                Rue Claude Bernard<br>
+                                                62000<br>
+                                                Arras<br>
+                                                03 21 16 03 10<br>
+                                                Nord-Pas-de-Calais<br>
+                                                Pas-de-Calais</span>
+                                              </p>
+                                            </li>
+                                          </ul>
+                                        </li>
+
+                                        <li class="has-sub">
+                                          <a href="#">
+                                            <p class="details">Picwic</p>
+                                          </a>
+                                          <ul class="sub-list">
+                                            <li>
+                                              <p class="details">
+                                                <span>
+                                                  Lieu-Dit de l'Inquéterie<br>
+                                                  62280<br>
+                                                  Saint-Martin Les Boulogne<br>
+                                                  03 91 90 14 40<br>
+                                                  Nord-Pas-de-Calais<br>
+                                                  Pas-de-Calais</span>
+                                                </p>
+                                              </li>
+                                            </ul>
+                                          </li>
+
+                                          <li class="has-sub">
+                                            <a href="#">
+                                              <p class="details">Picwic</p>
+                                            </a>
+                                            <ul class="sub-list">
+                                              <li>
+                                                <p class="details">
+                                                  <span>
+                                                    Avenue François Mitterrand<br>
+                                                    62800<br>
+                                                    Liévin<br>
+                                                    03 21 08 84 70<br>
+                                                    Nord-Pas-de-Calais<br>
+                                                    Pas-de-Calais</span>
+                                                  </p>
+                                                </li>
+                                              </ul>
+                                            </li>
+
+                                            <li class="has-sub">
+                                              <a href="#">
+                                                <p class="details">Picwic</p>
+                                              </a>
+                                              <ul class="sub-list">
+                                                <li>
+                                                  <p class="details">
+                                                    <span>
+                                                      Avenue Léon Blum<br>
+                                                      62510<br>
+                                                      Arques<br>
+                                                      03 21 11 52 35<br>
+                                                      Nord-Pas-de-Calais<br>
+                                                      Pas-de-Calais</span>
+                                                    </p>
+                                                  </li>
+                                                </ul>
+                                              </li>
+
+                                              <li class="has-sub">
+                                                <a href="#">
+                                                  <p class="details">Picwic</p>
+                                                </a>
+                                                <ul class="sub-list">
+                                                  <li>
+                                                    <p class="details">
+                                                      <span>
+                                                        13 Avenue Philéas Fogg<br>
+                                                        80440<br>
+                                                        Glisy<br>
+                                                        03 22 38 88 88<br>
+                                                        Picardie<br>
+                                                        Somme</span>
+                                                      </p>
+                                                    </li>
+                                                  </ul>
+                                                </li>
+
+                                              </ul>
+                                            </li>
+
+                                          </ul>
+                                        </div>
+
+                                      </div>
+                                    </div>
+                                  </div>
+                                </section>
+
+                                <div class="inner-pt-pd">
+                                  <section class="max-width">
+                                    <h3 class="inner-h3">Galerie</h3>
+                                  </section>
+
+                                  <section class="image-gallery-container">
+                                    <div class="image-gallery">
+                                      <div>
+                                        <img src="../img/partners/picwic/slider-picwic-003.jpg" alt="Picwic">
+                                      </div>
+                                      <div>
+                                        <img src="../img/partners/picwic/slider-picwic-002.jpg" alt="Picwic">
+                                      </div>
+                                      <div>
+                                        <img src="../img/partners/picwic/slider-picwic-001.jpg" alt="Picwic">
+                                      </div>
+                                    </div>
+                                  </section> 
+                                </div>
+
+                              </div>
+
+                              <!--#include virtual="../partials/logos.shtml"-->
+
+                              <!--#include virtual="../partials/footer.shtml"-->
+
+                              <script>
+                                $(document).ready(function(){
+                                  do_google_map('51.514753', '-0.136690');
+
+                                  $( window ).resize(function() {
+                                    do_google_map('51.514753', '-0.136690');
+                                  });
+
+
+                                });  
+                              </script>
+
+                              <!-- / End content here -->
+
+                            </body>
+                            </html>

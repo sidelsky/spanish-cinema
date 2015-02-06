@@ -1,0 +1,47 @@
+<footer class="footer-container">
+  <div class="content-inner inner-padding">
+    <div class="days-out-logo_inner">
+      <a href="/">
+        <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo">
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <a href="../faqs.shtml">FAQs</a>
+        </li>
+        <li>
+          <a href="../comment-adherer.shtml">Comment adhérer ?</a>
+        </li>
+        <li>
+          <a href="../contact-us.shtml">Contact</a>
+        </li>
+        <li>
+          <a href="../termes-et-conditions.shtml">Termes et Conditions</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="copyright">
+      <p>&copy; Copyright 2015 TLC Marketing</p>
+      <a href="http://www.tlcmarketing.com/">
+        <img src="../img/base/powered.png" alt="Powered by TLC Marketing">
+      </a>
+    </div>
+  </div>
+</footer>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+
+<!-- Google  -->
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+<script src="../js/jquery.skrollr.js"></script>
+<script src="../js/jquery.slick.js"></script>
+<script src="../js/jquery.ui.min.js"></script>
+<script src="../js/jquery.multiselect.js"></script>
+<script src="../js/jquery.animate-enhanced.min.js"></script>
+<script src="../js/jquery.superslides.js"></script>
+<script src="../js/plugins.js"></script>
+<script src="../js/main.js"></script>

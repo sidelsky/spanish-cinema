@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <link rel="stylesheet" href="../css/screen.css">
+  <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+<!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+      <header id="header" class="template-header">
+        <div class="inner max-width">
+          <div class="days-out-logo">
+            <div class="days-out-logo_inner"> <a href="../index/index.shtml"> <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo"> </a> </div>
+          </div>
+        </div>
+      </header>
+      <div class="inner-template-container">
+        <section class="featured-header-image">
+          <div class="inner" style="background-image: url(../img/partners/ngf/header-ngf.jpg);" 
+          data-0="background-position: center -100px;"
+          data--470-top="background-position: center 0px;"
+          > </div>
+        </section>
+        <section class="content-section premuim-template">
+          <div class="inner max-width">
+            <div class="left" >
+              <div class="content-module">
+                <div class="logo-container"> <img src="../img/partners/ngf/ngf-golf.png" alt="NGF Golf"> </div>
+                <div class="detail-container"> 
+                  <!-- Partner title -->
+                  <h1>NGF Golf</h1>
+                  <!-- Partner description -->
+                  <p class="details no-margin">NGF Golf propose la pratique du golf accessible<br>
+                    <!-- Address details --> 
+                    <span>77777 Marne-la-Vallee, France lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span> </p>
+                  </div>
+                </div>
+                
+                <!-- Introduction --> 
+                <!-- <h2>Présentation du partenaire et de l’activité</h2> -->
+                
+                <h3>l’activité</h3>
+                <p>Créé 2007 NGF Golf propose la pratique du golf accessible au plus grand nombre et répond aux attentes des amateurs comme des professionnels. Fidèles aux valeurs de ce sport, NGF Golf met l’accent sur l’enseignement en créant l’Académie, qui forme aussi bien des moniteurs de golf que des amateurs. Aujourd’hui NGF Golf est à l’origine du plus grand nombre de joueurs licenciés en France. NGF Golf c’est 47 golfs sous enseigne en France via 3 marques: Exclusiv Golf, Garden Golf et Daily Golf. Les Nos équipes de NGF Golf œuvrent sans relâche pour vous proposer des parcours attractifs dans un environnement préservé. Réservez vite votre départ !</p>
+                <h3>l’offre</h3>
+                <p>1 séance encadrée de découverte du golf pour enfant d’une durée de 45 minutes (Age minimum: 4 ans)
+                  1 séance encadrée de découverte du golf pour adulte d’une durée d’1 heure
+                  1 « Diagnoswing » de 30 minutes (analyse synthétique par un professeur de votre swing: mouvement permettant de frapper la balle – pour les plus aguerris) </p>
+                </div>
+                <div class="right">
+                  <div class="inner-content">
+                    <div id="map_canvas" class="small-map"></div>
+                    <button type="button">Redeem</button>
+                    <!-- <h3>OPENING TIMES</h3>
+                    <p class="details">Mon - Sun<br>
+                      <span>10:00 to 19:00</span> </p> -->
+                      <h3>Website</h3>
+                      <p class="details"> <span> <a href="http://www.ngf-golf.com">ngf-golf.com</a> </span> </p>
+                      <h3><!-- <i class="fa fa-map-marker"></i>  -->Locations</h3>
+                      <div class="cssmenu">
+                        <ul>
+                          <li class="has-sub"> <a href="#">
+                            <p class="details">Exclusiv Golf Château de Bournel</p>
+                          </a>
+                          <ul class="sub-list">
+                            <li>
+                              <p class="details"> <span> Château de Bournel<br>
+                                25680<br>
+                                Cubry<br>
+                                03 81 86 00 10<br>
+                                Franche-Comté<br>
+                                Doubs</span> </p>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="has-sub"> <a href="#">
+                            <p class="details">Garden Golf Cergy Pontoise</p>
+                          </a>
+                          <ul class="sub-list">
+                            <li>
+                              <p class="details"> <span> 2 allée de l'obstacle d'eau <br>
+                                95490<br>
+                                Vauréal<br>
+                                01 34 21 03 48 <br>
+                                Ile-de-France<br>
+                                Val-d'Oise</span> </p>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="has-sub"> <a href="#">
+                            <p class="details">Garden Golf de Digne-les-Bains</p>
+                          </a>
+                          <ul class="sub-list">
+                            <li>
+                              <p class="details"> <span> 57 route du Chauffaut<br>
+                                04000<br>
+                                Digne-les-Bains<br>
+                                04 92 30 58 00<br>
+                                Provence-Alpes-Côte d'Azur<br>
+                                Alpes-de-Haute-Provence</span> </p>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="has-sub"> <a href="#">
+                            <p class="details">Garden Golf de la Ramée</p>
+                          </a>
+                          <ul class="sub-list">
+                            <li>
+                              <p class="details"> <span> Ferme du Cousturier<br>
+                                31170<br>
+                                Tournefeuille<br>
+                                05 61 07 09 09<br>
+                                Midi-Pyrénées<br>
+                                Haute-Garonne</span> </p>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="has-sub"> <a href="#">
+                            <p class="details">Garden Golf de Metz</p>
+                          </a>
+                          <ul class="sub-list">
+                            <li>
+                              <p class="details"> <span> 3 Rue Félix Savart<br>
+                                57070<br>
+                                Metz<br>
+                                03 87 78 71 04<br>
+                                Lorraine<br>
+                                Moselle</span> </p>
+                              </li>
+                            </ul>
+                          </li>
+
+                          <li class="has-sub">
+                            <a href="#">
+                              <p class="details more">See all</p>
+                            </a>
+                            <ul class="sub-list">
+
+                              <li class="has-sub"> <a href="#">
+                                <p class="details">Garden Golf de Sully</p>
+                              </a>
+                              <ul class="sub-list">
+                                <li>
+                                  <p class="details"> <span> Domaine de l'Ousseau - Viglain<br>
+                                    45600<br>
+                                    Sully/ St père sur Loire<br>
+                                    02 38 36 52 08<br>
+                                    Centre<br>
+                                    Loiret</span> </p>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li class="has-sub"> <a href="#">
+                                <p class="details">Garden Golf de Teoula</p>
+                              </a>
+                              <ul class="sub-list">
+                                <li>
+                                  <p class="details"> <span> 71 avenue des landes <br>
+                                    31830<br>
+                                    Plaisance-du-Touch<br>
+                                    05 61 91 98 80<br>
+                                    Midi-Pyrénées<br>
+                                    Haute-Garonne</span> </p>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li class="has-sub"> <a href="#">
+                                <p class="details">Garden Golf Gadancourt</p>
+                              </a>
+                              <ul class="sub-list">
+                                <li>
+                                  <p class="details"> <span> Gadancourt<br>
+                                    95450<br>
+                                    Gadancourt<br>
+                                    01 34 66 12 97<br>
+                                    Ile-de-France<br>
+                                    Val-d'Oise</span> </p>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li class="has-sub"> <a href="#">
+                                <p class="details">Garden Golf Grand Nancy Pulnoy</p>
+                              </a>
+                              <ul class="sub-list">
+                                <li>
+                                  <p class="details"> <span> 10 Rue du Golf <br>
+                                    54425<br>
+                                    Pulnoy<br>
+                                    03 83 18 10 18<br>
+                                    Lorraine<br>
+                                    Meurthe-et-Moselle<br>
+                                    <br>
+                                  </span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Garden Golf Saint Germain</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> 6 avenue du Golf<br>
+                                  91250<br>
+                                  Saint-Germains-lès-Corbeil<br>
+                                  01 60 75 81 54 <br>
+                                  Ile-de-France<br>
+                                  Essonne</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Garden Golf Templiers</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> 7 rue de la Commanderie<br>
+                                  60173<br>
+                                  Ivry-le-Temple<br>
+                                  03 44 08 73 72<br>
+                                  Picardie<br>
+                                  Oise</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Exclusiv Golf Domaine d'Apremont</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Chemin départemental - 606 E<br>
+                                  60300<br>
+                                  Apremont<br>
+                                  03 44 25 61 11<br>
+                                  Picardie<br>
+                                  Oise</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Exclusiv Golf Domaine de Béthemont</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> 12 rue du Parc de Béthemont<br>
+                                  78300<br>
+                                  Poissy<br>
+                                  01 39 08 13 70<br>
+                                  Ile-de-France<br>
+                                  Yvelines</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Exclusiv Golf Château de Cély</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Route de Saint-Germain<br>
+                                  77930<br>
+                                  Cély-en-Bière<br>
+                                  01 64 38 03 07<br>
+                                  Ile-de-France<br>
+                                  Seine-et-Marne</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Exclusiv Golf Domaine de Courson</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Ferme de la Gloriette<br>
+                                  91680<br>
+                                  Courson-Monteloup<br>
+                                  01 64 58 80 80<br>
+                                  Ile-de-France<br>
+                                  Essonne</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Exclusiv Golf Domaine de Feucherolles</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Rd 307<br>
+                                  78810<br>
+                                  Feucherolles<br>
+                                  01 30 54 94 94<br>
+                                  Ile-de-France<br>
+                                  Yvelines</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Exclusiv Golf Château de Raray</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> 4 rue de Nicolas de Lancy<br>
+                                  60810<br>
+                                  Raray<br>
+                                  03 44 54 70 61<br>
+                                  Picardie<br>
+                                  Oise</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Exclusiv Golf Château de Rochefort</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> 1 route de la Bâte<br>
+                                  78730<br>
+                                  Rochefort en Yvelines<br>
+                                  01 30 41 31 81<br>
+                                  Ile-de-France<br>
+                                  Yvelines</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Exclusiv Golf Domaine du Coudray</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Avenue du Coudray<br>
+                                  91830<br>
+                                  Le Coudray-Montceaux<br>
+                                  01 64 93 81 76<br>
+                                  Ile-de-France<br>
+                                  Essonne</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Garden Golf  Chantilly</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Route d'Apremont<br>
+                                  60500<br>
+                                  Vineuil Saint Firmin<br>
+                                  03 44 58 47 74<br>
+                                  Picardie<br>
+                                  Oise</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Exclusiv Golf Domaine de Cicé-Blossac</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Avenue de la Chaise<br>
+                                  35170<br>
+                                  Bruz<br>
+                                  02 99 52 79 79<br>
+                                  Bretagne<br>
+                                  Ille-et-Vilaine</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Garden Golf de Carquefou</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Boulevard de l'Epinay<br>
+                                  44470<br>
+                                  Carquefou<br>
+                                  02 40 52 73 74<br>
+                                  Pays de la Loire<br>
+                                  Loire-Atlantique</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Garden Golf de Rouen la Forêt Verte</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Route de Tendos<br>
+                                  76710<br>
+                                  Bosc-Guérard Saint Adrien<br>
+                                  02 35 33 62 94<br>
+                                  Haute-Normandie<br>
+                                  Seine-Maritime</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Exclusiv Golf Resort de Toulouse Seilh</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Route de Grenade<br>
+                                  31840<br>
+                                  Seilh<br>
+                                  05 62 13 14 14<br>
+                                  Midi-Pyrénées<br>
+                                  Haute-Garonne</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Garden Golf de Lacanau Océan</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Domaine de l'Ardilouse<br>
+                                  33680<br>
+                                  Lacanau Océan<br>
+                                  05 56 03 92 98<br>
+                                  Aquitaine<br>
+                                  Gironde</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Garden Golf de Margaux</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> 5 route de L'Ile Vincent<br>
+                                  33460<br>
+                                  Margaux<br>
+                                  05 57 88 87 40<br>
+                                  Aquitaine<br>
+                                  Gironde</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Garden Golf des Etangs de Fiac</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Brazis<br>
+                                  81500<br>
+                                  Fiac<br>
+                                  05 63 70 64 70<br>
+                                  Midi-Pyrénées<br>
+                                  Tarn</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Daily Golf</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> 136 avenue Clôt Bey<br>
+                                  13008<br>
+                                  Marseille<br>
+                                  04 26 78 41 20<br>
+                                  Provence-Alpes-Côte d'Azur<br>
+                                  Bouches-du-Rhône</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Garden Golf d&rsquo;Avignon</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> 1596 avenue du Général Leclerc<br>
+                                  84310<br>
+                                  Morières les Avignon<br>
+                                  04 90 33 39 08<br>
+                                  Provence-Alpes-Côte d'Azur<br>
+                                  Vaucluse</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Garden Golf de Mionnay</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Domaine Beau Logis  2900 Chemin Beau Logis<br>
+                                  1390<br>
+                                  Mionnay<br>
+                                  04 78 91 84 84<br>
+                                  Rhône-Alpes<br>
+                                  Ain</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Exclusiv Golf Château de Cherisey</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> 38 rue Principale<br>
+                                  57420<br>
+                                  Cherisey<br>
+                                  03 87 52 70 18<br>
+                                  Lorraine<br>
+                                  Moselle</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Daily Golf</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> 1 rue de la Croix Blanche<br>
+                                  78530<br>
+                                  Buc<br>
+                                  01 39 20 95 64<br>
+                                  Ile-de-France<br>
+                                  Yvelines</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Daily Golf</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> 12 rue Raspail <br>
+                                  93310<br>
+                                  Rosny-sous-Bois<br>
+                                  01 48 94 01 81 <br>
+                                  Ile-de-France<br>
+                                  Seine-Saint-Denis</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Daily Golf</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Voie de la Vallée de la Bièvre<br>
+                                  91370<br>
+                                  Verrières-le-Buisson<br>
+                                  01 60 19 37 82 <br>
+                                  Ile-de-France<br>
+                                  Essonne</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Daily Golf</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Rue du mail<br>
+                                  95310<br>
+                                  Saint-Ouen-l'Aumône<br>
+                                  01 34 40 07 87<br>
+                                  Ile-de-France<br>
+                                  Val-d'Oise</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Daily Golf</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> 8 rue du Parc<br>
+                                  95300<br>
+                                  Ennery<br>
+                                  01 30 30 09 15<br>
+                                  Ile-de-France<br>
+                                  Val-d'Oise</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Daily Golf</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Boulevard de Jardy<br>
+                                  92420<br>
+                                  Vaucresson<br>
+                                  01 47 01 35 80 <br>
+                                  Ile-de-France<br>
+                                  Hauts-de-Seine</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Daily Golf</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> 151 rue Louis Victor de Broglie<br>
+                                  51430<br>
+                                  Bezannes<br>
+                                  03 26 85 19 50 <br>
+                                  Champagne-Ardenne<br>
+                                  Marne</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Daily Golf</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Route de Kerniguez<br>
+                                  29270<br>
+                                  Carhaix<br>
+                                  02 98 93 79 19<br>
+                                  Bretagne<br>
+                                  Finistère</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <div class="inner-pt-pd">
+              <section class="max-width">
+                <h3 class="inner-h3">Galerie</h3>
+              </section>
+              <section class="image-gallery-container">
+                <div class="image-gallery">
+                  <div> <img src="../img/partners/ngf/slider-ngf-002.jpg" alt="NGF Golf"> </div>
+                  <div> <img src="../img/partners/ngf/slider-ngf-003.jpg" alt="NGF Golf"> </div>
+                  <div> <img src="../img/partners/ngf/slider-ngf-001.jpg" alt="NGF Golf"> </div>
+                </div>
+              </section>
+            </div>
+          </div>
+
+          <!--#include virtual="../partials/logos.shtml"--> 
+
+          <!--#include virtual="../partials/footer.shtml"--> 
+
+          <script>
+            $(document).ready(function(){
+              do_google_map('51.514753', '-0.136690');
+
+              $( window ).resize(function() {
+                do_google_map('51.514753', '-0.136690');
+              });
+
+
+            });  
+          </script> 
+
+          <!-- / End content here -->
+
+        </body>
+        </html>

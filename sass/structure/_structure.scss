@@ -1,0 +1,1072 @@
+#info {
+	position: fixed;
+	top: 0px;
+	z-index: 3000;
+	background: white;
+}
+
+/* .landing-container {
+	//@extend %bdr;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: url(../img/landing-page-images/001.jpg) no-repeat center center;
+	background-size: cover;
+	.landing-container__inner {
+		
+	}
+	} */
+
+//@include span(4 at 9 of 12);
+
+/* .container {
+ @include container(80em);
+ @extend %bdr;
+ } */
+
+
+ .background-slider {
+ 	//@extend %bdr;
+ 	z-index: 100;
+ 	position: absolute;
+ 	max-width: $max-width;
+ 	left:0;
+ 	right:0;
+ 	top: 0;
+ 	bottom: 0;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ }
+
+ .inner-padding {
+ 	padding: 0 1.5em;
+	//@include rhythm(0, 4, 6, 0);
+	@include breakpoint($medium){
+		padding: 0 2em;
+	}
+}
+
+.main-header {
+	@include rhythm(0, 0, 2, 0);
+	.main-header_inner {
+		@include container($max-width);
+		a {
+			display: block;
+		}
+	}
+	@inc breakpoint($medium){
+		@include rhythm(0, 0, 12, 0);
+	}
+	&.sub-page {
+		background: url(../img/header-image.jpg) no-repeat center center;
+		background-size: cover;
+	}
+}
+
+.days-out-logo {
+	//@extend %bdr;
+	@include container;
+	@include rhythm(0, 0, 0, 4);
+	.days-out-logo_inner {
+		@include span(12 of 12);
+		a {
+			width: 200px;
+			@include breakpoint($medium) {
+				width: 300px;
+			}
+			.logo {
+				width: 100%;
+			}
+		}
+	}
+}
+
+.sign-in {
+	//@extend %vertical-align;
+	@include container;
+	@include clearfix;
+	//@extend %bdr;
+	.tabs {
+		@include container;
+		////@extend %bdr;
+		@include clearfix;
+		@include span(12 of 12 );
+		li {
+			width: 100px;		  
+			height: 55px;
+			float: left;
+			text-align: center;
+			div {
+				@extend %vertical-align;
+				a {
+					display: block;
+				}
+			}
+			&.active {
+				margin-right: 0;
+				a {
+					cursor: default;
+				}
+			}
+			&.inactive {
+				margin-left: 0;
+				a {
+					cursor: pointer;
+				}
+			}
+			@include breakpoint($medium){
+				width: 150px;
+			}
+			@include breakpoint($medium){
+				height: 65px;
+			}
+		}
+	}
+	.sign-in_inner {
+		//@include span(12 of 12);
+		.sign-in_inner__container {
+			//@include rhythm(0, 2, 2, 0);
+			@include rhythm(0, 2, 2, 0);
+			@include breakpoint($medium){
+				@include rhythm(0, 4, 4, 0);
+			}
+			form {
+				@include clearfix;
+				input {
+					vertical-align: top;
+					float: left;
+				}
+				input[type="text"] {
+					height: 52px;
+					width: 47%;
+					@include breakpoint($medium){
+					}
+				}
+				input[type="image"] {
+					width: 48px;
+					position: absolute;
+					z-index: 1;
+					right: 0;
+					top: 0px;
+					&:hover {
+					}
+				}
+			}
+			.info {
+				text-align: left;
+				@include breakpoint($medium){
+					text-align: right;
+				}
+			}
+		}
+		@include breakpoint($medium){
+			@include span(7.9 of 12);
+		}
+	}// Landing page
+	&.home {
+		.sign-in_inner {
+			@include span(12 of 12);
+			@include breakpoint($medium){
+				@include span(7 of 12); 
+			}
+			.sign-in_inner__container {
+				h1 {
+					@include rhythm(0, 0, 0, 0);
+				}
+				p {
+					@include rhythm(1, 0, 1, 0);
+				}
+				form {
+
+				}
+			}
+		}
+	}
+}
+
+
+.home-fields {
+	@include clearfix;
+	li {
+		@include rhythm(0, 0, 0, 1);
+		height: 52px;
+		position: relative;
+		@include clearfix;
+		width: 100%;
+		float: left;
+		@include breakpoint($large){
+			width: 50%;
+			&.inner-page-field {
+				width: 100%;
+			}
+			&.first {
+				padding-right: 10px;
+			}
+			&.second {
+				padding-left: 10px;
+			}
+		}
+		input[type="text"] {
+			width: 100% !important;
+		}
+	}
+}
+
+.how-it-works {
+	background: url(../img/base/pattern.jpg) no-repeat center center;
+	min-height: 300px;
+	@include rhythm(0, 3, 3, 0);
+}
+
+.content-inner {
+	//@extend %bdr;
+	@include container($max-width);
+	@include rhythm(0, 2, 2, 0);
+	h2 {
+		@include rhythm(0, 0, 0, 0);
+		@include span(12 of 12);
+		color: $white;
+	}
+	h3 {
+		@include rhythm(0, 0, 0, 0);
+		@include span(12 of 12);
+		color: $white;
+		@include adjust-font-size-to(18px, 2);
+		font-family: 'din_lightregular';
+		text-transform: uppercase;
+	}
+}
+
+.small-titles {
+	@include container($max-width);
+	h3 {
+		@include rhythm(0, 2, 0, 0);
+		@include span(12 of 12);
+	}
+}
+
+.arrow-right {
+	width: 0; 
+	height: 0;
+	position: absolute;
+	@extend %vertical-align;
+	z-index: 3;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 15px solid green;
+	right: -15px;
+	@include breakpoint($small) {
+		border-top: 45px solid transparent;
+		border-bottom: 45px solid transparent;
+		border-left: 45px solid green;
+		right: -45px;
+	}
+	@include breakpoint($medium) {
+		border-top: 60px solid transparent;
+		border-bottom: 60px solid transparent;
+		border-left: 60px solid green;
+		right: -60px;
+	}
+}
+
+.steps {
+	li {
+		position: relative;
+		//@extend %bdr;
+		@include span(4 of 12);
+		height: 0;
+		padding-bottom: 31.25%;
+		h1 {
+			//@include adjust-font-size-to(36px, 2);
+			font-family: 'gotham_lightregular';
+			@include fittext($min-media: 320px, $max-media: 1900px, $min-font-size: 18px, $max-font-size: 36px, $media-increment: 100, $font-increment: 2.5, $ratio: 1, $round: false);		
+			margin-bottom: 2%;
+		}
+		&.search {
+			.inner {
+				
+			}
+			.arrow-right { 
+			}
+		}
+		&.choose {
+			.inner {
+				
+			}
+			.arrow-right {
+			}
+		}
+		&.enjoy {
+			.inner {
+				
+			}
+			.arrow-right {
+				display: none; 
+			}
+		}
+	}
+	.inner {
+		margin-top: 20%;
+		margin-bottom: 20%;
+		text-align: center;
+		position: relative;
+		z-index: 0;
+		//@extend %bdr;
+		i {
+			img {
+				margin: 0 auto;
+				width: 40%;
+			}
+		}
+		p {
+			display: none;
+			padding: 0 10%;
+			@include breakpoint($medium) {
+				display: block;
+			}
+		}
+	}
+}
+
+
+.footer-container {
+	@include rhythm(0, 1, 1, 0);
+}
+
+.search-container {
+	@include rhythm(0, 3, 3, 0);
+}
+
+
+.search-select {
+	&.home {
+		@include rhythm(0, 2, 2, 0);
+		@include span(12 of 12);
+	}
+	ul {
+		@include container($max-width);
+		li {
+			padding: 0 0 2px 0 !important;
+			@include breakpoint($medium){
+				@include span(3 of 12 );
+			}
+			&:first-child{
+				margin-left: 0px;
+			}
+			&:last-child{
+				margin-right: 0px;
+			}
+		}
+	}
+}
+
+
+.search-select ul li input[type="submit"],
+.search-select ul li button {
+	width: 100%;
+	&:hover {
+		background-color: $secondary-color;
+	}
+}
+
+
+.slick-slider-container {
+	@include rhythm(0, 0, 0, 2);
+	overflow: hidden;
+	@include clearfix;
+	@include breakpoint($medium){
+		@include rhythm(0, 0, 0, 0);
+	}
+	.partners {
+		.slick-slide {
+			//@extend %bdr;
+			//@include opacity(0.5);
+			//@include transition(opacity 1s ease-in-out);
+			background: $white;
+			&.slick-active {
+				//@include opacity(1);
+				//@include transition(opacity 1s ease-in-out);
+			}
+			.inner {
+				//@extend %bdr;
+				@include clearfix;
+				overflow: hidden;
+				.w50, .w33 {
+					float: left;
+					overflow: hidden;
+					position: relative;
+					//padding: .2em;
+					padding: .2em;
+					@include transition(all .6s ease-in-out);
+					@include breakpoint($large){
+						padding: .5em;
+					}
+					.slider-image {
+						width: 100%;
+						position: relative;
+						z-index: 1;
+					}
+					&.active {
+						@include transition(all .2s ease-in-out);
+						@include opacity(.6);
+						//background-color: $black;
+					}
+				}
+				.w50 {
+					//@extend %bdr;
+					width: 50%;
+					&.first {
+						margin-left: 0px;
+					}
+					&.last {
+						margin-right: 0px;
+					}
+				}
+				.w33 {
+					//@extend %bdr;
+					width: 33.333%;
+					&.first {
+						margin-left: 0px;
+					}
+					&.last {
+						margin-right: 0px;
+					}
+				}
+			}
+		}
+		//Mobile build
+		.slide {
+			.inner {
+				a {
+					position: relative;
+					//@extend %bdr;
+					display: block;
+					padding: .5em;
+				}
+			}
+		}
+	}
+}
+
+.slider-image-wrapper { 
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: auto;
+	width: auto;
+	background: url(../img/base/shading.png) left bottom no-repeat;
+	//margin: .5em .5em 0em .5em;
+	margin: .5em;
+	@include opacity(1);
+	@include transition(all .6s ease-in-out);
+	@include breakpoint($small){
+		margin: .2em;
+	}
+	@include breakpoint($medium){
+		margin: .2em;
+		
+	}
+	@include breakpoint($large){
+		//margin: 1em 0em 0em 1em;
+		margin: .5em;	
+	}
+	/* &.active {
+		@include transition(all .2s ease-in-out);
+		@include opacity(.6);
+		background-color: $black;
+		} */
+	}
+
+	.slider-content-container {
+		width: 100%;
+		z-index: 3;
+		position: absolute;
+		color: $white;
+		bottom: 0;
+		padding: 1em 2em .5em 1em;
+		@include text-shadow(rgba($black, 1) 1px 1px 0);
+		@include breakpoint($medium){
+			//padding: .5em;
+		}
+		h4 {
+			font-family: 'gotham_lightregular';
+			@include adjust-font-size-to(21px, 2);
+			@include rhythm(0, 0, 0, 1);
+			display: block;
+			@include breakpoint($large){
+				@include adjust-font-size-to(20px, 2);
+				font-family: 'gotham_mediumregular';
+			}
+		}
+		p {
+			font-family: 'gotham_lightregular';
+			@include adjust-font-size-to(16px, 1.8);
+			@include rhythm(0, 0, 0, 1);
+			//display: block;
+			display: none;
+		}
+	}
+
+	.slider-image {
+		width: 100%;
+	//margin: 2em;
+}
+
+.logos-container {
+	//@extend %bdr;
+	@include container($max-width);
+	overflow: hidden;
+	.logos {
+		.slick-list {
+			.slick-track {
+				.slick-slide {
+					.slider-image {
+						width: 100%;
+						//@include opacity(0.5);
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+.footer-container {
+	.content-inner {
+		.days-out-logo_inner {
+			@include breakpoint($medium){
+				@include span(3);
+				//@include rhythm(0, 3.1, 0, 0);
+			}
+			.logo {
+				width: 200px;
+			}
+		}
+		nav {
+			@include rhythm(0, 0, 0, 4);
+			@include clearfix;
+			@include breakpoint($medium){
+				@include span(5.5);
+				@include rhythm(0, 6, 0, 0);
+			}
+			ul {
+				@include adjust-font-size-to(16px, 1.8);
+				li {
+					float: left;
+					margin-right: 1em;
+					a {
+						text-decoration: none;
+						&:hover {
+						}
+					}
+				}
+			}
+		}
+		.copyright {
+			@include clearfix;
+			@include breakpoint($medium){
+				@include span(3.5);
+				@include rhythm(0, 6, 0, 0);
+			}
+			p {
+				@include adjust-font-size-to(16px, 1.8);
+				@include rhythm(0, 0, 0, 1);
+			}
+			a {
+				display: block;
+				width: 100%;
+				@include breakpoint($medium){
+				}
+				img {
+					@include breakpoint($medium){
+						float: right;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+//Template content
+.template-header {
+	position: relative;
+	z-index: 1;
+	.inner {
+		@include clearfix;
+		//@extend %bdr;
+		.days-out-logo {
+			@include rhythm(0, 0, 0, 0);
+			.days-out-logo_inner {
+				width: 200px;
+				@include breakpoint($large) {
+					width: 300px;
+				}
+			}
+		}
+	}
+}
+
+
+.inner-template-container {
+	//@extend %bdr;
+	position: relative;
+	min-height: 300px;
+	.content-section {
+		//padding-top: 30px;
+		@include rhythm(0, 4, 4, 0);
+		z-index: 200;
+		position: relative;
+		.inner {
+			//@extend %bdr;
+		}
+		&.premuim-template {
+			@include breakpoint($large){
+				padding-top: 227px;
+			}
+		}
+	}
+}
+
+.featured-header-image {
+	//@extend %bdr;
+	@include clearfix;
+	position: absolute;
+	z-index: 0;
+	width: 100%;
+	.inner {
+		position: relative;
+		max-width: 100em;
+		height: 200px;
+		margin: 0 auto;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center 0px;
+		@include clearfix;
+		@include breakpoint($large) {
+			background-size: inherit;
+			background-position: center -100px;
+		}
+		@include breakpoint($large){
+			min-height: 300px;
+		}
+	}
+}
+
+.content-section {
+	@include clearfix;
+	.inner {
+		@include clearfix;
+	}
+	.left {
+		.content-module {
+			@include rhythm(0, 0, 3, 0);
+			@include breakpoint($large){
+				display: table;
+			}
+			.logo-container {
+				//background-color: lighten($grey, 40%);
+				img {
+					max-width: 220px;
+				}
+				@include breakpoint($large){
+					display: table-cell;
+				}
+			}
+			.detail-container {
+				display: table-cell;
+				vertical-align: bottom;
+				float: none;
+				h1 {
+					@include rhythm(0, 2, 1, 0);
+					@include breakpoint($large){
+						@include rhythm(0, 0, 1, 0);
+					}
+				}
+				@include breakpoint($large){
+					padding-left: 1em;
+				}
+			}
+		}
+		h2 {
+			@include rhythm(0, 0, 0, 3);
+			@include breakpoint($large){
+				@include adjust-font-size-to(30px, 3.5);
+			}
+		}
+		p {
+			@include rhythm(0, 0, 0, 2);
+		}
+
+		@include breakpoint($large){
+			@include span(8 of 12);
+		}
+	}
+	.right {
+		.inner-content {
+			@include rhythm(0, 0, 0, 5);
+			#map_canvas {
+
+			}
+		}
+		@include breakpoint($large){
+			@include span(3 of 12);
+			@include push(1 of 12);
+		}
+	}
+	h3 {
+
+	}
+	button {
+		margin-bottom: 1em;
+	}
+}
+
+.details {
+	@include rhythm(0, 0, 0, 2);
+	span {
+		display: block;
+		a {
+			&:hover {
+
+			}
+		}
+	}
+	&.no-margin {
+		margin-bottom: 0px !important;
+	}
+}
+
+.small-map {
+	@include rhythm(0, 0, 0, 1);
+	width: 100%;
+	height: 293px;
+}
+
+.large-map {
+	position: ralative;
+	width: 100%;
+	height: 100%;
+	display: none;
+	@include breakpoint($medium){
+		display: block;
+	}
+	//@extend %bdr;
+}
+
+.image-gallery-container {
+	@include clearfix;
+	width: 100%;
+	.image-gallery {
+		img {
+			width: 100%;
+		}
+	}
+}
+
+.inner-pt-pd {
+	//@include rhythm(0, 3, 3, 0);
+}
+
+.inner-h3 {
+	@include breakpoint($large){
+		@include span(12 or 12);
+	}
+}
+
+
+$search-width-mobile: 100%;
+$search-width-tablet: 320px;
+$search-width-desktop: 430px;
+
+.map-search{
+	max-width: $search-width-mobile;
+	position: relative;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	padding: 0 !important;
+	margin: 0  !important;
+	.content-inner {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		@include clearfix;
+		.search-select {
+			@include rhythm(0, 0, 0, 0);
+			ul {
+				width: 100%;
+				//@extend %bdr;
+				li {
+					margin: 0;
+					padding: 0 0 2px 0 !important;
+					width: 100%;
+					button {
+						margin: 0;
+						width: 100% !important;
+						//padding: 0;
+					}
+				}
+			}
+		}
+	}
+	@include breakpoint($medium){
+		left: 2em;
+		top: 2em;
+		position: absolute;
+	}
+	@include breakpoint($medium){
+		max-width: $search-width-tablet;
+	}	
+	@include breakpoint($large){
+		max-width: $search-width-desktop;
+	}	
+}
+
+.results {
+	background-color: $white;
+	li {
+		//@extend %bdr;
+		color: $grey;
+		.inner {
+			padding: 1em;
+			@include clearfix;
+			.left {
+				float: left;
+				width: 70%;
+				h1 {
+					margin-bottom: 5px;
+					@include adjust-font-size-to(24px, 2);
+					color: $secondary-color;
+				}
+				p {
+					@include rhythm(0, 0, 1, 0);
+					span{
+						padding-top: 5px;
+					}
+					margin-bottom: 0px;
+				}
+				.map-link {
+					@include adjust-font-size-to(12px, 1);
+					text-transform: uppercase;
+					text-decoration: none;
+					color: $secondary-color;
+/* 					&:before {
+						content: "\f041";
+						color: $tertiary-color;
+						font-family: FontAwesome;
+						font-style: normal;
+						font-weight: normal;
+						@include adjust-font-size-to(18px, 1);
+						padding-right: .4em;
+						} */
+						&:hover {
+						//text-decoration: underline;
+						&:before {
+							color: $secondary-color;
+						}
+					}
+				}
+				i.fa-map-marker {
+					color: $tertiary-color;
+				}
+			}
+			.right {
+				float: right;
+				width: 30%;
+				.thumb {
+					width: 100%;
+					padding-left: 1em;
+				}
+			}
+			&:hover,
+			&.active {
+				h1 {
+					color: $tertiary-color;
+				}
+			}
+		}
+		&:nth-child(2n) {
+			background: lighten($grey, 55%); 
+		}
+	}
+	@include breakpoint($medium){
+		overflow: auto;
+		height: 400px;
+	}
+}
+
+
+.cssmenu {
+	ol, ul {
+		.has-sub {
+			//border-bottom: solid 1px lighten($grey, 40%);
+			//@include opacity(.6);
+			//@include transition(opacity .3s ease-in-out);
+		/* &:hover {
+			@include opacity(1);
+			} */
+			>a {
+				cursor: pointer;
+				text-decoration: none;
+		//@include rhythm(0, 1.5, 1.5, 0);
+		display: block;
+		p {
+			@include rhythm(0, 0, 0, 1);
+		}
+		h3 {
+			color: $tertiary-color;
+			position: relative;
+			&:after {
+				font-size: 16px;
+				content: "\f10c";
+				font-family: FontAwesome;
+				font-style: normal;
+				font-weight: normal;
+				text-decoration: inherit;
+				position: absolute;
+				right: 0px;
+				top: 0px;
+			}
+			span {
+				display: block;
+				padding-right: 2em;
+			}	
+		}
+	}
+
+	&.open {
+		//@include opacity(1);
+		>a {
+			h3{
+				color: $primary-color;
+				&:after {
+					content: "\f111";
+				}
+			}
+			>p {
+				color: $primary-color;
+			}
+		}
+		.more {
+			&:after {
+				content: "\f106" !important;
+			}
+		}
+	}
+}
+}
+&.faq {
+	.has-sub {
+		border-bottom: solid 1px lighten($grey, 40%);
+		@include transition(opacity .3s ease-in-out);
+		>a {
+			@include rhythm(0, 1.5, 1.5, 0);
+		}
+	}
+}
+}
+
+
+.sub-list {
+	display: none;
+	li {
+		p {
+				//margin: 0;
+			}
+		}
+	}
+
+	.active-opacity {
+		@include opacity(.2);
+	}
+
+	.open {
+		@include opacity(1);
+	}
+
+	.numbered-list {
+	//padding-left: 1em;
+	margin-left: 2em;
+	color: $primary-color;
+	li {
+		list-style-type: decimal;
+		ol {
+			margin-left: 2em;
+			li {
+				//@include rhythm(0, 0, .5, 0);
+				//@include rhythm(0, 1.5, 1.5, 0);
+				p {
+
+				}
+			}
+		}
+	}
+}
+
+
+form {
+	ul {
+		li {
+			.fields {
+				position: relative;
+				h3 {
+					color: $tertiary-color;
+					@include transition(all 0.5s ease-in-out);
+					// position: absolute;
+					// left: 1em;
+					// top: 17px;
+					&.active {
+						color: $primary-color;
+						// left: 1em;
+						// top: -20px;
+					}
+				}
+			}
+			@include rhythm(0, .5, .5, 0);
+		}
+	}
+}
+
+
+.home-footer {
+	position: relative;
+	width: 100%;
+	@include rhythm(0, 2, 2, 0);
+	&.footer-container {
+		p {
+			@include adjust-font-size-to(16px, 1.8);
+			@include rhythm(0, 0, .6, 0);
+		}
+		a {
+			display: block;
+		}
+		.copyright-inner {
+			//@extend %bdr;
+			//text-align: right;
+			img {
+				display: inline !important;
+			}
+		}
+	}
+	@include breakpoint($medium){
+		@include rhythm(0, 0, 0, 0);
+		position: absolute;
+		z-index: 1000;
+		bottom: 10px;
+		max-width: $max-width;
+		left:0;
+		right:0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

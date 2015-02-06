@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <link rel="stylesheet" href="../css/screen.css">
+  <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+      <header id="header" class="template-header">
+        <div class="inner max-width">
+          <div class="days-out-logo">
+            <div class="days-out-logo_inner">
+              <a href="../index/index.shtml">
+                <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo">
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="inner-template-container">
+        <section class="featured-header-image">
+          <div class="inner" style="background-image: url(../img/partners/bowlingstar/header-bowlingstar.jpg);" 
+          data-0="background-position: center -100px;"
+          data--470-top="background-position: center 0px;"
+          >
+        </div>
+      </section>
+
+      <section class="content-section premuim-template">
+        <div class="inner max-width">
+          <div class="left" >
+            <div class="content-module">
+              <div class="logo-container">
+                <img src="../img/partners/bowlingstar/bowlingstar.png" alt="Bowlingstar">
+              </div>
+              <div class="detail-container">
+                <!-- Partner title -->
+                <h1>Bowlingstar</h1>
+                <!-- Partner description -->
+                <p class="details no-margin">NGF Golf propose la pratique du golf accessible<br>
+                  <!-- Address details -->
+                  <span>77777 Marne-la-Vallee, France lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span>
+                </p>
+              </div>
+            </div>
+
+            <!-- Introduction -->
+            <!-- <h2>Présentation du partenaire et de l’activité</h2> -->
+
+            <h3>l’activité</h3>
+            <p>BOWLINGSTAR, pour vos sorties en famille ou entre amis BOWLINGSTAR est le premier groupe français de bowling. Présent au sein de nombreuses villes en France, il offre un cadre idéal pour toutes vos sorties entre amis comme en famille. Le bowling est en effet une activité parfaite si vous souhaitez passer un moment de détente dans un endroit convivial</p>
+
+            <h3>l’offre</h3>
+            <p>Un accès à 1 partie offerte</p>
+
+          </div>
+          <div class="right">
+            <div class="inner-content">
+              <div id="map_canvas" class="small-map"></div>
+              <button type="button">Redeem</button>
+              <!-- <h3>OPENING TIMES</h3>
+              <p class="details">Mon - Sun<br>
+                <span>10:00 to 19:00</span>
+              </p> -->
+              <h3>Website</h3>
+              <p class="details">
+                <span>
+                  <a href="http://www.bowlingstar.fr" target="_blank">bowlingstar.fr/</a>
+                </span>
+              </p>
+              <h3><!-- <i class="fa fa-map-marker"></i>  -->Locations</h3>
+              <div class="cssmenu">
+                <ul>
+                  <li class="has-sub">
+                    <a href="#">
+                      <p class="details">Bowlingstar</p>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p class="details">
+                          <span>
+                            ZAC des Pielettes<br>
+                            13740<br>
+                            Le Rove<br>
+                            04 42 02 35 85<br>
+                            Provence-Alpes-Côte d'Azur<br>
+                            Bouches-du-Rhône<br>
+                          </span>
+                        </p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="has-sub">
+                    <a href="#">
+                      <p class="details">Bowlingstar</p>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p class="details">
+                          <span>
+                            12 chemin de la Sablière<br>
+                            13011<br>
+                            Marseille<br>
+                            04 91 35 73 64<br>
+                            Provence-Alpes-Côte d'Azur<br>
+                            Bouches-du-Rhône<br>
+                          </span>
+                        </p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="has-sub">
+                    <a href="#">
+                      <p class="details">Bowlingstar</p>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p class="details">
+                          <span>
+                            Chemin des Pennes aux Pins<br>
+                            13170<br>
+                            Les Pennes-Mirabeau<br>
+                            04 42 46 64 46<br>
+                            Provence-Alpes-Côte d'Azur<br>
+                            Bouches-du-Rhône<br>
+                          </span>
+                        </p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="has-sub">
+                    <a href="#">
+                      <p class="details">Bowlingstar</p>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p class="details">
+                          <span>
+                            8 impasse des Loisirs<br>
+                            33470<br>
+                            Gujan-Mestras<br>
+                            05 57 15 39 45<br>
+                            Aquitaine<br>
+                            Gironde<br>
+                          </span>
+                        </p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="has-sub">
+                    <a href="#">
+                      <p class="details">Bowlingstar</p>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p class="details">
+                          <span>
+                            9 chemin de Glain<br>
+                            64100<br>
+                            Bayonne<br>
+                            05 59 03 24 60<br>
+                            Aquitaine<br>
+                            Pyrénées-Atlantiques<br>
+                          </span>
+                        </p>
+                      </li>
+                    </ul>
+                  </li>
+
+
+
+                  <li class="has-sub">
+                    <a href="#">
+                      <p class="details more">See all</p>
+                    </a>
+                    <ul class="sub-list">
+
+                      <li class="has-sub">
+                        <a href="#">
+                          <p class="details">Bowlingstar</p>
+                        </a>
+                        <ul class="sub-list">
+                          <li>
+                            <p class="details">
+                              <span>Bowlingstar<br>
+                                80 rue Marius Berliet<br>
+                                69008<br>
+                                Lyon <br>
+                                04 78 01 21 65<br>
+                                Rhône-Alpes<br>
+                                Rhône
+                              </span>
+                            </p>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="has-sub">
+                        <a href="#">
+                          <p class="details">Bowlingstar</p>
+                        </a>
+                        <ul class="sub-list">
+                          <li>
+                            <p class="details">
+                              <span>Rue Auguste Baron<br>
+                                13500<br>
+                                Martigues<br>
+                                04 42 41 51 30<br>
+                                Provence-Alpes-Côte d'Azur<br>
+                                Bouches-du-Rhône
+                              </span>
+                            </p>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="has-sub">
+                        <a href="#">
+                          <p class="details">Bowlingstar</p>
+                        </a>
+                        <ul class="sub-list">
+                          <li>
+                            <p class="details">
+                              <span>18-20 allée Trait-d'Union<br>
+                                77127<br>
+                                Lieusaint <br>
+                                01 60 18 86 12<br>
+                                Ile-de-France<br>
+                                Seine-et-Marne
+                              </span>
+                            </p>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="has-sub">
+                        <a href="#">
+                          <p class="details">Bowlingstar</p>
+                        </a>
+                        <ul class="sub-list">
+                          <li>
+                            <p class="details">
+                              <span>1 avenue de la Source de la Bièvre<br>
+                                78180<br>
+                                Montigny-le-Bretonneux<br>
+                                01 30 64 64 60<br>
+                                Ile-de-France<br>
+                                Yvelines
+                              </span>
+                            </p>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="has-sub">
+                        <a href="#">
+                          <p class="details">Bowlingstar</p>
+                        </a>
+                        <ul class="sub-list">
+                          <li>
+                            <p class="details">
+                              <span>1 avenue de la Source de la Bièvre<br>
+                                78180<br>
+                                Montigny-le-Bretonneux<br>
+                                01 30 64 64 60<br>
+                                Ile-de-France<br>
+                                Yvelines
+                              </span>
+                            </p>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="has-sub">
+                        <a href="#">
+                          <p class="details">Bowlingstar</p>
+                        </a>
+                        <ul class="sub-list">
+                          <li>
+                            <p class="details">
+                              <span>1 avenue Paul Claudel<br>
+                                84000<br>
+                                Avignon<br>
+                                04 90 88 50 11<br>
+                                Provence-Alpes-Côte d'Azur<br>
+                                Bouches-du-Rhône
+                              </span>
+                            </p>
+                          </li>
+                        </ul>
+                      </li>
+
+
+                      <li class="has-sub">
+                        <a href="#">
+                          <p class="details">Bowlingstar</p>
+                        </a>
+                        <ul class="sub-list">
+                          <li>
+                            <p class="details">
+                              <span>1 avenue Paul Claudel<br>
+                                277 chemin des Petits Rougiers<br>
+                                84130<br>
+                                Le Pontet<br>
+                                04 32 40 40 65<br>
+                                Provence-Alpes-Côte d'Azur<br>
+                                Bouches-du-Rhône
+                              </span>
+                            </p>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="has-sub">
+                        <a href="#">
+                          <p class="details">Bowlingstar</p>
+                        </a>
+                        <ul class="sub-list">
+                          <li>
+                            <p class="details">
+                              <span>Route Nationale 6<br>
+                                69760<br>
+                                Limonest<br>
+                                04 37 59 81 31<br>
+                                Rhône-Alpes<br>
+                                Rhône
+                              </span>
+                            </p>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="has-sub">
+                        <a href="#">
+                          <p class="details">Bowlingstar</p>
+                        </a>
+                        <ul class="sub-list">
+                          <li>
+                            <p class="details">
+                              <span>Zone du Busquet<br>
+                                64600<br>
+                                Anglet<br>
+                                05 59 31 21 11<br>
+                                Aquitaine<br>
+                                Pyrénées-Atlantiques
+                              </span>
+                            </p>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="has-sub">
+                        <a href="#">
+                          <p class="details">Bowlingstar</p>
+                        </a>
+                        <ul class="sub-list">
+                          <li>
+                            <p class="details">
+                              <span>Rue de l'Industrie<br>
+                                67170<br>
+                                Brumath<br>
+                                03 88 88 85 00<br>
+                                Alsace<br>
+                                Bas-Rhin
+                              </span>
+                            </p>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="has-sub">
+                        <a href="#">
+                          <p class="details">Bowlingstar</p>
+                        </a>
+                        <ul class="sub-list">
+                          <li>
+                            <p class="details">
+                              <span>4 rue de l'Embarcadère<br>
+                                71300<br>
+                                Montceau-les-Mines<br>
+                                03 85 68 40 70<br>
+                                Bourgogne<br>
+                                Saône-et-Loire
+                              </span>
+                            </p>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="has-sub">
+                        <a href="#">
+                          <p class="details">Bowlingstar</p>
+                        </a>
+                        <ul class="sub-list">
+                          <li>
+                            <p class="details">
+                              <span>Zone des Rives d'Arcins<br>
+                                33130<br>
+                                Bègles<br>
+                                05 56 49 97 00<br>
+                                Aquitaine<br>
+                                Gironde
+                              </span>
+                            </p>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="has-sub">
+                        <a href="#">
+                          <p class="details">Bowlingstar</p>
+                        </a>
+                        <ul class="sub-list">
+                          <li>
+                            <p class="details">
+                              <span>Bowlingstar / Soccer<br>
+                                ZAC des commandeurs<br>
+                                34970<br>
+                                Lattes<br>
+                                06 07 86 16 17<br>
+                                Languedoc-Roussillon<br>
+                                Hérault
+                              </span>
+                            </p>
+                          </li>
+                        </ul>
+                      </li>
+                      
+                    </ul>
+                  </li>
+
+                </ul>
+              </div>
+
+
+            </div>
+          </div>
+        </section>
+
+        <div class="inner-pt-pd">
+          <section class="max-width">
+            <h3 class="inner-h3">Galerie</h3>
+          </section>
+
+          <section class="image-gallery-container">
+            <div class="image-gallery">
+              <div>
+                <img src="../img/partners/bowlingstar/slider-bowlingstar-002.jpg" alt="Bowlingstar">
+              </div>
+              <div>
+                <img src="../img/partners/bowlingstar/slider-bowlingstar-001.jpg" alt="Bowlingstar">
+              </div>
+              <div>
+                <img src="../img/partners/bowlingstar/slider-bowlingstar-003.jpg" alt="Bowlingstar">
+              </div>
+            </div>
+          </section> 
+        </div>
+
+      </div>
+
+      <!--#include virtual="../partials/logos.shtml"-->
+
+      <!--#include virtual="../partials/footer.shtml"-->
+
+      <script>
+        $(document).ready(function(){
+          do_google_map('51.514753', '-0.136690');
+
+          $( window ).resize(function() {
+            do_google_map('51.514753', '-0.136690');
+          });
+
+
+        });  
+      </script>
+
+      <!-- / End content here -->
+
+    </body>
+    </html>

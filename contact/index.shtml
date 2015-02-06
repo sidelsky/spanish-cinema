@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <link rel="stylesheet" href="../css/screen.css">
+  <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+<header id="header" class="template-header">
+  <div class="inner max-width">
+    <div class="days-out-logo">
+      <div class="days-out-logo_inner">
+        <a href="../index/index.shtml">
+          <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo">
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="inner-template-container">
+
+  <section class="content-section">
+    <div class="inner max-width">
+      <div class="module-12-of-12">
+
+        <h1>Contact</h1>
+        
+        <ul class="module-6-12 col1">
+          <li>
+          <div class="inner">
+            <h2>Je suis en possession d’un bon</h2>
+            <p>Vous êtes en possession d’un bon et vous avez une question relative au Réseau National Loisirs, vous pouvez joindre le Service Consommateurs de TLC Marketing :</p>
+          </div>
+          </li>
+          <li>
+            <div class="inner">
+              <h3>Par téléphone :</h3>
+              <p>Appelez-le : 01 70 61 46 95<br>
+              (Appel non surtaxé, tarif en vigueur selon l’opérateur, du lundi au vendredi hors jours fériés, de 9h30 à 17h30.)</p>
+            </div>
+          </li>
+          <li>
+          <div class="inner">
+            <h3>Par e-mail :</h3>
+            <p>Ecrivez à : <a href="mailto:service.consommateurs@tlcrewards.com">service.consommateurs@tlcrewards.com</a><br>
+            (Objet: Réseau National Loisirs / Vos nom et prénom).</p>
+          </div>
+          </li>
+        </ul>
+
+        <ul class="module-6-12 col2">
+        <li>
+        <div class="inner">
+          <h2>Je suis un partenaire</h2>
+          <p>Vous êtes partenaire et vous avez une question relative au Réseau National Loisirs, vous pouvez joindre le Service Partenariats de TLC Marketing :</p>
+        </div>
+        </li>
+          <li>
+            <div class="inner">
+              <h3>Par téléphone :</h3>
+              <p>Appelez-le : 01 40 27 13 00<br>
+              (Appel non surtaxé, tarif en vigueur selon l’opérateur, du lundi au vendredi hors jours fériés, de 9h30 à 17h30.)</p>
+            </div>
+          </li>
+          <li>
+          <div class="inner">
+            <h3>Par e-mail :</h3>
+            <p>Ecrivez à : <a href="mailto:service.consommateurs@tlcrewards.com">service.consommateurs@tlcrewards.com</a><br>
+            (Objet: Réseau National Loisirs / Vos nom et prénom).</p>
+          </div>
+          </li>
+        </ul>
+ 
+
+      </div>
+    </div>
+  </section>
+
+
+    </div>
+<!--#include virtual="../partials/footer.shtml"-->
+
+    <!-- / End content here -->
+
+  </body>
+  </html>

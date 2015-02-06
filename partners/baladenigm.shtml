@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <link rel="stylesheet" href="../css/screen.css">
+  <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+<header id="header" class="template-header">
+  <div class="inner max-width">
+    <div class="days-out-logo">
+      <div class="days-out-logo_inner">
+        <a href="../index.shtml">
+          <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo">
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="inner-template-container">
+  <section class="featured-header-image">
+    <div class="inner" style="background-image: url(../img/partners/baladenigm/header-baladenigm.jpg);" 
+      data-0="background-position: center -100px;"
+      data--470-top="background-position: center 0px;"
+      >
+    </div>
+  </section>
+
+  <section class="content-section premuim-template">
+    <div class="inner max-width">
+      <div class="left" >
+        <div class="content-module">
+          <div class="logo-container">
+            <img src="../img/partners/baladenigm/baladenigm.png" alt="Bowlingstar">
+          </div>
+          <div class="detail-container">
+            <!-- Partner title -->
+            <h1>Balad Enigm</h1>
+            <!-- Partner description -->
+            <p class="details no-margin">NGF Golf propose la pratique du golf accessible<br>
+            <!-- Address details -->
+            <span>77777 Marne-la-Vallee, France lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Introduction -->
+        <!-- <h2>Présentation du partenaire et de l’activité</h2> -->
+
+        <h3>l’activité</h3>
+        <p>Un BaladEnigm, c'est un jeu de piste d'un genre nouveau dans différentes villes de France, que vous pouvez faire en toute liberté !</p>
+
+        <p>Chaque BaladEnigm est conçu pour être fait par un petit groupe (jusqu'à 5 ou 6 personnes maximum), en famille ou entre amis, grands et petits (à partir de 5-6 ans).</p>
+
+        <p>Vous imprimez vous-même vos documents, ou téléchargez le circuit sur votre smartphone (iPhone ou Android)  (à partir de la rubrique "Mon Compte") vous partez vous promener le jour et à l'heure de votre choix : pas besoin de réserver, c'est vous qui décidez ! Et vous êtes même libre de changer de programme à la dernière minute, selon l'humeur ou les conditions météo… aucun guide pour vous attendre au point de départ : votre seul guide, c'est Bérald, qui vous accompagne tout au long du Carnet de Bord.</p>
+
+        <h3>l’offre</h3>
+        <p>1 BaladEnigm offerte d’une durée de 2h à 1 journée selon le parcours (pour un groupe de 4 à 6 personnes maximum) – âge minimum : 6 ans</p>
+
+      </div>
+      <div class="right">
+        <div class="inner-content">
+            <div id="map_canvas" class="small-map"></div>
+            <button type="button">Redeem</button>
+<!--             <h3>OPENING TIMES</h3>
+            <p class="details">Mon - Sun<br>
+              <span>10:00 to 19:00</span>
+            </p> -->
+            <h3>Website</h3>
+            <p class="details">
+              <span>
+                <a href="http://www.baladenigm.com" target="_blank">baladenigm.com</a>
+              </span>
+            </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<div class="inner-pt-pd">
+  <section class="max-width">
+    <h3 class="inner-h3">Galerie</h3>
+  </section>
+
+  <section class="image-gallery-container">
+    <div class="image-gallery">
+      <div>
+        <img src="../img/partners/baladenigm/slider-baladenigm-001.jpg" alt="Baladenigm">
+      </div>
+      <div>
+        <img src="../img/partners/baladenigm/slider-baladenigm-002.jpg" alt="Baladenigm">
+      </div>
+      <div>
+        <img src="../img/partners/baladenigm/slider-baladenigm-003.jpg" alt="Baladenigm">
+      </div>
+    </div>
+  </section> 
+</div>
+
+</div>
+
+<!--#include virtual="../partials/logos.shtml"-->
+
+<!--#include virtual="../partials/footer.shtml"-->
+
+<script>
+  $(document).ready(function(){
+    do_google_map('51.514753', '-0.136690');
+
+    $( window ).resize(function() {
+      do_google_map('51.514753', '-0.136690');
+    });
+
+
+  });  
+</script>
+
+<!-- / End content here -->
+
+</body>
+</html>

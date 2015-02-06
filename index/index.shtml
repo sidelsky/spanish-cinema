@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Spanish Cinema</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <link rel="stylesheet" href="../css/screen.css">
+  <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+<!--[if lt IE 7]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <!-- Content here -->
+  <section id="slides">
+
+    <div class="background-slider">
+      <!-- Logo -->
+      <header class="main-header">
+      <div class="main-header_inner">
+        <div class="days-out-logo">
+          <div class="days-out-logo_inner">
+            <a href="index.shtml">
+              <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo">
+            </a>
+          </div>
+        </div>
+        <!-- Sign in -->
+        <div class="sign-in home">
+          <div class="sign-in_inner narrow inner-padding">
+            <div class="sign-in_inner__container">
+              <h1>¡Bienvenido/a!</h1>
+              <p>Por favor, inicia sesión para comprar e-voucher 2x1.</p>
+              <form action="" name="code-detail" id="sigin-in_form">
+                <ul class="home-fields">
+                  <li class="first">
+                    <input type="text" placeholder="Número de tarjeta" name="tarjeta" id="tarjeta" class="first">
+                  </li>
+                  <li class="second">
+                    <input type="text" placeholder="Contraseña" name="contraseña" id="contraseña">
+                    <input type="image" src="../img/base/submit.png" name="Submit" id="submit">
+                  </li>
+                </ul>
+              </form>
+              <p class="info">No estoy registrado/a - Olvide mi contraseña</p>
+            </div>
+          </div>
+        </div>
+        <!-- / Sign in -->
+      </div>
+    </header>
+
+  </div>
+
+  <div class="slides-container">
+    <img src="../img/home-slider/001.jpg" alt="">
+    <img src="../img/home-slider/002.jpg" alt="">
+    <img src="../img/home-slider/003.jpg" alt="">
+    <img src="../img/home-slider/004.jpg" alt="">
+    <img src="../img/home-slider/005.jpg" alt="">
+    <img src="../img/home-slider/006.jpg" alt="">
+    <img src="../img/home-slider/007.jpg" alt="">
+  </div>
+</section>
+
+<!--#include virtual="../partials/home-footer.shtml"-->
+
+
+<!-- / End content here -->
+</body>
+</html>

@@ -1,0 +1,263 @@
+%base-font {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+//breakpoint
+$small: 600px;
+$medium: 768px;
+$large: 1024px;
+
+//$min-max-width: 768px;
+$max-width: 80em;
+//$full-max-width: 1024px;
+
+
+@include establish-baseline;
+$base-font-size: 18px;
+$base-line-height: 12px;
+$rhythm-unit: 'rem';
+$rem-with-px-fallback: 'true';
+$default-rhythm-border-width: 1px;
+$default-rhythm-border-style: 'solid';
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+	@include box-sizing(border-box);
+}
+
+.max-width {
+	max-width: $max-width;
+	margin: 0 auto;
+	padding-left: 1em;
+	padding-right: 1em;
+	@include breakpoint($large){ 
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+.inner-padding-tb {
+	//Margin top, Padding top, Padding bottom, Margin bottom
+	@include rhythm(0, 1, 1, 0); 
+}
+
+
+// .min-max-width {
+// 	max-width: $min-max-width;
+// 	margin: 0 auto;
+// }
+
+.text-center {
+	text-align: center;
+}
+
+//White
+$white: white;
+
+//Black
+$black: black; 
+
+//Light red
+$primary-color: #c72530;
+
+//Ligher red
+$secondary-color: #c72530;
+
+//Dark red
+$tertiary-color: #c72530;
+
+//Grey
+$grey: #666666;
+
+$select-background-color: #7a232e;
+
+//light Grey
+$light-grey: lighten($secondary-color, 50%);
+
+//Red
+$error: #cc0000;
+
+
+.white {
+	color: $white;
+}
+
+.white-bg {
+	background-color: $white;
+}
+
+.black {
+	color: $black;
+}
+
+.grey {
+	color: $grey;
+}
+
+.primary-color {
+	color: $primary-color;
+}
+
+.secondary-color {
+	color: $secondary-color;
+}
+
+.tertiary-color {
+	color: $secondary-color;
+}
+
+
+
+//Include sprites 
+// @import "icons/*.png";
+// @include all-icons-sprites;
+// $icon-sprite: sprite-map("icons/*.png");
+
+$susy: (
+	columns: 12,
+	gutters: 1/3,
+	math: fluid,
+	output: float,
+	gutter-position: split,
+	//gutter-position: inside,
+	  debug: (
+    //image: show,
+    //color: rgba($grey, .5),
+    //output: overlay,
+    //toggle: top right,
+  ),
+		//gutter-position: inslide
+	);
+
+
+ 
+
+body {
+	@extend %base-font;
+
+  //@include show-grid(show);
+}
+
+html {
+	@include adjust-leading-to(1.5); 
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	//min-width: 320px;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+//Helpers
+%bdr {
+	outline:solid red 1px;
+}
+
+.hide {
+	display: none !important;
+}
+
+.hide-on-mobile {
+	display: none;
+	@include breakpoint($large){
+		display: block;
+	}
+}
+
+br.hide-on-mobile {
+	font-style: 0px;
+	height: 0px;
+	line-height: 0px;
+}
+
+.hide-on-desktop {
+	@include breakpoint($large){
+		display: none;
+/* 	font-style: 0px;
+	height: 0px;
+	line-height: 0px; */
+}
+}
+
+img {
+	display: block;
+}
+
+.center {
+	text-align: center;
+}
+
+.italics {
+	font-style: italic;
+}
+
+.clear {
+	clear: both;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: 100;
+}
+
+h1, h2 {
+	@include adjust-font-size-to(36px, 3.5);
+	@include rhythm(0, 0, 0, 3);
+	font-family: 'gotham_lightregular';
+}
+
+h3 {
+	@include adjust-font-size-to(20px, 2.8);
+	font-family: 'din_lightregular';
+	text-transform: uppercase;
+}
+
+h1, h2, h3 {
+	color: $primary-color;
+}
+
+
+p {
+	color: $grey;
+	@include adjust-font-size-to(20px, 2.8);
+	@include rhythm(0, 0, 0, 3);
+}
+
+a {
+	color: $primary-color;
+}
+
+/* h2 {
+	@include adjust-font-size-to(24px, 2);
+} */
+
+
+/* h1 {
+	@include adjust-font-size-to(18px, 1);
+	//@include rhythm(0, 0, 0, 1.5);
+	font-family: 'gotham_boldregular';
+}
+
+h2 {
+	@include adjust-font-size-to(21px, 1);
+	@include rhythm(0, 0, 0, 1.5);
+	font-family: 'latomedium';
+}
+
+article {
+	p {
+		@include adjust-font-size-to(21px, 1.2);
+		@include rhythm(0, 0, 0, 1);
+	}
+}
+ */
+
+
+ 

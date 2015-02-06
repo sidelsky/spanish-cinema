@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <link rel="stylesheet" href="../css/screen.css">
+  <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+<!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+      <header id="header" class="template-header">
+        <div class="inner max-width">
+          <div class="days-out-logo">
+            <div class="days-out-logo_inner"> <a href="../index/index.shtml"> <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo"> </a> </div>
+          </div>
+        </div>
+      </header>
+      <div class="inner-template-container">
+        <section class="featured-header-image">
+          <div class="inner" style="background-image: url(../img/partners/blue-green/header-blue-green.jpg);" 
+          data-0="background-position: center -100px;"
+          data--470-top="background-position: center 0px;"
+          > </div>
+        </section>
+        <section class="content-section premuim-template">
+          <div class="inner max-width">
+            <div class="left" >
+              <div class="content-module">
+                <div class="logo-container"> <img src="../img/partners/blue-green/logo-blue-green.png" alt="Blue Green"> </div>
+                <div class="detail-container"> 
+                  <!-- Partner title -->
+                  <h1>Blue Green</h1>
+                  <!-- Partner description -->
+                  <p class="details no-margin">Blue Green et Formule Golf<br>
+                    <!-- Address details --> 
+                    <span>77777 Marne-la-Vallee, France lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span> </p>
+                  </div>
+                </div>
+                
+                <!-- Introduction --> 
+                <!-- <h2>Présentation du partenaire et de l’activité</h2> -->
+                
+                <h3>l’activité</h3>
+                <p>Regroupant sous une même enseigne les anciens golfs Blue Green et Formule Golf, Blue Green Groupe Saur, est aujourd'hui numéro 1 de la gestion de parcours en Europe, avec 49 golfs en France.</p>
+                <p>L'ambition du groupe est de faire rimer nature, innovation, service et sport. Centre de recherche, équipes dédiées, nous sommes fortement engagées dans une politique environnementale et d'amélioration continue de nos services.</p>
+                <p>La chaîne Blue Green multiplie ses actions en faveur du développement durable : gestion de l'arrosage, utilisation d'engrais biologiques, respect de la biodiversité... le tout avec un entretien des parcours adapté à la pratique du golf.</p>
+                 
+                <p>La qualité des infrastructures est aussi un engagement cher à Blue Green, c'est pourquoi des rénovations de club-houses ou des travaux sur les terrains sont régulièrement entrepris. Enfin, Blue Green c'est aussi un sens du service et de l'écoute client pour être au plus proche de vous.</p>
+                <h3>l’offre</h3>
+                <p>Une initiation de golf encadrée offerte d’une durée de 2h maximum (6 ans minimum)</p>
+              </div>
+              <div class="right">
+                <div class="inner-content">
+                  <div id="map_canvas" class="small-map"></div>
+                  <button type="button">Redeem</button>
+                  <!-- <h3>OPENING TIMES</h3>
+                  <p class="details">Mon - Sun<br>
+                    <span>10:00 to 19:00</span> </p> -->
+                    <h3><!-- <i class="fa fa-globe"></i> -->Website</h3>
+                    <p class="details"> <span> <a href="http://bluegreen.com/fr" target="_blank">bluegreen.com/fr</a> </span> </p>
+                    <h3><!-- <i class="fa fa-map-marker"></i>  -->Locations</h3>
+                    <div class="cssmenu">
+                      <ul>
+                        <li class="has-sub">
+                          <a href="#">
+                          <p class="details">Golf Blue Green Bellefontaine</p>
+                        </a>
+                        <ul class="sub-list">
+                          <li>
+                            <p class="details"> <span> Route du Puiseux<br>
+                              95270<br>
+                              Bellefontaine<br>
+                              01 34 71 05 02<br>
+                              Ile-de-France<br>
+                              Val-d'Oise</span> </p>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="has-sub"> <a href="#">
+                          <p class="details">Golf Blue Green la Marterie</p>
+                        </a>
+                        <ul class="sub-list">
+                          <li>
+                            <p class="details"> <span> Rd 710<br>
+                              24260<br>
+                              Montemart<br>
+                              05 53 05 61 00<br>
+                              Aquitaine<br>
+                              Dordogne</span> </p>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="has-sub"> <a href="#">
+                          <p class="details">Golf Blue Green Saint-Etienne </p>
+                        </a>
+                        <ul class="sub-list">
+                          <li>
+                            <p class="details"> <span> 62 rue Saint-Simon<br>
+                              42000<br>
+                              Saint-Etienne<br>
+                              04 77 32 14 63<br>
+                              Rhône-Alpes<br>
+                              Loire</span> </p>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="has-sub"> <a href="#">
+                          <p class="details">Golf Blue Green l'Académie</p>
+                        </a>
+                        <ul class="sub-list">
+                          <li>
+                            <p class="details"> <span> Boulevard Darby<br>
+                              83700<br>
+                              Saint-Raphaël<br>
+                              04 94 44 64 65<br>
+                              Provence-Alpes-Côte d'Azur<br>
+                              Var</span> </p>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="has-sub"> <a href="#">
+                          <p class="details">Golf Blue Green Domaine des Forges</p>
+                        </a>
+                        <ul class="sub-list">
+                          <li>
+                            <p class="details"> <span> Clubhouse<br>
+                              79340<br>
+                              Les Forges<br>
+                              05 49 69 91 77<br>
+                              Poitou-Charentes<br>
+                              Deux-Sèvres</span> </p>
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li class="has-sub">
+                          <a href="#">
+                            <p class="details more">See all</p>
+                          </a>
+                          <ul class="sub-list">
+                            <li class="has-sub">
+                              <a href="#">
+                                <p class="details">Golf Blue Green Nantes Erdre</p>
+                              </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Avenue du Bout des Landes<br>
+                                  44300<br>
+                                  Nantes<br>
+                                  02 40 59 21 21<br>
+                                  Pays de la Loire<br>
+                                  Loire-Atlantique</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Golf Blue Green Dunkerque</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Route du Golf<br>
+                                  59380<br>
+                                  Coudekerque-Branche<br>
+                                  03 28 61 07 43<br>
+                                  Nord-Pas-de-Calais<br>
+                                  Nord</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Golf Blue Green Lille</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Rond Point des Acacias<br>
+                                  59790<br>
+                                  Ronchin<br>
+                                  03 20 47 42 42<br>
+                                  Nord-Pas-de-Calais<br>
+                                  Nord</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Golf Blue Green Saint-Aubin</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Route du Golf<br>
+                                  91190<br>
+                                  Saint-Aubin<br>
+                                  01 69 41 25 19<br>
+                                  Ile-de-France<br>
+                                  Essonne</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Golf Blue Green Marolles-en-Brie</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Mail de la Justice<br>
+                                  94440<br>
+                                  Marolles-en-Brie<br>
+                                  01 45 95 18 18<br>
+                                  Ile-de-France<br>
+                                  Val-de-Marne</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Golf Blue Green Guerville</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> La Plagne<br>
+                                  78930<br>
+                                  Guerville<br>
+                                  01 30 92 45 45<br>
+                                  Ile-de-France<br>
+                                  Yvelines</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Golf Blue Green Villennes-sur-Seine</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Route d'Orgeval<br>
+                                  78670<br>
+                                  Villennes-sur-Seine<br>
+                                  01 39 08 18 18<br>
+                                  Ile-de-France<br>
+                                  Yvelines</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Golf Blue Green Avrille</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Château la Perrière<br>
+                                  49240<br>
+                                  Avrillé<br>
+                                  02 41 69 22 50<br>
+                                  Pays de la Loire<br>
+                                  Maine-et-Loire</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Golf Blue Green Houlgate</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Houlgate<br>
+                                  14510<br>
+                                  Gonneville-sur-Mer<br>
+                                  02 31 24 80 49<br>
+                                  Basse-Normandie<br>
+                                  Calvados</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Golf Blue Green Pau Artiguelouve</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Domaine Saint-Michel<br>
+                                  64230<br>
+                                  Artiguelouve<br>
+                                  05 59 83 09 29<br>
+                                  Aquitaine<br>
+                                  Pyrénées-Atlantiques</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Golf Blue Green Bordeaux Lac</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Avenue de Pernon<br>
+                                  33300<br>
+                                  Bordeaux<br>
+                                  05 56 50 92 72<br>
+                                  Aquitaine<br>
+                                  Gironde</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Golf Blue Green Pessac</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Rue de la Princesse<br>
+                                  33600<br>
+                                  Pessac<br>
+                                  05 57 26 03 33<br>
+                                  Aquitaine<br>
+                                  Gironde</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Golf Blue Green Gujan</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Route de Sanguinet<br>
+                                  33470<br>
+                                  Gujan-Mestras<br>
+                                  05 57 52 73 73<br>
+                                  Aquitaine<br>
+                                  Gironde</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Golf Hotel Blue Green Seignosse</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Avenue du Belvedère<br>
+                                  40510<br>
+                                  Seignosse<br>
+                                  05 58 41 68 30<br>
+                                  Aquitaine<br>
+                                  Landes</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Golf Blue Green Seyssins</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> 29 avenue Louis Vicat<br>
+                                  38180<br>
+                                  Seyssins<br>
+                                  04 76 70 12 63<br>
+                                  Rhône-Alpes<br>
+                                  Isère</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Golf Blue Green Sainte-Maxime</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Route du Débarquement Bp1<br>
+                                  83120<br>
+                                  Sainte-Maxime<br>
+                                  04 94 55 02 02<br>
+                                  Provence-Alpes-Côte d'Azur<br>
+                                  Var</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Golf Blue Green Caen</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Le Vallon<br>
+                                  14112<br>
+                                  Biéville-Beuville<br>
+                                  02 31 94 72 09<br>
+                                  Basse-Normandie<br>
+                                  Calvados</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Golf Blue Green Domangere</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Route de la Rochelle<br>
+                                  85310<br>
+                                  Nesmy<br>
+                                  02 51 07 65 90<br>
+                                  Pays de la Loire<br>
+                                  Vendée</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Golf Blue Green Fontenelles</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Route Coëx<br>
+                                  85220<br>
+                                  L'Aiguillon-sur-Vie<br>
+                                  02 51 54 13 94<br>
+                                  Pays de la Loire<br>
+                                  Vendée</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Golf Blue Green Odet</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Clohars Fouesnant<br>
+                                  29118<br>
+                                  Benodet<br>
+                                  02 98 54 87 88<br>
+                                  Bretagne<br>
+                                  Finistère</span> </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub">
+                              <a href="#">
+                                <p class="details">Golf Blue Green Ploemeur</p>
+                              </a>
+                              <ul class="sub-list">
+                                <li>
+                                  <p class="details"> <span> Saint Jude - Kerham<br>
+                                    56270<br>
+                                    Ploemeur<br>
+                                    02 97 32 81 82<br>
+                                    Bretagne<br>
+                                    Morbihan</span> </p>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li class="has-sub"> <a href="#">
+                                <p class="details">Golf Blue Green Pornic</p>
+                              </a>
+                              <ul class="sub-list">
+                                <li>
+                                  <p class="details"> <span> Avenue Scalby Newby<br>
+                                    44210<br>
+                                    Pornic<br>
+                                    02 40 82 06 69<br>
+                                    Pays de la Loire<br>
+                                    Loire-Atlantique</span> </p>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li class="has-sub"> <a href="#">
+                                <p class="details">Golf Blue Green Port Bourgenay</p>
+                              </a>
+                              <ul class="sub-list">
+                                <li>
+                                  <p class="details"> <span> Port Bourgenay<br>
+                                    85440<br>
+                                    Talmont St Hilaire<br>
+                                    02 51 23 35 45<br>
+                                    Pays de la Loire<br>
+                                    Vendée</span> </p>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li class="has-sub"> <a href="#">
+                                <p class="details">Golf Blue Green Rennes</p>
+                              </a>
+                              <ul class="sub-list">
+                                <li>
+                                  <p class="details"> <span> Le Temple du Cerisier<br>
+                                    35136<br>
+                                    Saint-Jacques de la Lande<br>
+                                    02 99 30 18 18<br>
+                                    Bretagne<br>
+                                    Ille-et-Vilaine</span> </p>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li class="has-sub"> <a href="#">
+                                <p class="details">Golf Blue Green Rhuys Kerver</p>
+                              </a>
+                              <ul class="sub-list">
+                                <li>
+                                  <p class="details"> <span> Kervert<br>
+                                    56730<br>
+                                    Saint-Gildas-de-Rhuys<br>
+                                    02 97 45 30 09<br>
+                                    Bretagne<br>
+                                    Morbihan</span>
+                                  </p>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-sub"> <a href="#">
+                              <p class="details">Golf Blue Green Rodez</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details"> <span> Avenue de Vabre<br>
+                                  12850<br>
+                                  Onet-le-Château<br>
+                                  05 65 78 38 00<br>
+                                  Midi-Pyrénées<br>
+                                  Aveyron</span>
+                                </p>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="has-sub"> <a href="#">
+                            <p class="details">Golf Blue Green Rueil Malmaison</p>
+                          </a>
+                          <ul class="sub-list">
+                            <li>
+                              <p class="details"> <span> Boulevard Marcel Pourtout<br>
+                                92500<br>
+                                Rueil-Malmaison<br>
+                                01 47 49 64 67<br>
+                                Ile-de-France<br>
+                                Hauts-de-Seine</span>
+                              </p>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="has-sub"> <a href="#">
+                          <p class="details">Golf Blue Green Savenay</p>
+                        </a>
+                        <ul class="sub-list">
+                          <li>
+                            <p class="details"> <span> Le Chambeau<br>
+                              44260<br>
+                              Savenay<br>
+                              02 40 56 88 05<br>
+                              Pays de la Loire<br>
+                              Loire-Atlantique</span>
+                            </p>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="has-sub"> <a href="#">
+                        <p class="details">Golf Blue Green Val Queven</p>
+                      </a>
+                      <ul class="sub-list">
+                        <li>
+                          <p class="details"> <span> Kerruisseau<br>
+                            56530<br>
+                            Queven<br>
+                            02 97 05 17 96<br>
+                            Bretagne<br>
+                            Morbihan</span>
+                          </p>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="has-sub"> <a href="#">
+                      <p class="details">Golf Blue Green Lac au Duc</p>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p class="details"> <span> Le Clos Hazel<br>
+                          56800<br>
+                          Ploermel<br>
+                          02 97 72 37 20<br>
+                          Bretagne<br>
+                          Morbihan</span>
+                        </p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="has-sub"> <a href="#">
+                    <p class="details">Golf Blue Green Quetigny Grand Dijon</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details"> <span> Rue du <br>
+                        Golf<br>
+                        21800<br>
+                        Quetigny<br>
+                        03 80 48 95 20<br>
+                        Bourgogne<br>
+                        Côte-d'Or</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+                <li class="has-sub"> <a href="#">
+                  <p class="details">Golf Blue Green Saint Laurent</p>
+                </a>
+                <ul class="sub-list">
+                  <li>
+                    <p class="details"> <span> Ploemel<br>
+                      56400<br>
+                      Auray<br>
+                      02 97 56 85 18<br>
+                      Bretagne<br>
+                      Morbihan</span> </p>
+                    </li>
+                  </ul>
+                </li>
+                <li class="has-sub"> <a href="#">
+                  <p class="details">Golf Blue Green Tours d'Ardrée</p>
+                </a>
+                <ul class="sub-list">
+                  <li>
+                    <p class="details"> <span> 37360<br>
+                      Saint-Antoine-du-Rocher<br>
+                      02 47 56 77 38<br>
+                      Centre<br>
+                      Indre-et-Loire</span> </p>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="inner-pt-pd">
+  <section class="max-width">
+    <h3 class="inner-h3">Galerie</h3>
+  </section>
+  <section class="image-gallery-container">
+    <div class="image-gallery">
+      <div> <img src="../img/partners/blue-green/slider-blue-green-001.jpg" alt="Blue Green"> </div>
+      <div> <img src="../img/partners/blue-green/slider-blue-green-002.jpg" alt="Blue Green"> </div>
+      <div> <img src="../img/partners/blue-green/slider-blue-green-003.jpg" alt="Blue Green"> </div>
+      <div> <img src="../img/partners/blue-green/slider-blue-green-004.jpg" alt="Blue Green"> </div>
+    </div>
+  </section>
+</div>
+</div>
+
+<!--#include virtual="../partials/logos.shtml"--> 
+
+<!--#include virtual="../partials/footer.shtml"--> 
+
+<script>
+  $(document).ready(function(){
+    do_google_map('51.514753', '-0.136690');
+
+    $( window ).resize(function() {
+      do_google_map('51.514753', '-0.136690');
+    });
+
+
+  });  
+</script> 
+
+<!-- / End content here -->
+
+</body>
+</html>

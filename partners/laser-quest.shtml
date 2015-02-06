@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <link rel="stylesheet" href="../css/screen.css">
+  <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+      <header id="header" class="template-header">
+        <div class="inner max-width">
+          <div class="days-out-logo">
+            <div class="days-out-logo_inner">
+              <a href="../index/index.shtml">
+                <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo">
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="inner-template-container">
+        <section class="featured-header-image">
+          <div class="inner" style="background-image: url(../img/partners/laser-quest/header-laser-quest.jpg);" 
+          data-0="background-position: center -100px;"
+          data--470-top="background-position: center 0px;"
+          >
+        </div>
+      </section>
+
+      <section class="content-section premuim-template">
+        <div class="inner max-width">
+          <div class="left" >
+            <div class="content-module">
+              <div class="logo-container">
+                <img src="../img/partners/laser-quest/laser-quest.png" alt="Laser Quest">
+              </div>
+              <div class="detail-container">
+                <!-- Partner title -->
+                <h1>Laser Quest</h1>
+                <!-- Partner description -->
+                <p class="details no-margin">Dans votre magasin PICWIC, découvrez ou perfectionnez-vous<br>
+                  <!-- Address details -->
+                  <span>77777 Marne-la-Vallee, France lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span>
+                </p>
+              </div>
+            </div>
+
+            <!-- Introduction -->
+            <!-- <h2>Présentation du partenaire et de l’activité</h2> -->
+
+            <h3>l’activité</h3>
+            <p>Petits & grands venez découvrir l'univers captivant du Laser Quest ! Un jeu ludique accessible à tous.</p>
+
+            <p>Equipé d'un harnais cible et d'un pistolet laser, muni de capteurs infrarouges, c'est toi le héros.
+            Ta mission est de faire perdre des points à ton adversaire en faisant preuve de stratégie et d'agilité afin qu'il ne t'atteigne pas.</p>
+
+          <h3>l’offre</h3>
+          <p>1 partie Laserquest offerte (durée environ 25 minutes – age minimum: 8 ans) </p>
+
+        </div>
+        <div class="right">
+          <div class="inner-content">
+            <div id="map_canvas" class="small-map"></div>
+            <button type="button">Redeem</button>
+<!--             <h3>OPENING TIMES</h3>
+            <p class="details">Mon - Sun<br>
+              <span>10:00 to 19:00</span>
+            </p> -->
+            <h3>Website</h3>
+            <p class="details">
+              <span>
+                <a href="http://www.laserquest.fr" target="_blank">laserquest.fr</a>
+              </span>
+            </p>
+
+            <h3><!-- <i class="fa fa-map-marker"></i>  -->Locations</h3>
+            <div class="cssmenu">
+              <ul>
+
+                <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>
+                          13 rue de la Belle Charpente<br>
+                          61000<br>
+                          Saint-Germain-du-Corbeis<br>
+                          02 33 32 21 06<br>
+                          Basse-Normandie<br>
+                          Orne
+                        </span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>2 rue de creuse Taisnil<br>
+                        80290<br>
+                        Namps Maisnil<br>
+                        03 21 94 91 30<br>
+                        Picardie<br>
+                        Somme</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>36 rue de la Faïencerie<br>
+                        33300<br>
+                        Bordeaux<br>
+                        05 56 11 07 77<br>
+                        Aquitaine<br>
+                        Gironde</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>Les quai du Prado<br>
+                        18000<br>
+                        Bourges<br>
+                        02 48 67 90 46<br>
+                        Centre<br>
+                        Cher</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>28 avenue des Arlucs<br>
+                        06150<br>
+                        Cannes<br>
+                        04 93 47 50 90<br>
+                        Provence-Alpes-Côte d'Azur<br>
+                        Alpes-Maritimes</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+
+               <li class="has-sub">
+                    <a href="#">
+                      <p class="details more">See all</p>
+                    </a>
+                    <ul class="sub-list">
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>ZA des 2 pins<br>
+                        40130<br>
+                        Capbreton<br>
+                        05 58 72 33 72<br>
+                        Aquitaine<br>
+                        Landes</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>route de Mazamet<br>
+                        11000<br>
+                        Carcassonne<br>
+                        04 68 25 97 62<br>
+                        Languedoc-Roussillon<br>
+                        Aude</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>24 av d'Hauterive<br>
+                        81100<br>
+                        Castres<br>
+                        05 63 51 09 71<br>
+                        Midi-Pyrénées<br>
+                        Tarn</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>CC Les 3 fontaines - Rue de la Croix des Maheux<br>
+                        95000<br>
+                        Cergy-Pontoise<br>
+                        01 30 31 51 51<br>
+                        Ile-de-France<br>
+                        Val-d'Oise</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>23 avenue Maurice Manoury<br>
+                        28600<br>
+                        Luisant<br>
+                        02 37 34 00 00<br>
+                        Centre<br>
+                        Eure-et-Loir</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>Chemin rural n°20 ZI les Broderies<br>
+                        78310<br>
+                        Coignieres<br>
+                        01 30 49 05 50<br>
+                        Ile-de-France<br>
+                        Yvelines</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>Bois Briard - 8 rue de la mare neuve<br>
+                        91080<br>
+                        Courcouronnes<br>
+                        01 69 64 70 04<br>
+                        Ile-de-France<br>
+                        Essonne</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>Rue de la vignerie<br>
+                        14160<br>
+                        Dives-sur-mer<br>
+                        02 31 94 33 59<br>
+                        Basse-Normandie<br>
+                        Calvados</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>12 D rue des sports<br>
+                        61100<br>
+                        La Lande Patry<br>
+                        02 33 38 96 75<br>
+                        Basse-Normandie<br>
+                        Orne</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>9 rue René Cassin<br>
+                        95220<br>
+                        Herblay<br>
+                        01 39 31 21 47<br>
+                        Ile-de-France<br>
+                        Val-d'Oise</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>3 avenue Louis Pasteur<br>
+                        78310<br>
+                        Maurepas<br>
+                        09 53 35 14 69<br>
+                        Ile-de-France<br>
+                        Yvelines</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>180 bld de l'Europe<br>
+                        64230<br>
+                        Lescar<br>
+                        05 59 77 91 62<br>
+                        Aquitaine<br>
+                        Pyrénées-Atlantiques</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>18 rue Bourgneuf<br>
+                        42300<br>
+                        Roanne<br>
+                        04 77 71 32 74<br>
+                        Rhône-Alpes<br>
+                        Loire</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>655 Chemin des Plantades<br>
+                        83130<br>
+                        La Garde<br>
+                        04 94 21 06 98<br>
+                        Provence-Alpes-Côte d'Azur<br>
+                        Var</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>105 route d'Agde<br>
+                        31500<br>
+                        Toulouse<br>
+                        05 61 48 31 13<br>
+                        Midi-Pyrénées<br>
+                        Haute-Garonne</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>6 rue Transversale B<br>
+                        67550<br>
+                        Vendenheim<br>
+                        03 88 18 91 89<br>
+                        Alsace<br>
+                        Bas-Rhin</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>ZI Les Estroublants 19 bvd de l'Europe<br>
+                        13127<br>
+                        Vitrolles<br>
+                        04 42 79 08 80<br>
+                        Provence-Alpes-Côte d'Azur<br>
+                        Bouches-du-Rhône</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>8 rue du buisson aux fraises<br>
+                        91300<br>
+                        Massy<br>
+                        01 77 06 23 70<br>
+                        Ile-de-France<br>
+                        Essonne</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>16 rue Auguste Babet<br>
+                        97410<br>
+                        Saint-Pierre<br>
+                        02 62 96 41 10<br>
+                        DOM-TOM<br>
+                        La Réunion</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>81 rue de la ferme larrouquere<br>
+                        40000<br>
+                        Mont-de-Marsan<br>
+                        05 58 44 86 22<br>
+                        Aquitaine<br>
+                        Landes</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>6 rue de Verdun<br>
+                        34070<br>
+                        Montpellier<br>
+                        09 72 43 24 96<br>
+                        Languedoc-Roussillon<br>
+                        Hérault</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>1 avenue des Tilleuls<br>
+                        65000<br>
+                        Tarbes <br>
+                        05 62 96 02 17<br>
+                        Midi-Pyrénées<br>
+                        Hautes-Pyrénées</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>28 rue Beauchêne <br>
+                        62600<br>
+                        Berck-sur-Mer<br>
+                        03 21 94 91 30<br>
+                        Nord-Pas-de-Calais<br>
+                        Pas-de-Calais</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>Avenue des 28 Arpents<br>
+                        94380<br>
+                        Bonneuil-sur-Marne <br>
+                        01 43 77 05 08<br>
+                        Ile-de-France<br>
+                        Val-de-Marne</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>139 rue combe des dames<br>
+                        24000<br>
+                        Périgueux<br>
+                        05 53 53 03 86<br>
+                        Aquitaine<br>
+                        Dordogne</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+            
+            <li class="has-sub">
+                  <a href="#">
+                    <p class="details">Laser Quest</p>
+                  </a>
+                  <ul class="sub-list">
+                    <li>
+                      <p class="details">
+                        <span>19 boulevard du Pont Neuf<br>
+                        89100<br>
+                        Sens<br>
+                        03 86 88 04 07<br>
+                        Bourgogne<br>
+                        Yonne</span>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+
+                </ul>
+              </li>
+         
+              </ul>
+            </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="inner-pt-pd">
+  <section class="max-width">
+    <h3 class="inner-h3">Galerie</h3>
+  </section>
+
+  <section class="image-gallery-container">
+    <div class="image-gallery">
+      <div>
+        <img src="../img/partners/laser-quest/slider-laser-quest-001.jpg" alt="Laser Quest">
+      </div>
+      <div>
+        <img src="../img/partners/laser-quest/slider-laser-quest-002.jpg" alt="Laser Quest">
+      </div>
+      <div>
+        <img src="../img/partners/laser-quest/slider-laser-quest-003.jpg" alt="Laser Quest">
+      </div>
+      <div>
+        <img src="../img/partners/laser-quest/slider-laser-quest-004.jpg" alt="Laser Quest">
+      </div>
+    </div>
+  </section> 
+</div>
+
+</div>
+
+<!--#include virtual="../partials/logos.shtml"-->
+
+<!--#include virtual="../partials/footer.shtml"-->
+
+<script>
+  $(document).ready(function(){
+    do_google_map('51.514753', '-0.136690');
+
+    $( window ).resize(function() {
+      do_google_map('51.514753', '-0.136690');
+    });
+
+
+  });  
+</script>
+
+<!-- / End content here -->
+
+</body>
+</html>

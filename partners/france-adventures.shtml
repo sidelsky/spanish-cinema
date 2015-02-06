@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <link rel="stylesheet" href="../css/screen.css">
+  <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+<header id="header" class="template-header">
+  <div class="inner max-width">
+    <div class="days-out-logo">
+      <div class="days-out-logo_inner">
+        <a href="../index/index.shtml">
+          <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo">
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="inner-template-container">
+  <section class="featured-header-image">
+    <div class="inner" style="background-image: url(../img/partners/france-aventures/header-france-aventures.jpg);" 
+      data-0="background-position: center -100px;"
+      data--470-top="background-position: center 0px;"
+      >
+    </div>
+  </section>
+
+  <section class="content-section premuim-template">
+    <div class="inner max-width">
+      <div class="left" >
+        <div class="content-module">
+          <div class="logo-container">
+            <img src="../img/partners/france-aventures/france-aventures.png" alt="France Aventures">
+          </div>
+          <div class="detail-container">
+            <!-- Partner title -->
+            <h1>Ecopark Adventures</h1>
+            <!-- Partner description -->
+            <p class="details no-margin">Dans votre magasin PICWIC, découvrez ou perfectionnez-vous<br>
+            <!-- Address details -->
+            <span>77777 Marne-la-Vallee, France lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Introduction -->
+        <!-- <h2>Présentation du partenaire et de l’activité</h2> -->
+
+        <h3>l’activité</h3>
+        <p>Dotés d'une offre complète, nos 6 parcs multi-activités éconatures vous proposent des parcours acrobatiques dans les arbres, des balades pieds nus, des jeux au sol, des attractions hors normes comme le Maxi Bungee, etc. En toute sérénité, partagez un moment de détente et faites le plein de sensations !</p>
+
+        <h3>l’offre</h3>
+        <p>1 entrée offerte pour l’accès aux multi actvités du parque (age minimum : 6 ans</p>
+
+      </div>
+      <div class="right">
+        <div class="inner-content">
+            <div id="map_canvas" class="small-map"></div>
+            <button type="button">Redeem</button>
+<!--             <h3>OPENING TIMES</h3>
+            <p class="details">Mon - Sun<br>
+              <span>10:00 to 19:00</span>
+            </p> -->
+            <h3>Website</h3>
+            <p class="details">
+              <span>
+                <a href="http://www.france-aventures.com" target="_blank">france-aventures.com</a>
+              </span>
+            </p>
+
+            <h3><!-- <i class="fa fa-map-marker"></i>  -->Locations</h3>
+            
+              <div class="cssmenu">
+                <ul>
+
+                  <li class="has-sub">
+                    <a href="#">
+                      <p class="details">France Aventures Chamrousse</p>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p class="details">
+                          <span>Domaine de l'Arselle<br>
+                          38410 Chamrousse<br>
+                          1700 04 76 15 36 92<br>
+                          Rhône-Alpes Isère<br>
+                          Adventure Park</span>
+                          </p>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="has-sub">
+                      <a href="#">
+                        <p class="details">France Aventures Lyon</p>
+                      </a>
+                      <ul class="sub-list">
+                        <li>
+                          <p class="details">
+                            <span>Piste de la Sarra<br>
+                            69005 Lyon<br>
+                            04 78 36 31 75<br>
+                            Rhône-Alpes Rhône<br>
+                            Adventure Park</span>
+                            </p>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="has-sub">
+                        <a href="#">
+                          <p class="details">France Aventures Nancy</p>
+                        </a>
+                        <ul class="sub-list">
+                          <li>
+                            <p class="details">
+                              <span>Plateau de l'Avant-Garde<br>
+                              54340 Pompey<br>
+                              03 83 24 18 06<br>
+                              Lorraine<br>
+                              Meurthe-et-Moselle<br>
+                              Adventure Park</span>
+                              </p>
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li class="has-sub">
+                          <a href="#">
+                            <p class="details">France Aventures Saint Etienne</p>
+                          </a>
+                          <ul class="sub-list">
+                            <li>
+                              <p class="details">
+                                <span>Crêt Beauplomb<br>
+                                42650 Saint-Jean-Bonnefonds<br>
+                                04 77 46 02 83<br>
+                                Rhône-Alpes Loire<br>
+                                Adventure Park</span>
+                                </p>
+                              </li>
+                            </ul>
+                          </li>
+
+                          <li class="has-sub">
+                            <a href="#">
+                              <p class="details">France Aventures Sainte Croix</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details">
+                                  <span>Forêt de Bainsing<br>
+                                  57810 Fribourg<br>
+                                  03 87 23 59 43<br>
+                                  LorraineMoselle<br>
+                                  Adventure Park</span>
+                                  </p>
+                                </li>
+                              </ul>
+                            </li>
+
+                          </ul>
+                        </div>
+
+
+                        
+        </div>
+      </div>
+    </div>
+  </section>
+
+<div class="inner-pt-pd">
+  <section class="max-width">
+    <h3 class="inner-h3">Galerie</h3>
+  </section>
+
+  <section class="image-gallery-container">
+    <div class="image-gallery">
+      <div>
+        <img src="../img/partners/france-aventures/slider-france-aventures-001.jpg" alt="France Aventures">
+      </div>
+      <div>
+        <img src="../img/partners/france-aventures/slider-france-aventures-002.jpg" alt="France Aventures">
+      </div>
+      <div>
+        <img src="../img/partners/france-aventures/slider-france-aventures-003.jpg" alt="France Aventures">
+      </div>
+      <div>
+        <img src="../img/partners/france-aventures/slider-france-aventures-004.jpg" alt="France Aventures">
+      </div>
+    </div>
+  </section> 
+</div>
+
+</div>
+
+<!--#include virtual="../partials/logos.shtml"-->
+
+<!--#include virtual="../partials/footer.shtml"-->
+
+<script>
+  $(document).ready(function(){
+    do_google_map('51.514753', '-0.136690');
+
+    $( window ).resize(function() {
+      do_google_map('51.514753', '-0.136690');
+    });
+
+
+  });  
+</script>
+
+<!-- / End content here -->
+
+</body>
+</html>

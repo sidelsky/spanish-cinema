@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <link rel="stylesheet" href="../css/screen.css">
+  <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+<header id="header" class="template-header">
+  <div class="inner max-width">
+    <div class="days-out-logo">
+      <div class="days-out-logo_inner">
+        <a href="../index/index.shtml">
+          <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo">
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="inner-template-container">
+  <section class="featured-header-image">
+    <div class="inner" style="background-image: url(../img/partners/cirque-maximum/header-maximum.jpg);" 
+      data-0="background-position: center -100px;"
+      data--470-top="background-position: center 0px;"
+      >
+    </div>
+  </section>
+
+  <section class="content-section premuim-template">
+    <div class="inner max-width">
+      <div class="left" >
+        <div class="content-module">
+          <div class="logo-container">
+            <img src="../img/partners/cirque-maximum/maximum.png" alt="Cirque Maximum">
+          </div>
+          <div class="detail-container">
+            <!-- Partner title -->
+            <h1>Cirque Maximum</h1>
+            <!-- Partner description -->
+            <p class="details no-margin">NGF Golf propose la pratique du golf accessible<br>
+            <!-- Address details -->
+            <span>77777 Marne-la-Vallee, France lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Introduction -->
+        <!-- <h2>Présentation du partenaire et de l’activité</h2> -->
+
+        <h3>l’activité</h3>
+        <p>Un spectacle pour le plaisir des petits mais aussi des grands! Un plateau de 20 artistes, de 10 nationalités différentes, en piste pour un spectacle de 2 heures.</p>
+
+        <p>Au programme entre autre, le groupe de tigres blancs de Jimmy Klising, les funambules à grande hauteur les latin brothers, la danse des cerceaux avec Nadia Cardinali, la roue de la mort du Duo Gonzales et encore de nouveaux artistes.</p>
+
+        <p>Ouvrez grand vos yeux, que la joie éclate, que vos yeux scintillent!!!! Tous en piste!</p>
+
+        <h3>l’offre</h3>
+        <p>1 entrée au cirque offerte</p>
+
+      </div>
+      <div class="right">
+        <div class="inner-content">
+            <div id="map_canvas" class="small-map"></div>
+            <button type="button">Redeem</button>
+<!--             <h3>OPENING TIMES</h3>
+            <p class="details">Mon - Sun<br>
+              <span>10:00 to 19:00</span>
+            </p> -->
+            <h3>Website</h3>
+            <p class="details">
+              <span>
+                <a href="http://www.cirque-maximum.com" target="_blank">cirque-maximum.com</a>
+              </span>
+            </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<div class="inner-pt-pd">
+  <section class="max-width">
+    <h3 class="inner-h3">Galerie</h3>
+  </section>
+
+  <section class="image-gallery-container">
+    <div class="image-gallery">
+      <div>
+        <img src="../img/partners/cirque-maximum/slider-cirque-maximum-003.jpg" alt="Cirque Maximum">
+      </div>
+      <div>
+        <img src="../img/partners/cirque-maximum/slider-cirque-maximum-002.jpg" alt="Cirque Maximum">
+      </div>
+      <div>
+        <img src="../img/partners/cirque-maximum/slider-cirque-maximum-001.jpg" alt="Cirque Maximum">
+      </div>
+    </div>
+  </section> 
+</div>
+
+</div>
+
+<!--#include virtual="../partials/logos.shtml"-->
+
+<!--#include virtual="../partials/footer.shtml"-->
+
+<script>
+  $(document).ready(function(){
+    do_google_map('51.514753', '-0.136690');
+
+    $( window ).resize(function() {
+      do_google_map('51.514753', '-0.136690');
+    });
+
+
+  });  
+</script>
+
+<!-- / End content here -->
+
+</body>
+</html>

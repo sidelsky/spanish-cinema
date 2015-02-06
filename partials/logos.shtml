@@ -1,0 +1,49 @@
+<section class="logos-container">
+  <div class="small-titles inner-padding">
+    <h3>NUESTROS CINES</h3>
+  </div>
+  <div class="logos">
+    <div>
+      <a href="../partners/aquarium-de-saint-malo.shtml">
+        <img src="../img/featured-logos/001.jpg" alt="" class="slider-image">
+      </a>
+    </div>
+    <div>
+      <a href="../partners/grand-aquarium-de-paris.shtml">
+        <img src="../img/featured-logos/002.jpg" alt="" class="slider-image">
+      </a>
+    </div>
+    <div>
+      <a href="../partners/baladenigm.shtml">
+        <img src="../img/featured-logos/003.jpg" alt="" class="slider-image">
+      </a>
+    </div>
+    <div>
+      <a href="../partners/blue-green.shtml">
+        <img src="../img/featured-logos/004.jpg" alt="" class="slider-image">
+      </a>
+    </div>
+
+    <div>
+      <a href="../partners/aquarium-de-saint-malo.shtml">
+        <img src="../img/featured-logos/001.jpg" alt="" class="slider-image">
+      </a>
+    </div>
+    <div>
+      <a href="../partners/grand-aquarium-de-paris.shtml">
+        <img src="../img/featured-logos/002.jpg" alt="" class="slider-image">
+      </a>
+    </div>
+    <div>
+      <a href="../partners/baladenigm.shtml">
+        <img src="../img/featured-logos/003.jpg" alt="" class="slider-image">
+      </a>
+    </div>
+    <div>
+      <a href="../partners/blue-green.shtml">
+        <img src="../img/featured-logos/004.jpg" alt="" class="slider-image">
+      </a>
+    </div>
+
+  </div>
+</section>
