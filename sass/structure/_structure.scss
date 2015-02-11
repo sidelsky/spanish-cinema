@@ -1,4 +1,4 @@
-#info {
+h#info {
 	position: fixed;
 	top: 0px;
 	z-index: 3000;
@@ -15,8 +15,7 @@
 	background: url(../img/landing-page-images/001.jpg) no-repeat center center;
 	background-size: cover;
 	.landing-container__inner {
-		
-	}
+		}
 	} */
 
 //@include span(4 at 9 of 12);
@@ -157,7 +156,7 @@
 			.info {
 				text-align: left;
 				@include breakpoint($medium){
-					text-align: right;
+					//text-align: right;
 				}
 			}
 		}
@@ -191,7 +190,7 @@
 	@include clearfix;
 	li {
 		@include rhythm(0, 0, 0, 1);
-		height: 52px;
+		//height: 52px;
 		position: relative;
 		@include clearfix;
 		width: 100%;
@@ -210,6 +209,12 @@
 		}
 		input[type="text"] {
 			width: 100% !important;
+		}
+		div {
+			@include clearfix;
+			display: block;
+			position: relative;
+			@include rhythm(0, 0, 0, 1);
 		}
 	}
 }
@@ -676,10 +681,17 @@
 			.logo-container {
 				//background-color: lighten($grey, 40%);
 				img {
-					max-width: 220px;
+					max-width: 250px;
+					padding-right: 1em;
 				}
 				@include breakpoint($large){
 					display: table-cell;
+				}
+				&.no-image {
+					height: 160px;
+					@include breakpoint($large){
+						height: 220px;
+					}
 				}
 			}
 			.detail-container {
@@ -692,9 +704,9 @@
 						@include rhythm(0, 0, 1, 0);
 					}
 				}
-				@include breakpoint($large){
+				/* @include breakpoint($large){
 					padding-left: 1em;
-				}
+				} */
 			}
 		}
 		h2 {
@@ -1017,23 +1029,48 @@ $search-width-desktop: 430px;
 form {
 	ul {
 		li {
+			@include clearfix;
 			.fields {
+				display: block;
+				width: 100%;
+				@include clearfix;
+				@include rhythm(0, .5, .5, 0);
 				position: relative;
 				h3 {
 					color: $tertiary-color;
 					@include transition(all 0.5s ease-in-out);
-					// position: absolute;
-					// left: 1em;
-					// top: 17px;
 					&.active {
 						color: $primary-color;
-						// left: 1em;
-						// top: -20px;
+					}
+				}
+				@include breakpoint($medium){
+					&.one-fourth {
+						width: 25%;
+						float: left;
+					}
+					&.two-fourths {
+						width: 50%;
+						float: left;
+					}
+					&.three-fourths {
+						width: 75%;
+						float: left;
+					}
+				}
+				&.submit {
+					input [type="submit"]{
+						@include rhythm(1, 0, 0, 0);
 					}
 				}
 			}
-			@include rhythm(0, .5, .5, 0);
+			//@include rhythm(0, .5, .5, 0);
 		}
+	}
+}
+
+.bdr-right {
+	@include breakpoint($medium){
+		border-right: solid 1em $white;
 	}
 }
 
@@ -1070,3 +1107,21 @@ form {
 		margin-right: auto;
 	}
 }
+
+.ticket-form {
+	.ticket-select {
+		background: lighten($grey, 10%);
+		padding: 0 1em;
+		@include rhythm(0, 2, 2, 2);
+	}
+	#amount {
+		font-family: 'gotham_boldregular';
+		@include adjust-font-size-to(48px, 1.8);
+		color: $tertiary-color;
+	}
+	#pagar {
+		margin-bottom: 1em;
+	}
+}
+
+

@@ -45,7 +45,7 @@
  					}
  				}
  				input[type="image"] {
- 					@include opacity(1);
+ 					@include opacity(.8);
  					&:hover {
  						@include opacity(1);
  					}
@@ -62,6 +62,13 @@
  	}
  }
 
+
+#registration {
+	background-color: #7a232e;
+	&:hover {
+		background-color: darken(#7a232e, 5%);
+	}
+}
 
 
  .steps {
@@ -237,12 +244,7 @@
 			@include breakpoint($large){
 			}
 			.logo-container {
-				img {
-					max-width: 220px;
-				}
-				@include breakpoint($large){
-					display: table-cell;
-				}
+
 			}
 			.detail-container {
 				h1 {
@@ -250,9 +252,9 @@
 						@include rhythm(0, 0, 1, 0);
 					}
 				}
-				@include breakpoint($large){
+				/* @include breakpoint($large){
 					padding-left: 1em;
-				}
+				} */
 			}
 		}
 		h2 {
@@ -370,5 +372,21 @@
 .logos-container {
 	h3 {
 		color: $tertiary-color !important;
+	}
+}
+
+small {
+	@include adjust-font-size-to(16px, .5);
+}
+
+
+
+.ticket-select {
+	h2 {
+		color: $white;
+	}
+	.dk-select-options  {
+		position: relative !important;
+		top: 1px;
 	}
 }

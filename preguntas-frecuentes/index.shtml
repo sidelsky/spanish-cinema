@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <link rel="stylesheet" href="../css/screen.css">
+  <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+
+      <header id="header" class="template-header">
+        <div class="inner max-width">
+          <div class="days-out-logo">
+            <div class="days-out-logo_inner">
+              <a href="../index/index.shtml">
+                <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo">
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="inner-template-container">
+
+        <section class="content-section">
+          <div class="inner max-width">
+            <div class="module-12-of-12">
+
+              <h1>Preguntas Frecuentes</h1>
+
+              <!-- <h2>Fairytales take flight across 5 incredible lands filled with classic attractions, shows and street parades. Rub shoulders with swashbuckling pirates, zoom through time and space and look on in awe at the unforgettable firework and light displays over Sleeping Beauty Castle.</h2> -->
+
+              <div class="cssmenu faq">
+                <ol>
+
+                  <li class="has-sub do-opacity">
+                    <a href="#">
+                      <h3>
+                        <span>¿Cómo puedo disfrutar mi tarjeta 2 por 1 de entrada de cine?</span>
+                      </h3>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                      <p>Una vez hayas recibido tu número de tarjeta 2 por 1 de entrada de cine, tienes que entrar en www.redcinesnacional.com y seguir los pasos que se te indican en la página web. Tendrás que introducir tu usuario y contraseña, indicar la provincia donde quieres ir al cine, elegir cine, abonar el precio de una entrada + gastos adicionales, y acudir al cine con el bono recibido tras la compra, válido por 2 entradas durante los 10 días siguientes a la compra.</p>
+
+                      <p>Si es la primera vez que accedes, tendrás que registrarte rellenando el formulario. Una vez registrado, cada vez que quieras acceder bastará con indicar usuario y contraseña.</p>
+
+                      <p>Recuerda que tienes que conservar tu número de tarjeta 2 por 1 de cine.</p>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="has-sub do-opacity">
+                    <a href="#">
+                      <h3>
+                        <span>¿Cuál es el regalo?</span>
+                      </h3>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p>El regalo consiste en el disfrute de un 2 por 1 en entradas de cine durante el periodo indicado en tu tarjeta.</p>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="has-sub do-opacity">
+                    <a href="#">
+                      <h3>
+                        <span>¿Qué es un bono?</span>
+                      </h3>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p>El bono es el documento online que recibirás vía email una vez hayas realizado tu compra de entradas online. Tendrá el coste de una entrada de cine (más gastos de gestión), y será válido por 2 únicas entradas de cine durante los 10 días siguientes a la compra.</p>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="has-sub do-opacity">
+                    <a href="#">
+                      <h3>
+                        <span>¿Cuántas veces puedo disfrutar de mis entradas?</span>
+                      </h3>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p>Podrás disfrutar del 2 por 1 en entradas de cine todos los días que desees durante el periodo comunicado, con la limitación de hasta 2 compras (4 entradas) por día natural y hasta 2 bonos (4 entradas) redimidos por día natural.</p>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="has-sub do-opacity">
+                    <a href="#">
+                      <h3>
+                        <span>¿Cómo puedo canjear mi bono?</span>
+                      </h3>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p>Una vez que hayas recibido tu bono, tendrás que acudir al cine elegido en los 10 días siguientes a la compra. Presenta en caja tu bono impreso o en la pantalla de un dispositivo móvil y recibe tus 2 entradas para una sesión de tu libre elección (disponibilidad según el cine).</p>
+
+                        <p>Recuerda que, en caso de que te lo soliciten en el cine, tendrás que acreditar tu número de tarjeta 2 por 1 y tu documento de identificación personal.</p>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="has-sub do-opacity">
+                    <a href="#">
+                      <h3>
+                        <span>¿Dónde puedo consultar los cines disponibles?</span>
+                      </h3>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p>Puedes encontrar los cines disponibles en la página <a href="http://www.redcinesnacional.com" title="">www.redcinesnacional.com</a>. Selecciona la provincia donde quieres ir al cine y comprueba cuáles son los cines disponibles.</p>
+
+                        <p>Si por algún motivo no encuentras un cine en la provincia que desees, ve al apartado de Contacta, o mira los datos de contacto en tu documento identificador 2 por 1 en cines, y ahí verás indicado cómo contactarnos.</p>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="has-sub do-opacity">
+                    <a href="#">
+                      <h3>
+                        <span>¿A qué cines puedo acudir con mi bono?</span>
+                      </h3>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p>Antes de adquirir tu bono, tendrás que seleccionar un cine de los disponibles en <a href="http://www.redcinesnacional.com" title="">www.redcinesnacional.com</a>. Tu bono solo será efectivo solo en el cine seleccionado.</p>
+                      </li>
+                    </ul>
+                  </li>
+
+
+                  <li class="has-sub do-opacity">
+                    <a href="#">
+                      <h3>
+                        <span>¿Qué documentación necesito llevar al cine?</span>
+                      </h3>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p>Deberás llevar el bono impreso en papel o en el móvil, además de tu documento identificador 2 por 1 en cines y tu documento de identidad. Los datos de estos documentos deben coincidir. Si no coincidieran, el cine puede denegar el canje del bono.</p>
+
+                        <p>Aquellos bonos que no se presenten con toda la documentación requerida, o que no cumplan con las fechas de la promoción, serán invalidadas.</p>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="has-sub do-opacity">
+                    <a href="#">
+                      <h3>
+                        <span>¿Puedo exigir la devolución del dinero tras la compra de un bono?</span>
+                      </h3>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p>Lo sentimos, no se admitirán devoluciones.</p>
+
+                        <p>Sin embargo, si tuvieras cualquier duda o reclamación, estaremos encantados de atenderte. Consulta cómo contactarnos en el apartado de Contacta, o en los datos de contacto en tu documento identificador 2 por 1 en cines, y ahí verás indicado cómo contactarnos. Estaremos encantados de atenderte.</p>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="has-sub do-opacity">
+                    <a href="#">
+                      <h3>
+                        <span>¿Puedo disfrutar de mis entradas cualquier día y en cualquier horario?</span>
+                      </h3>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p>Cada bono recibido es válido para 2 entradas de cine de lunes a domingo, según la disponibilidad propia que ofrezca cada cine colaborador en particular.</p>
+
+                        <p>El bono caducará con su uso, o tras 10 días desde el día de la compra del mismo.</p>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="has-sub do-opacity">
+                    <a href="#">
+                      <h3>
+                        <span>¿Puede disfrutar otra persona de mi bono?</span>
+                      </h3>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p>Los bonos son personales e intransferibles. Las entradas de cine deberán ser adquiridas por la persona que esté registrada en el bono y sea propietaria de la tarjeta 2 por 1.</p>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="has-sub do-opacity">
+                    <a href="#">
+                      <h3>
+                        <span>¿Cuántas personas pueden acudir?</span>
+                      </h3>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p>Un mismo propietario de una tarjeta 2 por 1 puede llegar a canjear 2 bonos en total al día, adquiriendo por tanto 4 entradas en total al día. Tendrá que ser el propietario el que adquiera las entradas.</p>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="has-sub do-opacity">
+                    <a href="#">
+                      <h3>
+                        <span>¿Puedo reservar una sesión?</span>
+                      </h3>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p>Lamentablemente, no es posible reservar una sesión de cine. Una vez que canjees tu bono por 2 entradas, elegirás la sesión que prefieras, dentro de las disponibles en ese momento en el cine correspondiente. Te recomendamos que vayas con tiempo al cine.</p>
+                      </li>
+                    </ul>
+                  </li>
+
+                   <li class="has-sub do-opacity">
+                    <a href="#">
+                      <h3>
+                        <span>Tengo un bono. Para disfrutar de la entrada de cine, ¿tengo que abonar algo?</span>
+                      </h3>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p>No. Una vez adquirido el bono, las entradas de cine son totalmente gratuitas y participar en la promoción no te compromete a nada.</p>
+                        
+                        <p>No están incluidas en las 2 entradas el precio de unas gafas 3D, butaca VIP, o cualquier otro extra adicional.</p>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="has-sub do-opacity">
+                    <a href="#">
+                      <h3>
+                        <span>He perdido mi bono. ¿Podría disfrutar de la experiencia?</span>
+                      </h3>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p>Lamentablemente si has perdido el bono, el cine no te proporcionará ninguna entrada.</p>
+                        
+                        <p>Puedes buscar en tu correo electrónico, o contactarnos aquí para resolver la incidencia.</p>
+                      </li>
+                    </ul>
+                  </li>
+
+
+                  <li class="has-sub do-opacity">
+                    <a href="#">
+                      <h3>
+                        <span>¿Hasta cuándo puedo disfrutar de mi 2 por 1 en entradas de cine?</span>
+                      </h3>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p>Puedes consultar el período de disfrute en tu tarjeta 2 por 1.</p>
+                      </li>
+                    </ul>
+                  </li>
+
+                <li class="has-sub do-opacity">
+                    <a href="#">
+                      <h3>
+                        <span>¿Hasta cuándo puedo disfrutar de mi 2 por 1 en entradas de cine?</span>
+                      </h3>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p>Puedes consultar el período de disfrute en tu tarjeta 2 por 1.</p>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="has-sub do-opacity">
+                    <a href="#">
+                      <h3>
+                        <span>¿Cómo puedo ponerme en contacto con ustedes si tengo algún problema?</span>
+                      </h3>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p>Puedes mirar cómo contactarnos en el apartado de Contacta de la página www.redcinesnacional.com, o mirar los datos de contacto en tu documento identificador 2 por 1 en cines, y ahí verás indicado cómo contactarnos. Estaremos encantados de atenderte.</p>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="has-sub do-opacity">
+                    <a href="#">
+                      <h3>
+                        <span>¿Dónde puedo encontrar las Condiciones de contratación?</span>
+                      </h3>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p>Puedes consultar las Condiciones de contratación de la Red de Cines Nacional® en este enlace.</p>
+                      </li>
+                    </ul>
+                  </li>
+
+
+
+                </ol>
+              </div>
+
+
+
+            </div>
+          </div>
+        </section>
+
+
+      </div>
+
+
+
+      <!--#include virtual="../partials/footer.shtml"-->
+
+      <!-- / End content here -->
+
+    </body>
+    </html>

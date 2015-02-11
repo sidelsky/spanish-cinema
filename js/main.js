@@ -390,25 +390,31 @@ $(document).ready(function(){
  }
 
  function do_full_map(){
-  var get_header_height = $(".template-header").outerHeight(),
-  get_footer_height = $(".footer-container").outerHeight(),
-  get_combined_height = get_footer_height + get_header_height;
+  var get_header_height = $(".template-header").outerHeight();
+  //get_footer_height = $(".footer-container").outerHeight(),
+  //get_combined_height = get_footer_height + get_header_height;
 
-  $('.large-map').css('height', window.innerHeight - get_combined_height);
+  $('.large-map').css('height', window.innerHeight - get_header_height);
 
-  console.log(get_combined_height);
+  //console.log(get_combined_height);
 }
+
 
 $( window ).resize(function() {
   do_full_map();
   //do_google_map();
 });
 
+$("#normal_select").dropkick({
+  mobile: true
+});
+
+
 
 //Multi Select
 function do_multi_select(){
     //multiselect
-    $("select").multiselect({
+    $(".select").multiselect({
       height: 175,
       minWidth: 325
     });
@@ -553,7 +559,7 @@ map_link.hover(
 
 
 var hover_container = $('.inner a'),
-thumb = $('.slider-image-wrapper');
+    thumb = $('.slider-image-wrapper');
 
 hover_container.hover(function() {
   hover_container.not(this).addClass('active');

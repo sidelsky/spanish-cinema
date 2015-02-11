@@ -8,16 +8,25 @@
     <nav>
       <ul>
         <li>
-          <a href="../faqs.shtml">FAQs</a>
+          <a href="../preguntas-frecuentes/index.shtml">Preguntas Frecuentes</a>
         </li>
         <li>
-          <a href="../comment-adherer.shtml">Comment adhérer ?</a>
+          <a href="../politica-de-privacidad/index.shtml">Politica de Privacidad</a>
         </li>
         <li>
-          <a href="../contact-us.shtml">Contact</a>
+          <a href="../unete/index.shtml">Únete</a>
         </li>
         <li>
-          <a href="../termes-et-conditions.shtml">Termes et Conditions</a>
+          <a href="../aviso-legal/index.shtml">Aviso Legal</a>
+        </li>
+        <li>
+          <a href="..//politica-de-cookies/index.shtml">Política de Cookies</a>
+        </li>
+        <li>
+          <a href="../contacta/index.shtml">Contacta</a>
+        </li>
+        <li>
+          <a href="../condiciones-generales-de-contratacion/index.shtml">Condiciones Generales de Contratación</a>
         </li>
       </ul>
     </nav>
@@ -43,5 +52,6 @@
 <script src="../js/jquery.multiselect.js"></script>
 <script src="../js/jquery.animate-enhanced.min.js"></script>
 <script src="../js/jquery.superslides.js"></script>
+<script src="../js/jquery.dropkick.js"></script>
 <script src="../js/plugins.js"></script>
 <script src="../js/main.js"></script>

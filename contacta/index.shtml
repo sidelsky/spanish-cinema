@@ -39,51 +39,48 @@
     <div class="inner max-width">
       <div class="module-12-of-12">
 
-        <h1>Contact</h1>
+        <h1>Contacta</h1>
         
         <ul class="module-6-12 col1">
           <li>
           <div class="inner">
-            <h2>Je suis en possession d’un bon</h2>
-            <p>Vous êtes en possession d’un bon et vous avez une question relative au Réseau National Loisirs, vous pouvez joindre le Service Consommateurs de TLC Marketing :</p>
+            <h2>Si estás en posesión de un bono</h2>
+            <p>Si estás en posesión de un bono y tienes alguna pregunta relativa a la Red de Cines Nacional®, puedes contactar al Servicio de Atención al Consumidor:</p>
           </div>
           </li>
           <li>
             <div class="inner">
-              <h3>Par téléphone :</h3>
-              <p>Appelez-le : 01 70 61 46 95<br>
-              (Appel non surtaxé, tarif en vigueur selon l’opérateur, du lundi au vendredi hors jours fériés, de 9h30 à 17h30.)</p>
+              <h3>Teléfono de contacto:</h3>
+              <p>91 198 04 06<br><small>(Línea gratuita. Horario de atención: de lunes a viernes, de 10:00 a 17:00 horas, salvo festivos nacionales y locales de la Comunidad de Madrid.)</small></p>
+              
+              <h3>Correo electrónico:</h3>
+              <p>
+                <a href="mailto:redcinesnacional@tlcrewards.com">redcinesnacional@tlcrewards.com</a><br>
+                <small>(Asunto: Red de Cines Nacional / Nombre + Apellidos)</small>
+              </p>
             </div>
-          </li>
-          <li>
-          <div class="inner">
-            <h3>Par e-mail :</h3>
-            <p>Ecrivez à : <a href="mailto:service.consommateurs@tlcrewards.com">service.consommateurs@tlcrewards.com</a><br>
-            (Objet: Réseau National Loisirs / Vos nom et prénom).</p>
-          </div>
           </li>
         </ul>
 
         <ul class="module-6-12 col2">
         <li>
         <div class="inner">
-          <h2>Je suis un partenaire</h2>
-          <p>Vous êtes partenaire et vous avez une question relative au Réseau National Loisirs, vous pouvez joindre le Service Partenariats de TLC Marketing :</p>
+          <h2>Colaborador</h2>
+          <p>Si ya eres colaborador, o quieres ser colaborador, y tienes alguna pregunta relativa a la Red de Cines Nacional®, puedes contactar al Servicio de Atención a Colaboradores:</p>
         </div>
         </li>
           <li>
             <div class="inner">
-              <h3>Par téléphone :</h3>
-              <p>Appelez-le : 01 40 27 13 00<br>
-              (Appel non surtaxé, tarif en vigueur selon l’opérateur, du lundi au vendredi hors jours fériés, de 9h30 à 17h30.)</p>
+              <h3>Teléfono de contacto:</h3>
+              <p>91 447 56 85<br><small>(Horario de atención: de lunes a viernes, de 10:00 a 17:00 horas, salvo festivos nacionales y locales de la Comunidad de Madrid.)</small></p>
+              
+              <h3>Correo electrónico:</h3>
+              <p>
+                <a href="mailto:colaboradorescine@tlcrewards.com" title="">colaboradorescine@tlcrewards.com</a>
+                <br><small>(Asunto: Red de Cines Nacional / Nombre Colaborador)</small>
+              </p>
+              
             </div>
-          </li>
-          <li>
-          <div class="inner">
-            <h3>Par e-mail :</h3>
-            <p>Ecrivez à : <a href="mailto:service.consommateurs@tlcrewards.com">service.consommateurs@tlcrewards.com</a><br>
-            (Objet: Réseau National Loisirs / Vos nom et prénom).</p>
-          </div>
           </li>
         </ul>
  

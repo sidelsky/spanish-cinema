@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <link rel="stylesheet" href="../css/screen.css">
+  <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<header id="header" class="template-header">
+  <div class="inner max-width">
+    <div class="days-out-logo">
+      <div class="days-out-logo_inner">
+        <a href="../index/index.shtml">
+          <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo">
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="inner-template-container">
+
+  <section class="content-section">
+    <div class="inner max-width">
+      <div class="module-12-of-12">
+
+        <h1>Aviso Legal</h1>
+
+        <p>El titular de esta página Web es TLC MARKETING WORLDWIDE IBERIA S.L. la (en adelante TLC), N.I.F. B86155280 y con domicilio en  Madrid (28006), Plaza del Marqués de Salamanca, 10, 1ºD inscrita en el Registro de Madrid, Sección 8, Folio 1,hoja 515122.</p>
+
+        <p>La utilización de esta página Web atribuye la condición de usuario a quien lo haga e implica la aceptación de todas las condiciones incluidas en este Aviso Legal, siendo su acceso gratuito.  Puede que algunos aspectos de esta página Web, por su especialidad, puedan estar sujetos a condiciones o reglas particulares que pueden sustituir, completar o modificar este Aviso Legal, por lo que también deben ser aceptadas por el usuario que los utilice o acceda a ellos.</p>
+
+        <p>Todos los contenidos de esta Web (textos, fotografías, gráficos, imágenes, tecnología, software, links, contenidos audiovisuales, diseño gráfico, código fuente, etc.), así como las marcas y demás signos distintivos, son propiedad de TLC o de terceros, no adquiriendo el usuario ningún derecho sobre ellos por el mero uso de esta Web.</p>
+
+        <p>El usuario, deberá abstenerse de: a) reproducir, copiar, distribuir, poner a disposición de terceros, comunicar públicamente, transformar o modificar los contenidos de esta Web, salvo en los casos contemplados en la ley o expresamente autorizados por TLC o por el titular de dichos derechos; b) reproducir o copiar para uso privado el software o las bases de datos existentes en esta Web, así como comunicarlos públicamente o ponerlos a disposición de terceros cuando ello conlleve su reproducción; c) extraer o reutilizar la totalidad o una parte sustancial de los contenidos integrantes de esta Web, salvo que sea autorizado por TLC.</p>
+
+        <p>El presente Aviso Legal se rige íntegramente por la legislación española. El usuario se compromete a hacer un uso correcto de esta Web de conformidad con la Ley, con el presente Aviso Legal, así como con las condiciones de contratación del Site, política de privacidad y de cookies de esta web.</p>
+
+        <p>TLC se reserva el derecho a modificar, en cualquier momento y sin previo aviso la oferta contractual o cualquier otro aspecto del presente aviso legal, incluidas las condiciones de contratación, si bien dichas modificaciones deberán respetar las operaciones ya efectuadas por el usuario.</p>
+
+
+      </div>
+    </div>
+  </section>
+
+
+</div>
+
+<!--#include virtual="../partials/footer.shtml"-->
+
+<!-- / End content here -->
+
+</body>
+</html>

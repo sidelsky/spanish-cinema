@@ -40,15 +40,22 @@
           <div class="sign-in_inner narrow inner-padding">
             <div class="sign-in_inner__container">
               <h1>¡Bienvenido/a!</h1>
-              <p>Por favor, inicia sesión para comprar e-voucher 2x1.</p>
+              <p>Por favor, inicia sesión para obtener tu bono 2x1</p>
               <form action="" name="code-detail" id="sigin-in_form">
                 <ul class="home-fields">
                   <li class="first">
+                  <div>
                     <input type="text" placeholder="Número de tarjeta" name="tarjeta" id="tarjeta" class="first">
-                  </li>
-                  <li class="second">
+                    <span class="error-1">El número no es correcto. Si es tu primera vez y todavía no te has registrado, pincha en “Registrarme</span>
+                    <span class="error-2">El número debe tener X dígitos</span>
+                  </div>
+                  <div>  
                     <input type="text" placeholder="Contraseña" name="contraseña" id="contraseña">
                     <input type="image" src="../img/base/submit.png" name="Submit" id="submit">
+                  </div>
+                  </li>
+                  <li class="second">
+                    <input type="submit" value="Registrarme" name="registrarme" id="registration">
                   </li>
                 </ul>
               </form>
@@ -65,7 +72,7 @@
   <div class="slides-container">
     <img src="../img/home-slider/001.jpg" alt="">
     <img src="../img/home-slider/002.jpg" alt="">
-    <img src="../img/home-slider/003.jpg" alt="">
+    <!-- <img src="../img/home-slider/003.jpg" alt=""> -->
     <img src="../img/home-slider/004.jpg" alt="">
     <img src="../img/home-slider/005.jpg" alt="">
     <img src="../img/home-slider/006.jpg" alt="">

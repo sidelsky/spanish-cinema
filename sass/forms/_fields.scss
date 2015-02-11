@@ -133,6 +133,11 @@ input[type="text"] {
 			width: 100%;
 			background-color: $error;
 		}
+		.error-message {
+			color: $error !important;
+			@include rhythm(0, .5, .5, 0);
+			display: block;
+		}
 	}	
 
 // .sliding-u-l-r {

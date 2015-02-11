@@ -803,7 +803,7 @@ body .ui-tooltip {
 .ui-widget-content {
 	//border: 1px solid #ffffff;
 	border: none;
-	background: #ffffff url(images/ui-bg_spotlight_0_ffffff_600x600.png) 50% 2% repeat-x;
+	background: #ffffff /* url(images/ui-bg_spotlight_0_ffffff_600x600.png) 50% 2% repeat-x */;
 	color: #34495e;
 }
 .ui-widget-content a {
@@ -812,7 +812,7 @@ body .ui-tooltip {
 .ui-widget-header {
 	//border: 1px solid $select-background-color;
 	border: none;
-	background: $select-background-color url(images/ui-bg_spotlight_0_2c3e50_600x600.png) 50% 50% repeat-x;
+	background: $select-background-color /* url(images/ui-bg_spotlight_0_2c3e50_600x600.png) 50% 50% repeat-x */;
 	color: #ffffff;
 	font-weight: bold;
 }
@@ -827,7 +827,7 @@ body .ui-tooltip {
 .ui-widget-header .ui-state-default {
 	//border: 1px solid $select-background-color;
 	border: none;
-	background: $select-background-color url(images/ui-bg_fine-grain_0_2c3e50_60x60.png) 50% 50% repeat;
+	background: $select-background-color /* url(zimages/ui-bg_fine-grain_0_2c3e50_60x60.png) 50% 50% repeat */;
 	font-weight: bold;
 	color: #ffffff;
 }
@@ -845,7 +845,7 @@ body .ui-tooltip {
 .ui-widget-header .ui-state-focus {
 	//border: 1px solid $select-background-color;
 	border: none;
-	background:  url(images/ui-bg_fine-grain_0_2c3e50_60x60.png) 50% 50% repeat;
+	background:  white /* url(images/ui-bg_fine-grain_0_2c3e50_60x60.png) 50% 50% repeat */;
 	//font-weight: bold;
 	//color: lighten($primary-color, 20%);
 	color: #white;
@@ -869,7 +869,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
 	border: none;
-	background: $primary-color url(images/ui-bg_fine-grain_0_1ABC9C_60x60.png) 50% 50% repeat;
+	background: $primary-color /* url(images/ui-bg_fine-grain_0_1ABC9C_60x60.png) 50% 50% repeat */;
 	font-weight: bold;
 	color: #ffffff;
 }
@@ -886,7 +886,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-highlight,
 .ui-widget-header .ui-state-highlight {
 	border: 1px solid $primary-color;
-	background: $primary-color url(images/ui-bg_fine-grain_0_1ABC9C_60x60.png) 50% 50% repeat;
+	background: $primary-color /* url(images/ui-bg_fine-grain_0_1ABC9C_60x60.png) 50% 50% repeat */;
 	color: #ffffff;
 }
 .ui-state-highlight a,
