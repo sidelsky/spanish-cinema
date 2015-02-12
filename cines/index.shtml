@@ -81,8 +81,8 @@
             -->
 
 
-        <form action="index_submit" method="get" accept-charset="utf-8" class="ticket-form">
-          <div class="ticket-select">
+        <form action="index_submit" method="get" accept-charset="utf-8" class="my-form">
+          <div class="my-select alt">
             <h2>Número de vouchers 2x1</h2>
             <select id="normal_select">
               <option disabled selected class="hidden-option">Choose One</option>

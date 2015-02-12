@@ -146,7 +146,7 @@ input[type="text"] {
 	}
 }
 .error-message {
-	display: none;
+	//display: none;
 	color: $error;
 	//display: block;
 	@include adjust-font-size-to(16px, 1.6);

@@ -27,16 +27,24 @@
 
 
  .background-slider {
- 	//@extend %bdr;
+//@extend %bdr;
  	z-index: 100;
- 	position: absolute;
+ 	width: 1280px;
+ 	max-width: $max-width;
+/*position: absolute;
  	max-width: $max-width;
  	left:0;
  	right:0;
  	top: 0;
  	bottom: 0;
  	margin-left: auto;
- 	margin-right: auto;
+ 	margin-right: auto; */
+ 	position: absolute;
+  top:0;
+  right: 0;   
+  left: 0;
+  bottom:0;   //specify all including bottom:0
+  margin: auto;
  }
 
  .inner-padding {
@@ -71,9 +79,13 @@
 	.days-out-logo_inner {
 		@include span(12 of 12);
 		a {
+			display: block;
 			width: 200px;
 			@include breakpoint($medium) {
-				width: 300px;
+				width: 230px;
+				&.home {
+					width: 300px;
+				}
 			}
 			.logo {
 				width: 100%;
@@ -837,8 +849,8 @@ $search-width-desktop: 430px;
 		}
 	}
 	@include breakpoint($medium){
-		left: 2em;
-		top: 2em;
+		left: 1.5em;
+		top: 1.5em;
 		position: absolute;
 	}
 	@include breakpoint($medium){
@@ -1114,11 +1126,13 @@ form {
 	}
 }
 
-.ticket-form {
-	.ticket-select {
-		background: lighten($grey, 10%);
-		padding: 0 1em;
-		@include rhythm(0, 2, 2, 2);
+.my-form {
+	.my-select {
+		&.alt {
+			background: lighten($grey, 10%);
+			padding: 0 1em;
+			@include rhythm(0, 2, 2, 2);
+		}
 	}
 	#amount {
 		font-family: 'gotham_boldregular';

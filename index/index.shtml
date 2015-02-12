@@ -30,8 +30,8 @@
       <div class="main-header_inner">
         <div class="days-out-logo">
           <div class="days-out-logo_inner">
-            <a href="index.shtml">
-              <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo">
+            <a href="index.shtml" class="home">
+              <img src="../img/base/days-out-logo-home.png" alt="National Days Out" class="logo">
             </a>
           </div>
         </div>

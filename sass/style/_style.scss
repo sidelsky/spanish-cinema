@@ -1,7 +1,10 @@
  .days-out-logo {
  	a {
- 		background-color: $primary-color;
- 	}
+ 		
+ 		&.home {
+			background-color: $secondary-color;
+ 			}
+ 		}
  }
 
  .sign-in {
@@ -381,7 +384,7 @@ small {
 
 
 
-.ticket-select {
+.my-select {
 	h2 {
 		color: $white;
 	}
