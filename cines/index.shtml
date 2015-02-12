@@ -159,10 +159,12 @@
       <script>
         $(document).ready(function(){
           do_google_map('51.514753', '-0.136690');
-
           $( window ).resize(function() {
             do_google_map('51.514753', '-0.136690');
           });
+
+          do_select_style();
+
         });  
       </script>
 

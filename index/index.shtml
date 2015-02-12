@@ -46,20 +46,26 @@
                   <li class="first">
                   <div>
                     <input type="text" placeholder="Número de tarjeta" name="tarjeta" id="tarjeta" class="first">
-                    <span class="error-1">El número no es correcto. Si es tu primera vez y todavía no te has registrado, pincha en “Registrarme</span>
-                    <span class="error-2">El número debe tener X dígitos</span>
+                    <span class="error-message alt">El número no es correcto. Si es tu primera vez y todavía no te has registrado, pincha en “Registrarme</span>
+                    <span class="error-message alt">El número debe tener X dígitos</span>
                   </div>
                   <div>  
                     <input type="text" placeholder="Contraseña" name="contraseña" id="contraseña">
                     <input type="image" src="../img/base/submit.png" name="Submit" id="submit">
+                    <span class="error-message alt">La contraseña debe contener, al menos, X caracteres, utilizando letras mayúsculas y minúsculas y números</span>
+                    <span class="error-message alt">La contraseña no es correcta</span>
                   </div>
                   </li>
                   <li class="second">
-                    <input type="submit" value="Registrarme" name="registrarme" id="registration">
+                    <!-- <input type="submit" value="Registrarme" name="registrarme" id="registration"> -->
+                    <a href="/unete/index.shtml" title="Registrarme" class="button" id="registration">Registrarme</a>
                   </li>
                 </ul>
               </form>
-              <p class="info">No estoy registrado/a - Olvide mi contraseña</p>
+              <!-- <p class="info">No estoy registrado/a - Olvide mi contraseña</p> -->
+              <p class="info">
+                <a href="../contrasena/index.shtml" title="">¿Has olvidado tu contraseña?</a>
+              </p>
             </div>
           </div>
         </div>

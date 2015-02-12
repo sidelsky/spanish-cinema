@@ -1,10 +1,10 @@
-h#info {
+/* h#info {
 	position: fixed;
 	top: 0px;
 	z-index: 3000;
 	background: white;
 }
-
+ */
 /* .landing-container {
 	//@extend %bdr;
 	position: absolute;
@@ -157,6 +157,10 @@ h#info {
 				text-align: left;
 				@include breakpoint($medium){
 					//text-align: right;
+					a {
+						color: $white;
+						text-decoration: underline;
+					}
 				}
 			}
 		}
@@ -209,6 +213,7 @@ h#info {
 		}
 		input[type="text"] {
 			width: 100% !important;
+			@include rhythm(0, 0, 0, 1);
 		}
 		div {
 			@include clearfix;
@@ -1037,7 +1042,8 @@ form {
 				@include rhythm(0, .5, .5, 0);
 				position: relative;
 				h3 {
-					color: $tertiary-color;
+					//color: $tertiary-color;
+					color: $grey;
 					@include transition(all 0.5s ease-in-out);
 					&.active {
 						color: $primary-color;

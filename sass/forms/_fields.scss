@@ -113,32 +113,59 @@ input[type="text"] {
 	display: block;
 	height: 3px;
 	width: 0;
-	background-color: $primary-color;
+	background-color: $grey;
 	transition: width .5s ease, background-color .5s ease;
 	&.active {
 		width: 100%;
 	}
 }
 
-	.error {
-	input[type="text"],
-	input[type="email"],
-	input[type="url"],
-	input[type="password"],
-	input[type="search"],
-	textarea {
-			color: $error !important;
-		}
-		.sliding-u-l-r {
-			width: 100%;
-			background-color: $error;
-		}
-		.error-message {
-			color: $error !important;
-			@include rhythm(0, .5, .5, 0);
-			display: block;
-		}
-	}	
+	// .error {
+	// input[type="text"],
+	// input[type="email"],
+	// input[type="url"],
+	// input[type="password"],
+	// input[type="search"],
+	// textarea {
+	// 		color: $error !important;
+	// 	}
+	// 	.sliding-u-l-r {
+	// 		width: 100%;
+	// 		background-color: $error;
+	// 	}
+	// 	.error {
+	// 		color: $error !important;
+	// 		@include rhythm(0, .5, .5, 0);
+	// 		display: block;
+	// 	}
+	// }
+.error {
+	color: $error !important;
+	&:active {
+		color: $error !important;
+	}
+}
+.error-message {
+	display: none;
+	color: $error;
+	//display: block;
+	@include adjust-font-size-to(16px, 1.6);
+	&.alt {
+		color: $white;
+	}
+	&:before {
+		content: "\f06a";
+	  font-family: FontAwesome;
+	  font-style: normal;
+	  font-weight: normal;
+	  text-decoration: inherit;
+	  margin-right: 5px;
+	}
+}
+
+input[type="submit"] {
+	@include rhythm(0, 0, 0, .5);
+}		
 
 // .sliding-u-l-r {
 // display: inline-block;
