@@ -33,7 +33,7 @@
       <section class="content-section">
         <div class="inner max-width">
           <div class="module-12-of-12">
-            <h1>Si tienes tu tarjeta 2x1 de la Red de Cines Nacional<sup>®</sup>, rellena tus datos personales una sola vez, y podrás disfrutar de todas sus ventajas.</h1>
+            <h1>¿Quieres formar parte de la Red de Cines Nacional<sup>®</sup>? Por favor, rellena este formulario con tus datos, y nosotros te contactaremos. Muchas gracias.</h1>
             <form action="" id="">
               <ul>
                 <li>
@@ -56,20 +56,11 @@
 
                   <div class="fields">
                     <h3>
-                      <label for="DNIorNIE"><span>*</span> DNI o NIE</label>
-                    </h3>
-                    <input type="text" name="DNIorNIE" id="DNIorNIE" value="" placeholder="">
-                    <span class="sliding-u-l-r"></span>
-                    <span class="error-message">Completa con el formato correcto: 00000000X o X0000000X</span>
-                  </div>
-
-                  <div class="fields">
-                    <h3>
                       <label for="telefono"><span>*</span> TELÉFONO DE CONTACTO</label>
                     </h3>
                     <input type="text" name="telefono" id="telefono" value="" placeholder="">
                     <span class="sliding-u-l-r"></span>
-                    <span class="error-message">Completa con el formato correcto: 00000000X o X0000000X</span>
+                    <span class="error-message">El número debe contener 9 dígitos) (*Number has to contain 9 digits</span>
                   </div>
 
                   <div class="fields">
@@ -78,7 +69,7 @@
                     </h3>
                     <input type="email" name="electronico" id="electronico" value="" placeholder="">
                     <span class="sliding-u-l-r"></span>
-                    <span class="error-message">Completa con el formato correcto: 00000000X o X0000000X</span>
+                    <span class="error-message">Completa con el formato correcto: dominio@mail.com) (*Fill with the correct format: dominio@mail.com</span>
                   </div>
 
                   <div class="fields">
@@ -87,7 +78,6 @@
                     </h3>
                     <input type="text" name="web" id="web" value="" placeholder="">
                     <span class="sliding-u-l-r"></span>
-                    <span class="error-message">Completa con el formato correcto: 00000000X o X0000000X</span>
                   </div>
 
                   <div class="fields">
@@ -96,7 +86,6 @@
                     </h3>
                     <input type="text" name="cine" id="cine" value="" placeholder="">
                     <span class="sliding-u-l-r"></span>
-                    <span class="error-message">Completa con el formato correcto: 00000000X o X0000000X</span>
                   </div>
 
                   <div class="fields">
@@ -105,7 +94,6 @@
                     </h3>
                     <input type="text" name="cines" id="cines" value="" placeholder="">
                     <span class="sliding-u-l-r"></span>
-                    <span class="error-message">Completa con el formato correcto: 00000000X o X0000000X</span>
                   </div>
 
                   <div class="fields">
@@ -114,7 +102,6 @@
                     </h3>
                     <input type="text" name="provincia" id="provincia" value="" placeholder="">
                     <span class="sliding-u-l-r"></span>
-                    <span class="error-message">Completa con el formato correcto: 00000000X o X0000000X</span>
                   </div>
 
                   <div class="fields submit">

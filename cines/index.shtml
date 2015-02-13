@@ -85,7 +85,7 @@
           <div class="my-select alt">
             <h2>Número de bonos 2x1</h2>
             <select id="normal_select">
-              <option disabled selected class="hidden-option">Dirección web</option>
+              <option disabled selected class="hidden-option">Elige uno</option>
               <option value="1 bono (2 entradas)">1 bono (2 entradas)</option>
               <option value="2 bonos (4 entradas)">2 bonos (4 entradas)</option>
             </select>
