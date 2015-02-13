@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <link rel="stylesheet" href="../css/screen.css">
+  <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+<!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <header id="header" class="template-header">
+      <div class="inner max-width">
+        <div class="days-out-logo">
+          <div class="days-out-logo_inner"> <a href="../index/index.shtml"> <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo"> </a> </div>
+        </div>
+      </div>
+    </header>
+    <div class="inner-template-container">
+      <section class="content-section">
+        <div class="inner max-width">
+          <div class="module-12-of-12">
+            <h1>Si tienes tu tarjeta 2x1 de la Red de Cines Nacional<sup>®</sup>, rellena tus datos personales una sola vez, y podrás disfrutar de todas sus ventajas.</h1>
+              <form action="" id="">
+                <ul>
+                  <li>
+                    
+                    <div class="fields two-fourths bdr-right">
+                      <h3>
+                        <label for="nom"><span>*</span> Nombre</label>
+                      </h3>
+                      <input type="text" name="nom" id="nom" value="" placeholder="">
+                      <span class="sliding-u-l-r"></span>
+                    </div>
+
+                    <div class="fields two-fourths">
+                      <h3>
+                        <label for="surname"><span>*</span> Apellidos</label>
+                      </h3>
+                      <input type="text" name="surname" id="surname" value="" placeholder="">
+                      <span class="sliding-u-l-r"></span>
+                    </div>
+
+                    <div class="fields">
+                      <h3>
+                        <label for="DNIorNIE"><span>*</span> DNI o NIE</label>
+                      </h3>
+                      <input type="text" name="DNIorNIE" id="DNIorNIE" value="" placeholder="">
+                      <span class="sliding-u-l-r"></span>
+                      <span class="error-message">Completa con el formato correcto: 00000000X o X0000000X</span>
+                    </div>
+    
+                    <div class="fields two-fourths bdr-right">
+                      <h3>
+                        <label for="email"><span>*</span> Correo Electrónico</label>
+                      </h3>
+                      <input type="email" name="email" id="email" value="" placeholder="">
+                      <span class="sliding-u-l-r"></span>
+                      <span class="error-message">Completa con el formato correcto: dominio@mail.com</span>
+                    </div>
+
+                    <div class="fields two-fourths">
+                      <h3>
+                        <label for="confirmation"><span>*</span> Confirmación Correo Electrónico</label>
+                      </h3>
+                      <input type="email" name="confirmation" id="confirmation" value="" placeholder="">
+                      <span class="sliding-u-l-r"></span>
+                      <span class="error-message">Los correos electrónicos deben coincidir</span>
+                      <span class="error-message">No está permitido pegar en este campo de confirmación</span>
+                    </div>
+
+                    <div class="fields three-fourths bdr-right">
+                      <h3>
+                        <label for="address"><span>*</span> Dirección Postal</label>
+                      </h3>
+                      <input type="text" name="address" id="address" value="" placeholder="">
+                      <span class="sliding-u-l-r"></span>
+                    </div>
+
+                    <div class="fields one-fourth">
+                      <h3>
+                        <label for="code"><span>*</span> Código Postal</label>
+                      </h3>
+                      <input type="text" name="code" id="code" value="" placeholder="">
+                      <span class="sliding-u-l-r"></span>
+                      <span class="error-message">Completa con el formato correcto: 00000</span>
+                    </div>
+
+                    <div class="fields">
+                      <h3>
+                        <label for="city"><span>*</span> Población</label>
+                      </h3>
+                      <input type="text" class="error" name="city" id="city" value="" placeholder="">
+                      <span class="sliding-u-l-r"></span>
+                    </div>
+
+                    <div class="fields">
+                      <h3>
+                        <label for="province"><span>*</span> Provincia</label>
+                      </h3>
+                      <input type="text" name="province" id="province" value="" placeholder="">
+                      <span class="sliding-u-l-r"></span>
+                    </div>
+
+                    <div class="fields">
+                      <h3>
+                        <label for="number"><span>*</span> Número de Tarjeta</label>
+                      </h3>
+                      <input type="text" name="number" id="number" value="" placeholder="">
+                      <span class="sliding-u-l-r"></span>
+                      <span class="error-message">El número no es correcto</span>
+                      <span class="error-message">El número debe tener X dígitos</span>
+                    </div>
+
+                    <div class="fields two-fourths bdr-right">
+                      <h3>
+                        <label for="password"><span>*</span> Elige Contraseña</label>
+                      </h3>
+                      <input type="password" name="password" id="password" value="" placeholder="">
+                      <span class="sliding-u-l-r"></span>
+                      <span class="error-message">La contraseña debe contener, al menos, X caracteres, utilizando letras mayúsculas y minúsculas y números</span>
+                    </div>
+
+                    <div class="fields two-fourths">
+                      <h3>
+                        <label for="password_confirmation"><span>*</span> Confirmar contraseña</label>
+                      </h3>
+                      <input type="password" name="password_confirmation" id="password_confirmation" value="" placeholder="">
+                      <span class="sliding-u-l-r"></span>
+                      <span class="error-message">Las contraseñas deben coincidir</span>
+                      <span class="error-message">No está permitido pegar en este campo de confirmación</span>
+                    </div>
+
+                    <div class="fields submit">
+                      <input type="submit" name="" value="Enviar">
+                      <p class="error"><span>*</span> Todos los campos son obligatorios</p>
+                    </div>
+                  </li>
+
+                </ul>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!--#include virtual="../partials/footer.shtml"--> 
+
+      <!-- / End content here -->
+
+    </body>
+    </html>

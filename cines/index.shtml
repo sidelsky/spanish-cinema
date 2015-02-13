@@ -66,7 +66,7 @@
 
               <div class="detail-container">
                 <!-- Partner title -->
-                <h1>Aquarium de Saint-Malo</h1>
+                <h1>Title to go here</h1>
                 <!-- Partner description -->
                 <p class="details no-margin"><span>Ctro.Cial. Planetocio Avda. Juan Carlos I,<br> 
                   46 Antigua Ctra. Coruña, Km. 40'700<br> 
@@ -83,14 +83,11 @@
 
         <form action="index_submit" method="get" accept-charset="utf-8" class="my-form">
           <div class="my-select alt">
-            <h2>Número de vouchers 2x1</h2>
+            <h2>Número de bonos 2x1</h2>
             <select id="normal_select">
-              <option disabled selected class="hidden-option">Choose One</option>
-              <option value="2">2</option>
-              <option value="4">4</option>
-              <option value="6">6</option>
-              <option value="8">8</option>
-              <option value="10">10</option>
+              <option disabled selected class="hidden-option">Dirección web</option>
+              <option value="1 bono (2 entradas)">1 bono (2 entradas)</option>
+              <option value="2 bonos (4 entradas)">2 bonos (4 entradas)</option>
             </select>
           </div>
 
@@ -101,7 +98,13 @@
             16,80 €
           </p>
 
-          <p>Importe de vouchers: 16,80 € Número de vouchers: 2</p>
+          <p>Número de bonos: 1. Válido por 2 entradas de cine en taquilla<br>
+          <!-- To be romoved -->
+          <small>(*When the purchase is 1 voucher)</p>
+          
+          <p>Número de bonos: 2. Válido por 4 entradas de cine en taquilla<br>
+          <!-- To be romoved -->
+          <small>(*When the purchase is 2 vouchers)</small></p>
 
           <input type="submit" value="Pagar" name="pagar" id="pagar">
           </form>
@@ -116,7 +119,7 @@
               <p class="details">Mon - Sun<br>picpic
                 <span>10:00 to 19:00</span>
               </p> -->
-              <h3>Website</h3>
+              <h3>Dirección web</h3>
               <p class="details">
                 <span>
                   <a href="http://www.aquarium-st-malo.com" target="_blank">aquarium-st-malo.com</a>

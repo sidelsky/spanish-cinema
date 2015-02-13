@@ -861,6 +861,10 @@ $search-width-desktop: 430px;
 	}	
 }
 
+.dk-option.hidden-option {
+  display: none;
+ }
+
 .results {
 	background-color: $white;
 	li {
@@ -876,6 +880,14 @@ $search-width-desktop: 430px;
 					margin-bottom: 5px;
 					@include adjust-font-size-to(24px, 2);
 					color: $secondary-color;
+					a {
+						color: $secondary-color;
+						text-decoration: none;
+						&:hover {
+							color: darken($secondary-color, 20%);
+							text-decoration: none;
+						}
+					}
 				}
 				p {
 					@include rhythm(0, 0, 1, 0);

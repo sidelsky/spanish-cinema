@@ -425,8 +425,8 @@ function do_multi_select(){
     });
 
     $(".region select").multiselect({
-     header: "Région",
-     noneSelectedText: "Région",
+     header: "Provincia",
+     noneSelectedText: "Provincia",
      selectedList: 1,
    });
 

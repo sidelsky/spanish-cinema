@@ -40,7 +40,7 @@
       <form action="" class="search-select">
         <ul>
           <li>
-            <button class="search-toggle active">Recherche</button>
+            <button class="search-toggle active">Búsqueda</button>
             <ul class="list-items">
               <li class="region">
                 <select title="Basic example" multiple="multiple" name="example-basic" size="5">
@@ -61,7 +61,7 @@
               <li class="submit">
                 <!-- <input type="submit" value="Submit"> -->
                 <button id="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button">
-                  <span class="ui-button-text">Valider</span>
+                  <span class="ui-button-text">Seleccionar</span>
                 </button>
               </li>
             </ul>
@@ -72,12 +72,14 @@
               <li>
                 <div class="inner">
                   <div class="left">
-                    <h1>Disneyland Paris in the summer</h1>
+                    <h1>
+                      <a href="#" title="">Disneyland Paris in the summer</a>
+                    </h1>
                     <p class="details">Lorizzle shizzlin dizzle dolizzle sit dope, consectetizzle adipiscing yo.
                       <span>77777 Marne-la-Vallee, France.</span>
                     </p>
                     <span>
-                      <i class="fa fa-map-marker"></i> <a href="#" class="map-link">View on map</a> 
+                      <i class="fa fa-map-marker"></i> <a href="#" class="map-link">VER EN EL MAPA</a> 
                     </span>
                   </div>
                   <div class="right">
@@ -85,16 +87,16 @@
                   </div>
                 </div>
               </li>
-              <!-- /Results -->
-              <!-- Results -->
               <li>
                 <div class="inner">
                   <div class="left">
-                    <h1>Disneyland Paris in the summer</h1>
+                    <h1>
+                      <a href="#" title="">Disneyland Paris in the summer</a>
+                    </h1>
                     <p class="details">Lorizzle shizzlin dizzle dolizzle sit dope, consectetizzle adipiscing yo.
                       <span>77777 Marne-la-Vallee, France.</span>
                     </p>
-                    <i class="fa fa-map-marker"></i> <a href="#" class="map-link">View on map</a>
+                    <i class="fa fa-map-marker"></i> <a href="#" class="map-link">VER EN EL MAPA</a>
                   </div>
                   <div class="right">
                     <span>
@@ -108,11 +110,13 @@
               <li>
                 <div class="inner">
                   <div class="left">
-                    <h1>Disneyland Paris in the summer</h1>
+                    <h1>
+                      <a href="#" title="">Disneyland Paris in the summer</a>
+                    </h1>
                     <p class="details">Lorizzle shizzlin dizzle dolizzle sit dope, consectetizzle adipiscing yo.
                       <span>77777 Marne-la-Vallee, France.</span>
                     </p>
-                    <i class="fa fa-map-marker"></i> <a href="#" class="map-link">View on map</a>
+                    <i class="fa fa-map-marker"></i> <a href="#" class="map-link">VER EN EL MAPA</a>
                   </div>
                   <div class="right">
                     <span>
@@ -126,11 +130,13 @@
               <li>
                 <div class="inner">
                   <div class="left">
-                    <h1>Disneyland Paris in the summer</h1>
+                    <h1>
+                      <a href="#" title="">Disneyland Paris in the summer</a>
+                    </h1>
                     <p class="details">Lorizzle shizzlin dizzle dolizzle sit dope, consectetizzle adipiscing yo.
                       <span>77777 Marne-la-Vallee, France.</span>
                     </p>
-                    <i class="fa fa-map-marker"></i> <a href="#" class="map-link">View on map</a>
+                    <i class="fa fa-map-marker"></i> <a href="#" class="map-link">VER EN EL MAPA</a>
                   </div>
                   <div class="right">
                     <span>
@@ -144,11 +150,13 @@
               <li>
                 <div class="inner">
                   <div class="left">
-                    <h1>Disneyland Paris in the summer</h1>
+                    <h1>
+                      <a href="#" title="">Disneyland Paris in the summer</a>
+                    </h1>
                     <p class="details">Lorizzle shizzlin dizzle dolizzle sit dope, consectetizzle adipiscing yo.
                       <span>77777 Marne-la-Vallee, France.</span>
                     </p>
-                    <i class="fa fa-map-marker"></i> <a href="#" class="map-link">View on map</a>
+                    <i class="fa fa-map-marker"></i> <a href="#" class="map-link">VER EN EL MAPA</a>
                   </div>
                   <div class="right">
                     <span>
@@ -162,11 +170,13 @@
               <li>
                 <div class="inner">
                   <div class="left">
-                    <h1>Disneyland Paris in the summer</h1>
+                    <h1>
+                      <a href="#" title="">Disneyland Paris in the summer</a>
+                    </h1>
                     <p class="details">Lorizzle shizzlin dizzle dolizzle sit dope, consectetizzle adipiscing yo.
                       <span>77777 Marne-la-Vallee, France.</span>
                     </p>
-                    <i class="fa fa-map-marker"></i> <a href="#" class="map-link">View on map</a>
+                    <i class="fa fa-map-marker"></i> <a href="#" class="map-link">VER EN EL MAPA</a>
                   </div>
                   <div class="right">
                     <span>
@@ -180,11 +190,13 @@
               <li>
                 <div class="inner">
                   <div class="left">
-                    <h1>Disneyland Paris in the summer</h1>
+                    <h1>
+                      <a href="#" title="">Disneyland Paris in the summer</a>
+                    </h1>
                     <p class="details">Lorizzle shizzlin dizzle dolizzle sit dope, consectetizzle adipiscing yo.
                       <span>77777 Marne-la-Vallee, France.</span>
                     </p>
-                    <i class="fa fa-map-marker"></i> <a href="#" class="map-link">View on map</a>
+                    <i class="fa fa-map-marker"></i> <a href="#" class="map-link">VER EN EL MAPA</a>
                   </div>
                   <div class="right">
                     <span>

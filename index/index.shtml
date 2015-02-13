@@ -46,7 +46,7 @@
                   <li class="first">
                   <div>
                     <input type="text" placeholder="Número de tarjeta" name="tarjeta" id="tarjeta" class="first">
-                    <span class="error-message alt">El número no es correcto. Si es tu primera vez y todavía no te has registrado, pincha en “Registrarme</span>
+                    <span class="error-message alt">El número no es correcto. Si es tu primera vez y todavía no te has registrado, pincha en "Registrarme"</span>
                     <span class="error-message alt">El número debe tener X dígitos</span>
                   </div>
                   <div>  
@@ -58,7 +58,7 @@
                   </li>
                   <li class="second">
                     <!-- <input type="submit" value="Registrarme" name="registrarme" id="registration"> -->
-                    <a href="/unete/index.shtml" title="Registrarme" class="button" id="registration">Registrarme</a>
+                    <a href="../registrarme/index.shtml" title="Registrarme" class="button" id="registration">Registrarme</a>
                   </li>
                 </ul>
               </form>

@@ -33,135 +33,106 @@
       <section class="content-section">
         <div class="inner max-width">
           <div class="module-12-of-12">
-            <h1>Vous souhaitez faire partie du Réseau National Loisirs ?<br>
-              Merci de remplir le formulaire ci-dessous, vous serez recontacté dans les plus brefs délais.</h1>
-              <form action="" id="">
-                <ul>
-                  <li>
-                    
-                    <div class="fields two-fourths bdr-right">
-                      <h3>
-                        <label for="nom">Nombre</label>
-                      </h3>
-                      <input type="text" name="nom" id="nom" value="" placeholder="">
-                      <span class="sliding-u-l-r"></span>
-                    </div>
+            <h1>Si tienes tu tarjeta 2x1 de la Red de Cines Nacional<sup>®</sup>, rellena tus datos personales una sola vez, y podrás disfrutar de todas sus ventajas.</h1>
+            <form action="" id="">
+              <ul>
+                <li>
 
-                    <div class="fields two-fourths">
-                      <h3>
-                        <label for="surname">Apellidos</label>
-                      </h3>
-                      <input type="text" name="surname" id="surname" value="" placeholder="">
-                      <span class="sliding-u-l-r"></span>
-                    </div>
+                  <div class="fields two-fourths bdr-right">
+                    <h3>
+                      <label for="nom"><span>*</span> Nombre</label>
+                    </h3>
+                    <input type="text" name="nom" id="nom" value="" placeholder="">
+                    <span class="sliding-u-l-r"></span>
+                  </div>
 
-                    <div class="fields">
-                      <h3>
-                        <label for="DNIorNIE">DNI or NIE</label>
-                      </h3>
-                      <input type="text" name="DNIorNIE" id="DNIorNIE" value="" placeholder="">
-                      <span class="sliding-u-l-r"></span>
-                      <span class="error-message">Completa con el formato correcto: 00000000X o X0000000X</span>
-                    </div>
-    
-                    <div class="fields two-fourths bdr-right">
-                      <h3>
-                        <label for="email">Correo Electrónico</label>
-                      </h3>
-                      <input type="email" name="email" id="email" value="" placeholder="">
-                      <span class="sliding-u-l-r"></span>
-                      <span class="error-message">Completa con el formato correcto: dominio@mail.com</span>
-                    </div>
+                  <div class="fields two-fourths">
+                    <h3>
+                      <label for="surname"><span>*</span> Apellidos</label>
+                    </h3>
+                    <input type="text" name="surname" id="surname" value="" placeholder="">
+                    <span class="sliding-u-l-r"></span>
+                  </div>
 
-                    <div class="fields two-fourths">
-                      <h3>
-                        <label for="confirmation">Confirmación Correo Electrónico</label>
-                      </h3>
-                      <input type="email" name="confirmation" id="confirmation" value="" placeholder="">
-                      <span class="sliding-u-l-r"></span>
-                      <span class="error-message">Los correos electrónicos deben coincidir</span>
-                      <span class="error-message">No está permitido pegar en este campo de confirmación</span>
-                    </div>
+                  <div class="fields">
+                    <h3>
+                      <label for="DNIorNIE"><span>*</span> DNI o NIE</label>
+                    </h3>
+                    <input type="text" name="DNIorNIE" id="DNIorNIE" value="" placeholder="">
+                    <span class="sliding-u-l-r"></span>
+                    <span class="error-message">Completa con el formato correcto: 00000000X o X0000000X</span>
+                  </div>
 
-                    <div class="fields three-fourths bdr-right">
-                      <h3>
-                        <label for="address">Dirección Postal</label>
-                      </h3>
-                      <input type="text" name="address" id="address" value="" placeholder="">
-                      <span class="sliding-u-l-r"></span>
-                    </div>
+                  <div class="fields">
+                    <h3>
+                      <label for="telefono"><span>*</span> TELÉFONO DE CONTACTO</label>
+                    </h3>
+                    <input type="text" name="telefono" id="telefono" value="" placeholder="">
+                    <span class="sliding-u-l-r"></span>
+                    <span class="error-message">Completa con el formato correcto: 00000000X o X0000000X</span>
+                  </div>
 
-                    <div class="fields one-fourth">
-                      <h3>
-                        <label for="code">Código Postal</label>
-                      </h3>
-                      <input type="text" name="code" id="code" value="" placeholder="">
-                      <span class="sliding-u-l-r"></span>
-                      <span class="error-message">Completa con el formato correcto: 00000</span>
-                    </div>
+                  <div class="fields">
+                    <h3>
+                      <label for="electronico"><span>*</span> DIRECCIÓN DE CORREO ELECTRÓNICO</label>
+                    </h3>
+                    <input type="email" name="electronico" id="electronico" value="" placeholder="">
+                    <span class="sliding-u-l-r"></span>
+                    <span class="error-message">Completa con el formato correcto: 00000000X o X0000000X</span>
+                  </div>
 
-                    <div class="fields">
-                      <h3>
-                        <label for="city">Población</label>
-                      </h3>
-                      <input type="text" class="error" name="city" id="city" value="" placeholder="">
-                      <span class="sliding-u-l-r"></span>
-                      <span class="error-message">This is an error-message message</span>
-                    </div>
+                  <div class="fields">
+                    <h3>
+                      <label for="web"><span>*</span> DIRECCIÓN WEB</label>
+                    </h3>
+                    <input type="text" name="web" id="web" value="" placeholder="">
+                    <span class="sliding-u-l-r"></span>
+                    <span class="error-message">Completa con el formato correcto: 00000000X o X0000000X</span>
+                  </div>
 
-                    <div class="fields">
-                      <h3>
-                        <label for="province">Provincia</label>
-                      </h3>
-                      <input type="text" name="province" id="province" value="" placeholder="">
-                      <span class="sliding-u-l-r"></span>
-                    </div>
+                  <div class="fields">
+                    <h3>
+                      <label for="cine"><span>*</span> NOMBRE DEL CINE O CADENA DE CINES</label>
+                    </h3>
+                    <input type="text" name="cine" id="cine" value="" placeholder="">
+                    <span class="sliding-u-l-r"></span>
+                    <span class="error-message">Completa con el formato correcto: 00000000X o X0000000X</span>
+                  </div>
 
-                    <div class="fields">
-                      <h3>
-                        <label for="number">Número de Tarjeta</label>
-                      </h3>
-                      <input type="text" name="number" id="number" value="" placeholder="">
-                      <span class="sliding-u-l-r"></span>
-                      <span class="error-message">El número no es correcto</span>
-                      <span class="error-message">El número debe tener X dígitos</span>
-                    </div>
+                  <div class="fields">
+                    <h3>
+                      <label for="cines"><span>*</span> NÚMERO DE CINES</label>
+                    </h3>
+                    <input type="text" name="cines" id="cines" value="" placeholder="">
+                    <span class="sliding-u-l-r"></span>
+                    <span class="error-message">Completa con el formato correcto: 00000000X o X0000000X</span>
+                  </div>
 
-                    <div class="fields two-fourths bdr-right">
-                      <h3>
-                        <label for="password">Elige Contraseña</label>
-                      </h3>
-                      <input type="password" name="password" id="password" value="" placeholder="">
-                      <span class="sliding-u-l-r"></span>
-                      <span class="error-message">La contraseña debe contener, al menos, X caracteres, utilizando letras mayúsculas y minúsculas y números</span>
-                    </div>
+                  <div class="fields">
+                    <h3>
+                      <label for="provincia"><span>*</span> PROVINCIA/S</label>
+                    </h3>
+                    <input type="text" name="provincia" id="provincia" value="" placeholder="">
+                    <span class="sliding-u-l-r"></span>
+                    <span class="error-message">Completa con el formato correcto: 00000000X o X0000000X</span>
+                  </div>
 
-                    <div class="fields two-fourths">
-                      <h3>
-                        <label for="password_confirmation">Confirmar</label>
-                      </h3>
-                      <input type="password" name="password_confirmation" id="password_confirmation" value="" placeholder="">
-                      <span class="sliding-u-l-r"></span>
-                      <span class="error-message">Las contraseñas deben coincidir</span>
-                      <span class="error-message">No está permitido pegar en este campo de confirmación</span>
-                    </div>
+                  <div class="fields submit">
+                    <input type="submit" name="" value="Enviar">
+                    <p class="error"><span>*</span> Todos los campos son obligatorios</p>
+                  </div>
+                </li>
 
-                    <div class="fields submit">
-                      <input type="submit" name="" value="Valider">
-                      <span class="error-message">Todos los campos son obligatorios</span>
-                    </div>
-                  </li>
-
-                </ul>
-              </form>
-            </div>
+              </ul>
+            </form>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
+    </div>
 
-      <!--#include virtual="../partials/footer.shtml"--> 
+    <!--#include virtual="../partials/footer.shtml"--> 
 
-      <!-- / End content here -->
+    <!-- / End content here -->
 
-    </body>
-    </html>
+  </body>
+  </html>

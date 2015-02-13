@@ -33,15 +33,14 @@
       <section class="content-section">
         <div class="inner max-width">
           <div class="module-12-of-12">
-            <h1>Vous souhaitez faire partie du Réseau National Loisirs ?<br>
-              Merci de remplir le formulaire ci-dessous, vous serez recontacté dans les plus brefs délais.</h1>
+            <h1>¿Has olvidado tu contraseña de la Red de Cines Nacional<sup>®</sup>? Por favor, rellena este formulario y te enviaremos un correo electrónico con tu nueva contraseña.</h1>
               <form action="" id="">
                 <ul>
                   <li>
                     
                     <div class="fields two-fourths bdr-right">
                       <h3>
-                        <label for="correo">Correo Electrónico</label>
+                        <label for="correo"><span>*</span> Correo Electrónico</label>
                       </h3>
                       <input type="email" name="correo" id="correo" value="" placeholder="">
                       <span class="sliding-u-l-r"></span>
@@ -50,7 +49,7 @@
  
                     <div class="fields two-fourths">
                       <h3>
-                        <label for="confirmación">Confirmación Correo Electrónico</label>
+                        <label for="confirmación"><span>*</span> Confirmación Correo Electrónico</label>
                       </h3>
                       <input type="email" name="confirmación" id="confirmación" value="" placeholder="">
                       <span class="sliding-u-l-r"></span>
@@ -58,7 +57,7 @@
 
                     <div class="fields">
                       <h3>
-                        <label for="number">Número de Tarjeta</label>
+                        <label for="number"><span>*</span> Número de Tarjeta</label>
                       </h3>
                       <input type="text" name="number" id="number" value="" placeholder="">
                       <span class="sliding-u-l-r"></span>
@@ -67,8 +66,8 @@
                     </div>
 
                     <div class="fields submit">
-                      <input type="submit" name="" value="Valider">
-                      <span class="error-message">Todos los campos son obligatorios</span>
+                      <input type="submit" name="" value="Enviar">
+                      <p class="error"><span>*</span> Todos los campos son obligatorios</p>
                     </div>
                   </li>
 

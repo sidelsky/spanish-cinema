@@ -81,7 +81,10 @@ input[type="text"] {
 }
 
 
-
+label span {
+	color: $error;
+	font-size: 16px;
+}
 
 .fields {
 	input[type="text"],

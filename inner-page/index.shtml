@@ -64,7 +64,7 @@ data-top-bottom="background-position:center 100px;"
         <form action="../map-template/index.shtml" method="get" accept-charset="utf-8" class="my-form">
           <div class="my-select">
             <select id="normal_select" onchange="this.form.submit()">
-              <option disabled selected class="hidden-option">Choose One</option>
+              <option disabled selected class="hidden-option">Selecciona una provincia</option>
               <option value="2">option</option>
               <option value="4">option</option>
               <option value="6">option</option>
