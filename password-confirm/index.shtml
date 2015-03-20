@@ -33,27 +33,10 @@
       <section class="content-section">
         <div class="inner max-width">
           <div class="module-12-of-12">
-            <h1>¿Has olvidado tu contraseña de la Red de Cines Nacional<sup>®</sup>? Por favor, rellena este formulario y te enviaremos un correo electrónico con tu nueva contraseña.</h1>
+            <h1>Rellena los campos con tu nueva contraseña</h1>
               <form action="" id="">
                 <ul>
                   <li>
-                    
-                    <div class="fields two-fourths bdr-right">
-                      <h3>
-                        <label for="correo"><span>*</span> Correo Electrónico</label>
-                      </h3>
-                      <input type="email" name="correo" id="correo" value="" placeholder="">
-                      <span class="sliding-u-l-r"></span>
-                      <span class="error-message">Completa con el formato correcto: dominio@mail.com </span>
-                    </div>
- 
-                    <div class="fields two-fourths">
-                      <h3>
-                        <label for="confirmación"><span>*</span> Confirmación Correo Electrónico</label>
-                      </h3>
-                      <input type="email" name="confirmación" id="confirmación" value="" placeholder="">
-                      <span class="sliding-u-l-r"></span>
-                    </div>
 
                     <div class="fields">
                       <h3>
@@ -63,6 +46,23 @@
                       <span class="sliding-u-l-r"></span>
                       <span class="error-message">El número no es correcto</span>
                       <span class="error-message">El número debe tener X dígitos</span>
+                    </div>
+                    
+                    <div class="fields two-fourths bdr-right">
+                      <h3>
+                        <label for="correo"><span>*</span> Elige contraseña</label>
+                      </h3>
+                      <input type="email" name="correo" id="correo" value="" placeholder="">
+                      <span class="sliding-u-l-r"></span>
+                      <span class="error-message">Completa con el formato correcto: dominio@mail.com </span>
+                    </div>
+ 
+                    <div class="fields two-fourths">
+                      <h3>
+                        <label for="confirmación"><span>*</span> Confirmación contraseña</label>
+                      </h3>
+                      <input type="email" name="confirmación" id="confirmación" value="" placeholder="">
+                      <span class="sliding-u-l-r"></span>
                     </div>
 
                     <div class="fields submit">
@@ -75,8 +75,9 @@
 
                 <!-- ALERT MESSAGE! Should be hidden -->
                 <div class="notice">
-                  <h3>Muchas gracias</h3>
-                  <p>Te hemos enviado tu contraseña a la dirección de correo electrónico que nos has indicado.</p>
+                  <p>
+                    <a href="#" title="">Tu contraseña ha sido cambiada con éxito</a>
+                  </p>
                 </div>
 
               </form>

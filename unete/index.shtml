@@ -109,8 +109,14 @@
                     <p class="error"><span>*</span> Todos los campos son obligatorios</p>
                   </div>
                 </li>
-
               </ul>
+
+                <!-- ALERT MESSAGE! Should be hidden -->
+                <div class="notice">
+                  <h3>¡Bienvenido a la Red de Cines Nacional<sup>®</sup>!</h3>
+                  <p>Tu registro se ha realizado con éxito. Por favor, activa tu cuenta a través del link que te hemos enviado a la dirección de correo electrónico que nos has indicado.</p>
+                </div>
+
             </form>
           </div>
         </div>

@@ -7728,6 +7728,22 @@ form ul li .fields.submit input [type="submit"] {
   margin-bottom: 1em;
 }
 
+/* line 1160, ../sass/structure/_structure.scss */
+.notice {
+  padding: 1em;
+}
+/* line 1164, ../sass/structure/_structure.scss */
+.notice p {
+  margin-top: 0px;
+  margin-top: 0rem;
+  padding-top: 0px;
+  padding-top: 0rem;
+  padding-bottom: 0px;
+  padding-bottom: 0rem;
+  margin-bottom: 0px;
+  margin-bottom: 0rem;
+}
+
 /* line 1, ../sass/modules/_modules.scss */
 .module-12-of-12 {
   width: 97.91667%;
@@ -11059,7 +11075,12 @@ small {
 
 /* line 397, ../sass/style/_style.scss */
 sup {
-  font-size: 15px;
+  font-size: 10px;
+}
+
+/* line 402, ../sass/style/_style.scss */
+.notice {
+  background: #f2f2f2;
 }
 
 /* Slider */
