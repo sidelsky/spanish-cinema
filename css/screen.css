@@ -11075,7 +11075,7 @@ small {
 
 /* line 397, ../sass/style/_style.scss */
 sup {
-  font-size: 10px;
+  font-size: 10px !important;
 }
 
 /* line 402, ../sass/style/_style.scss */
