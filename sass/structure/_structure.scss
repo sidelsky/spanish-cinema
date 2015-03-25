@@ -353,9 +353,7 @@
 }
 
 
-.footer-container {
-	@include rhythm(0, 1, 1, 0);
-}
+
 
 .search-container {
 	@include rhythm(0, 3, 3, 0);
@@ -557,14 +555,12 @@
 	}
 }
 
-
-
 .footer-container {
+	@include rhythm(0, 1, 1, 0);
 	.content-inner {
 		.days-out-logo_inner {
 			@include breakpoint($medium){
 				@include span(3);
-				//@include rhythm(0, 3.1, 0, 0);
 			}
 			.logo {
 				width: 200px;
@@ -1126,10 +1122,10 @@ form {
 		}
 	}
 	@include breakpoint($medium){
-		@include rhythm(0, 0, 0, 0);
-		position: absolute;
-		z-index: 1000;
-		bottom: 10px;
+		//position: absolute;
+		//z-index: 1000;
+		//bottom: 10px;
+		@include rhythm(0, 2, 2, 0);
 		max-width: $max-width;
 		left:0;
 		right:0;

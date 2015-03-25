@@ -70,6 +70,7 @@
           </div>
         </div>
         <!-- / Sign in -->
+        <!--#include virtual="../partials/home-footer.shtml"-->
       </div>
     </header>
 
@@ -84,9 +85,10 @@
     <img src="../img/home-slider/006.jpg" alt="">
     <img src="../img/home-slider/007.jpg" alt="">
   </div>
+
 </section>
 
-<!--#include virtual="../partials/home-footer.shtml"-->
+
 
 
 <!-- / End content here -->

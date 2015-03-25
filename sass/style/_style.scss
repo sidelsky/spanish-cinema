@@ -290,7 +290,6 @@
 
 .home-footer {
 	&.footer-container {
-		//background-color: $primary-color;;
 		background-color: lighten($grey, 30%);
 		p {
 			@include adjust-font-size-to(16px, 1.5);
